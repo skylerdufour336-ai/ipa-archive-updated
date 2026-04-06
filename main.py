@@ -12,6 +12,11 @@ import json
 import gzip
 import os
 import re
+import subprocess
+from PIL import Image, PngImagePlugin
+
+# Increase limit for large metadata chunks
+PngImagePlugin.MAX_TEXT_CHUNK = 100 * 1024 * 1024 # 100MB
 
 import warnings
 with warnings.catch_warnings():  # hide macOS LibreSSL warning
@@ -47,6 +52,8 @@ def main():
     cmd.add_argument('-force', '-f', action='store_true',
                      help='Reindex local data / populate DB.'
                      'Make sure to export fsize before!')
+    cmd.add_argument('-retry', '-r', action='store_true',
+                     help='Automatically retry entries that fail.')
     cmd.add_argument('pk', metavar='PK', type=int,
                      nargs='*', help='Primary key')
 
@@ -55,7 +62,8 @@ def main():
                      help='Export to json or temporary-filesize file')
 
     cmd = cli.add_parser('err', help='Handle problematic entries')
-    cmd.add_argument('err_type', choices=['reset'], help='Set done=0 to retry')
+    cmd.add_argument('err_type', choices=['reset', 'fix'], 
+                     help='reset: Set all done=3 to 0. fix: Reset and retry until no progress is made.')
 
     cmd = cli.add_parser('get', help='Lookup value')
     cmd.add_argument('get_type', choices=['url', 'img', 'ipa'],
@@ -95,12 +103,42 @@ def main():
             if args.force:
                 print('Resetting done state ...')
                 DB.setAllUndone(whereDone=1)
-            processPending()
+            while True:
+                old_done_count = DB.count(done=1)
+                processPending()
+                new_done_count = DB.count(done=1)
+
+                if args.retry and new_done_count > old_done_count:
+                    err_count = DB.count(done=3)
+                    if err_count > 0:
+                        print(f'\nFixed {new_done_count - old_done_count} entries. {err_count} errors remain. Retrying...')
+                        DB.setAllUndone(whereDone=3)
+                        continue
+                break
 
     elif args.cmd == 'err':
+        DB = CacheDB()
         if args.err_type == 'reset':
             print('Resetting error state ...')
-            CacheDB().setAllUndone(whereDone=3)
+            DB.setAllUndone(whereDone=3)
+        elif args.err_type == 'fix':
+            while True:
+                err_count = DB.count(done=3)
+                if err_count == 0:
+                    print('No errors to fix.')
+                    break
+                
+                print(f'Resetting {err_count} errors and retrying...')
+                DB.setAllUndone(whereDone=3)
+                
+                old_done_count = DB.count(done=1)
+                processPending()
+                new_done_count = DB.count(done=1)
+                
+                if new_done_count <= old_done_count:
+                    print(f'No more progress. {DB.count(done=3)} errors remain.')
+                    break
+                print(f'Fixed {new_done_count - old_done_count} entries. Retrying remaining errors...')
 
     elif args.cmd == 'export':
         if args.export_type == 'json':
@@ -334,6 +372,8 @@ class CacheDB:
             version += f' ({v_long})'
         # minOS = [int(x) for x in plist.get('MinimumOSVersion', '0').split('.')]
         raw = plist.get('MinimumOSVersion')
+        if raw is not None:
+            raw = str(raw)
 
         # Handle empty / missing MinimumOSVersion (log once per UID)
         if not raw or raw.strip() == "":
@@ -421,6 +461,10 @@ def downloadListArchiveOrg(
     with gzip.open(json_file, 'rb') as fp:
         data = json.load(fp)
     # process and add to DB
+    if 'result' not in data:
+        if 'error' in data:
+            print(f'[ERROR] Archive.org: {data["error"]}', file=stderr)
+        return []
     return [(x['name'], int(x.get('size', 0)), x.get('crc32'))
             for x in data['result']
             if x['source'] == 'original' and x['name'].endswith('.ipa')]
@@ -603,6 +647,10 @@ def loadIpa(uid: int, url: str, *,
                 icon = expandImageName(zip_listing, app_name, icon_names)
                 if icon:
                     extractZipEntry(zip, icon, img_path)
+        
+        # Automatically fix CGBI and convert PNG to JPG
+        if img_path.exists():
+            processImage(img_path)
 
     return plist_path.exists()
 
@@ -611,6 +659,37 @@ def extractZipEntry(zip: 'RemoteZip', zipInfo: 'ZipInfo', dest_filename: Path):
     with zip.open(zipInfo) as src:
         with open(dest_filename, 'wb') as tgt:
             tgt.write(src.read())
+
+def processImage(png_path: Path):
+    if not png_path.exists() or png_path.stat().st_size < 8:
+        return
+    
+    # Check if zero-filled
+    with open(png_path, 'rb') as f:
+        header = f.read(32)
+        if header.startswith(b'\x00' * 8):
+            return
+
+    # Fix CGBI if present
+    if b'CgBI' in header:
+        try:
+            # -s for silent, -free to create [name]-free.png
+            subprocess.run(['pngdefry', '-s', '-free', str(png_path)], 
+                           check=True, capture_output=True)
+            fixed_path = png_path.with_name(png_path.stem + "-free.png")
+            if fixed_path.exists():
+                fixed_path.replace(png_path)
+        except Exception:
+            pass
+            
+    # Convert to JPG
+    try:
+        jpg_path = png_path.with_suffix('.jpg')
+        with Image.open(png_path) as img:
+            img.convert('RGB').save(jpg_path, 'JPEG', quality=85)
+        png_path.unlink() # Remove PNG after successful conversion
+    except Exception:
+        pass
 
 
 ###############################################
@@ -636,9 +715,11 @@ def expandImageName(
 
 
 def unpackNameListFromPlistDict(bundleDict: 'dict|None') -> 'list[str]|None':
-    if not bundleDict:
+    if not bundleDict or not isinstance(bundleDict, dict):
         return None
     primaryDict = bundleDict.get('CFBundlePrimaryIcon', {})
+    if not isinstance(primaryDict, dict):
+        return None
     icons = primaryDict.get('CFBundleIconFiles')
     if not icons:
         singular = primaryDict.get('CFBundleIconName')
