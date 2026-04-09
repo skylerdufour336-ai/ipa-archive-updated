@@ -606,7 +606,7 @@ def _lookupBaseUrl(url_or_index: 'str|int') -> 'tuple[int|None, str|None]':
 
 def processPending():
     processed = 0
-    with Pool(processes=8) as pool:
+    with Pool(processes=10) as pool:
         while True:
             DB = CacheDB()
             pending = DB.count(done=0)
@@ -619,19 +619,17 @@ def processPending():
             batch = [(processed + i + 1, pending - i - 1, *x)
                      for i, x in enumerate(batch)]
 
-            result = pool.starmap_async(procSinglePending, batch).get()
-            processed += len(result)
-            DB = CacheDB()
-            for uid, success in result:
+            for uid, success in pool.imap_unordered(_procSinglePendingWrapper, batch):
+                processed += 1
+                DB = CacheDB()
                 fsize = onceReadSizeFromFile(uid)
                 if fsize:
                     DB.setFilesize(uid, fsize)
                 if success:
-                    print(f"[DEBUG] About to mark DONE: uid={uid}")
                     DB.setDone(uid)
                 else:
                     DB.setError(uid, done=3)
-            del DB
+                del DB
     DB = CacheDB()
     err_count = DB.count(done=3)
     if err_count > 0:
@@ -639,6 +637,10 @@ def processPending():
         print('URLs with Error:', err_count)
         for uid, base, path_name in DB.getPendingQueue(done=3, batchsize=10):
             print(f' - [{uid}] {base}/{quote(path_name)}')
+
+
+def _procSinglePendingWrapper(args):
+    return procSinglePending(*args)
 
 
 def procSinglePending(
@@ -712,21 +714,40 @@ def loadIpa(uid: int, url: str, *,
                 return False
 
     # Handle ZIP archives (RemoteZip is fast here)
-    with RemoteZip(url) as outer_zip:
-        if inner_path:
-            # Open nested IPA from outer ZIP
-            with outer_zip.open(inner_path) as nested_file:
-                # We need it to be seekable for ZipFile
-                import zipfile
-                with zipfile.ZipFile(nested_file) as zip:
-                    return _processIpaZip(uid, zip, basename, img_path, plist_path, image_only)
-        else:
-            # Regular direct IPA
-            if USE_ZIP_FILESIZE:
-                filesize = outer_zip.fp.tell() if outer_zip.fp else 0
-                with open(basename.with_suffix('.size'), 'w') as fp:
-                    fp.write(str(filesize))
-            return _processIpaZip(uid, outer_zip, basename, img_path, plist_path, image_only)
+    import time
+    last_err = None
+    for attempt in range(3):
+        try:
+            with RemoteZip(url) as outer_zip:
+                if inner_path:
+                    # Open nested IPA from outer ZIP and save to temp file to ensure seekability
+                    import zipfile
+                    with tempfile.NamedTemporaryFile(suffix='.ipa') as tmp:
+                        print(f"  extracting nested ipa to temp: {inner_path}")
+                        with outer_zip.open(inner_path) as src:
+                            while True:
+                                buf = src.read(1024*1024)
+                                if not buf: break
+                                tmp.write(buf)
+                        tmp.flush()
+                        with zipfile.ZipFile(tmp.name) as zip:
+                            return _processIpaZip(uid, zip, basename, img_path, plist_path, image_only)
+                else:
+                    # Regular direct IPA
+                    if USE_ZIP_FILESIZE:
+                        filesize = outer_zip.fp.tell() if outer_zip.fp else 0
+                        with open(basename.with_suffix('.size'), 'w') as fp:
+                            fp.write(str(filesize))
+                    return _processIpaZip(uid, outer_zip, basename, img_path, plist_path, image_only)
+        except Exception as e:
+            last_err = e
+            if '404' in str(e): break # Don't retry 404
+            print(f"  [WARN] connect attempt {attempt+1} failed for {uid}: {e}", file=stderr)
+            time.sleep(1)
+    
+    if last_err:
+        print(f"ERROR: [{uid}] connection failed after retries: {last_err}", file=stderr)
+    return False
 
 
 def _processIpaZip(uid: int, zip, basename, img_path, plist_path, image_only) -> bool:
