@@ -80,6 +80,8 @@ def main():
     cmd.add_argument('pk', metavar='PK', type=int,
                      nargs='+', help='Primary key')
 
+    cli.add_parser('fix-imgs', help='Check and fix missing images')
+
     args = parser.parse_args()
 
     if args.cmd == 'add':
@@ -119,6 +121,9 @@ def main():
                         DB.setAllUndone(whereDone=3)
                         continue
                 break
+        
+        # After run, always check for missing images
+        fix_missing_images(DB)
 
     elif args.cmd == 'err':
         DB = CacheDB()
@@ -175,6 +180,34 @@ def main():
             for pk in args.pk:
                 print(pk, ': set done=4')
                 DB.setPermanentError(pk)
+
+    elif args.cmd == 'fix-imgs':
+        fix_missing_images(CacheDB())
+
+
+def fix_missing_images(DB: 'CacheDB'):
+    missing = []
+    print("Checking for missing images...")
+    entries = list(DB.enumJsonIpa(done=1))
+    total = len(entries)
+    for i, entry in enumerate(entries):
+        pk = entry[0]
+        if i % 1000 == 0:
+            print(f"\rChecked {i}/{total} images...", end="")
+        img_path = diskPath(pk, '.jpg')
+        if not img_path.exists():
+            missing.append(pk)
+    print(f"\rChecked {total}/{total} images. Done.")
+    
+    if not missing:
+        print("No missing images found.")
+    else:
+        print(f"Found {len(missing)} missing images. Fixing...")
+        for pk in missing:
+            url = DB.getUrl(pk)
+            print(f"[{pk}] Fix image: {url}")
+            loadIpa(pk, url, overwrite=True, image_only=True)
+    print("done.")
 
 
 ###############################################
@@ -896,6 +929,8 @@ def expandImageName(
 
     # 1. Try case-insensitive exact matches
     for x in zip_listing:
+        if x.file_size == 0 or x.filename.endswith('/'):
+            continue
         fn = x.filename.lstrip('/')
         if fn.lower().startswith(app_prefix):
             rel_fn = fn[len(app_prefix):].lower()
@@ -906,7 +941,7 @@ def expandImageName(
     for name in search_names:
         zipPath = f'Payload/{appName}/{name}'.lower()
         matching = [x for x in zip_listing 
-                    if x.filename.lstrip('/').lower().startswith(zipPath)]
+                    if x.file_size > 0 and not x.filename.endswith('/') and x.filename.lstrip('/').lower().startswith(zipPath)]
         if matching:
             return sorted(matching, key=lambda x: resolutionIndex(x.filename))[0]
 
