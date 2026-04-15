@@ -73,8 +73,8 @@ def main():
                      help='Export to json or temporary-filesize file')
 
     cmd = cli.add_parser('err', help='Handle problematic entries')
-    cmd.add_argument('err_type', choices=['reset', 'fix'], 
-                     help='reset: Set all done=3 to 0. fix: Reset and retry until no progress is made.')
+    cmd.add_argument('err_type', choices=['reset', 'fix', 'clear'], 
+                     help='reset: Set all done=3 to 0. fix: Reset and retry until no progress is made. clear: DELETE all entries with done=3 or done=4 from database.')
 
     cmd = cli.add_parser('get', help='Lookup value')
     cmd.add_argument('get_type', choices=['url', 'img', 'ipa'],
@@ -140,6 +140,9 @@ def main():
         if args.err_type == 'reset':
             print('Resetting error state ...')
             DB.setAllUndone(whereDone=3)
+        elif args.err_type == 'clear':
+            count = DB.deleteAllErrors()
+            print(f'Successfully deleted {count} error entries from the database.')
         elif args.err_type == 'fix':
             while True:
                 err_count = DB.count(done=3)
@@ -398,11 +401,26 @@ class CacheDB:
             WHERE done=? LIMIT ?;''', [done, batchsize])
         return x.fetchall()
 
-    def setAllUndone(self, *, whereDone: int) -> None:
-        self._db.execute('UPDATE idx SET done=0 WHERE done=?;', [whereDone])
+    def deleteAllErrors(self) -> int:
+        '''
+        DELETE all entries with done=3 or done=4 from database.
+        Will also delete all plist and image files for these entries.
+        '''
+        # First find IDs to delete
+        x = self._db.execute('SELECT pk FROM idx WHERE done IN (3, 4);')
+        ids = [row[0] for row in x.fetchall()]
+        
+        # Delete files
+        for uid in ids:
+            for ext in ['.plist', '.png', '.jpg']:
+                fname = diskPath(uid, ext)
+                if fname.exists():
+                    os.remove(fname)
+        
+        # DELETE from DB
+        x = self._db.execute('DELETE FROM idx WHERE done IN (3, 4);')
         self._db.commit()
-
-    # Finalize / Postprocessing
+        return x.rowcount
 
     def setError(self, uid: int, *, done: int) -> None:
         self._db.execute('UPDATE idx SET done=? WHERE pk=?;', [done, uid])

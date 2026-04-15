@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UIInterfaceOrientation</key>
+    <string>UIInterfaceOrientationLandscapeRight</string>
+    <key>DTPlatformVersion</key>
+    <string>9.0</string>
+    <key>CFBundleName</key>
+    <string>ABC Music</string>
+    <key>DTSDKName</key>
+    <string>iphoneos9.0</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>musicicons29x29</string>
+          <string>musicicons40x40</string>
+          <string>musicicons57x57</string>
+          <string>musicicons60x60</string>
+        </array>
+        <key>UIPrerenderedIcon</key>
+        <true/>
+      </dict>
+    </dict>
+    <key>CFBundleDisplayName</key>
+    <string>ABC Music</string>
+    <key>Peapod Labs ID</key>
+    <string>5159ee31914c38000200ac24</string>
+    <key>DTSDKBuild</key>
+    <string>13A340</string>
+    <key>CFBundleShortVersionString</key>
+    <string>9.0</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+    </array>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>Remote data file</key>
+    <string>abc-music-9.0</string>
+    <key>BuildMachineOSBuild</key>
+    <string>14F27</string>
+    <key>DTPlatformBuild</key>
+    <string>13A340</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>Supported interface orientations (iPad)</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+    </array>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>CFBundleVersion</key>
+    <string>9.0</string>
+    <key>DTXcodeBuild</key>
+    <string>7A220</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>MinimumOSVersion</key>
+    <string>7.0</string>
+    <key>UIApplicationExitsOnSuspend</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>CFBundleIdentifier</key>
+    <string>com.peapodlabs.abcmusic</string>
+    <key>Supported interface orientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+    </array>
+    <key>S3 folder</key>
+    <string>abc-music</string>
+    <key>DTXcode</key>
+    <string>0700</string>
+    <key>App ID</key>
+    <integer>0</integer>
+    <key>Remote config file</key>
+    <string>config-9.0</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>musicicons29x29</string>
+          <string>musicicons40x40</string>
+          <string>musicicons57x57</string>
+          <string>musicicons60x60</string>
+          <string>musicicons50x50</string>
+          <string>musicicons72x72</string>
+          <string>musicicons76x76</string>
+        </array>
+        <key>UIPrerenderedIcon</key>
+        <true/>
+      </dict>
+    </dict>
+    <key>CFBundleExecutable</key>
+    <string>abc-music</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>12E506</string>
+  </dict>
+</plist>
