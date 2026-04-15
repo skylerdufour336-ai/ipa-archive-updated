@@ -502,7 +502,7 @@ def addNewUrl(url: str) -> None:
     if not archiveId:
         return
     baseUrlId = CacheDB().insertBaseUrl(urlForArchiveOrgId(archiveId))
-    json_file = pathToListJson(baseUrlId)
+    json_file = pathToListJson(archiveId)
     entries = downloadListArchiveOrg(archiveId, json_file)
     inserted = CacheDB().insertIpaUrls(baseUrlId, entries)
     print(f'new links added: {inserted} of {len(entries)}')
@@ -520,10 +520,10 @@ def urlForArchiveOrgId(archiveId: str) -> str:
     return f'https://archive.org/download/{archiveId}'
 
 
-def pathToListJson(baseUrlId: int, *, tmp: bool = False) -> Path:
+def pathToListJson(archiveId: str, *, tmp: bool = False) -> Path:
     if tmp:
-        return CACHE_DIR / 'url_cache' / f'tmp_{baseUrlId}.json.gz'
-    return CACHE_DIR / 'url_cache' / f'{baseUrlId}.json.gz'
+        return CACHE_DIR / 'url_cache' / f'tmp_{archiveId}.json.gz'
+    return CACHE_DIR / 'url_cache' / f'{archiveId}.json.gz'
 
 
 def getNestedIpas(url: str, zipPath: str) -> 'list[tuple[str, int, str]]':
@@ -599,7 +599,7 @@ def downloadListArchiveOrg(
     baseUrl = urlForArchiveOrgId(archiveId)
     rv = []
     for x in data['result']:
-        if x['source'] != 'original':
+        if x.get('source') != 'original':
             continue
         name = x['name']
         size = int(x.get('size', 0))
@@ -611,7 +611,7 @@ def downloadListArchiveOrg(
         elif name_lower.endswith('.zip'):
             url = f'{baseUrl}/{quote(name)}'
             rv.extend(getNestedIpas(url, name))
-        elif name_lower.endswith(('.rar', '.7z', '.tar', '.tar.gz', '.tgz')):
+        elif name_lower.endswith(('.rar', '.7z', '.tar', '.tar.gz', '.tgz')) and not name_lower.endswith('_archive.torrent'):
             url = f'{baseUrl}/{quote(name)}'
             rv.extend(getNestedIpasViaViewArchive(url, name))
     return rv
@@ -630,8 +630,8 @@ def updateUrl(url_or_uid: 'str|int', proc_i: int, proc_total: int):
     archiveId = extractArchiveOrgId(url) or ''  # guaranteed to return str
     print(f'Updating [{proc_i}/{proc_total}] {archiveId}')
 
-    old_json_file = pathToListJson(baseUrlId)
-    new_json_file = pathToListJson(baseUrlId, tmp=True)
+    old_json_file = pathToListJson(archiveId)
+    new_json_file = pathToListJson(archiveId, tmp=True)
     old_entries = set(downloadListArchiveOrg(archiveId, old_json_file))
     new_entries = set(downloadListArchiveOrg(archiveId, new_json_file))
     old_diff = old_entries - new_entries
