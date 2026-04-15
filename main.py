@@ -88,6 +88,7 @@ def main():
                      nargs='+', help='Primary key')
 
     cli.add_parser('fix-imgs', help='Check and fix missing images')
+    cli.add_parser('clear-queue', help='DELETE all pending entries (done=0) from the database')
 
     args = parser.parse_args()
 
@@ -196,6 +197,10 @@ def main():
 
     elif args.cmd == 'fix-imgs':
         fix_missing_images(CacheDB())
+
+    elif args.cmd == 'clear-queue':
+        count = CacheDB().clearQueue()
+        print(f'Successfully cleared {count} pending entries from the database.')
 
 
 def fix_missing_images(DB: 'CacheDB'):
@@ -401,6 +406,10 @@ class CacheDB:
             WHERE done=? LIMIT ?;''', [done, batchsize])
         return x.fetchall()
 
+    def setAllUndone(self, *, whereDone: int) -> None:
+        self._db.execute('UPDATE idx SET done=0 WHERE done=?;', [whereDone])
+        self._db.commit()
+
     def deleteAllErrors(self) -> int:
         '''
         DELETE all entries with done=3 or done=4 from database.
@@ -419,6 +428,12 @@ class CacheDB:
         
         # DELETE from DB
         x = self._db.execute('DELETE FROM idx WHERE done IN (3, 4);')
+        self._db.commit()
+        return x.rowcount
+
+    def clearQueue(self) -> int:
+        ''' DELETE all entries with done=0 (pending) from database. '''
+        x = self._db.execute('DELETE FROM idx WHERE done=0;')
         self._db.commit()
         return x.rowcount
 
