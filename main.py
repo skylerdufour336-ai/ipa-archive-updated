@@ -39,7 +39,7 @@ if platform.system() == 'Windows':
 else:
     PNGDEFRY_BIN = Path(__file__).parent / 'pngdefry' / 'pngdefry'
 
-re_info_plist = re.compile(r'Payload/([^/]+)/Info.plist')
+re_info_plist = re.compile(r'((?:Payload/)?([^/]+\.app))/Info.plist', re.IGNORECASE)
 # re_links = re.compile(r'''<a\s[^>]*href=["']([^>]+\.ipa)["'][^>]*>''')
 re_archive_url = re.compile(
     r'https?://archive.org/(?:metadata|details|download)/([^/]+)(?:/.*)?')
@@ -111,7 +111,10 @@ def main():
             for pk in args.pk:
                 url = DB.getUrl(pk)
                 print(pk, ': process', url)
-                loadIpa(pk, url, overwrite=True)
+                if loadIpa(pk, url, overwrite=True):
+                    DB.setDone(pk)
+                else:
+                    DB.setError(pk, done=3)
         else:
             if args.force:
                 print('Resetting done state ...')
@@ -788,7 +791,20 @@ def loadIpa(uid: int, url: str, *,
         with tempfile.NamedTemporaryFile(suffix='.ipa') as tmp:
             print(f"  downloading inner ipa from bridge: {inner_path}")
             try:
-                urlretrieve(direct_inner_url, tmp.name)
+                req = Request(direct_inner_url, headers={'User-Agent': 'Mozilla/5.0'})
+                with urlopen(req) as response:
+                    data = response.read(1024)
+                    if data.startswith(b'<!DOCTYPE html>') or data.startswith(b'<html>'):
+                        print(f"ERROR: [{uid}] bridge returned HTML instead of file", file=stderr)
+                        return False
+                    
+                    with open(tmp.name, 'wb') as f:
+                        f.write(data)
+                        while True:
+                            chunk = response.read(1024*1024)
+                            if not chunk: break
+                            f.write(chunk)
+                
                 import zipfile
                 with zipfile.ZipFile(tmp.name) as zip:
                     return _processIpaZip(uid, zip, basename, img_path, plist_path, image_only)
@@ -825,6 +841,12 @@ def loadIpa(uid: int, url: str, *,
         except Exception as e:
             last_err = e
             if '404' in str(e): break # Don't retry 404
+            
+            # Special handling for BadZipFile to help diagnose
+            if "File is not a zip file" in str(e):
+                print(f"  [ERROR] [{uid}] BadZipFile: {url} is not a valid zip.", file=stderr)
+                break
+
             print(f"  [WARN] connect attempt {attempt+1} failed for {uid}: {e}", file=stderr)
             time.sleep(1)
     
@@ -834,21 +856,18 @@ def loadIpa(uid: int, url: str, *,
 
 
 def _processIpaZip(uid: int, zip, basename, img_path, plist_path, image_only) -> bool:
-    app_name = None
+    app_prefix = None
     artwork = False
     zip_listing = zip.infolist()
-    has_payload_folder = False
     
     # First pass: find Info.plist AND check for duplicates
     for entry in zip_listing:
         fn = entry.filename.lstrip('/')
-        if fn.lower().startswith('payload/'):
-            has_payload_folder = True
 
-        if not app_name:
+        if not app_prefix:
             plist_match = re_info_plist.match(fn)
             if plist_match:
-                app_name = plist_match.group(1)
+                app_prefix = plist_match.group(1)
                 extractZipEntry(zip, entry, plist_path)
                 
                 # Deduplication check: if we already have this app's icon, don't download it again
@@ -876,9 +895,6 @@ def _processIpaZip(uid: int, zip, basename, img_path, plist_path, image_only) ->
                 elif image_only and artwork:
                     return True
 
-    if not has_payload_folder:
-        print(f'ERROR: [{uid}] ipa has no "Payload/" root folder', file=stderr)
-
     # Second pass: extract iTunesArtwork if needed
     if not artwork:
         for entry in zip_listing:
@@ -893,14 +909,14 @@ def _processIpaZip(uid: int, zip, basename, img_path, plist_path, image_only) ->
                         img_path.unlink() # Cleanup
 
     # if no iTunesArtwork found, load file referenced in plist
-    if not artwork and app_name and plist_path.exists():
+    if not artwork and app_prefix and plist_path.exists():
         with open(plist_path, 'rb') as fp:
             try:
                 plist = plistlib.load(fp)
                 icon_names = iconNameFromPlist(plist)
                 # Try all candidates until one works
                 for icon_name in icon_names + ['Icon', 'icon']:
-                    icon = expandImageName(zip_listing, app_name, [icon_name])
+                    icon = expandImageName(zip_listing, app_prefix, [icon_name])
                     if icon:
                         extractZipEntry(zip, icon, img_path)
                         if os.path.exists(img_path) and os.path.getsize(img_path) > 8:
@@ -1000,9 +1016,11 @@ RESOLUTION_ORDER = ['3x', '2x', '180', '167', '152', '120']
 
 
 def expandImageName(
-    zip_listing: 'list[ZipInfo]', appName: str, iconList: 'list[str]'
+    zip_listing: 'list[ZipInfo]', app_prefix: str, iconList: 'list[str]'
 ) -> 'ZipInfo|None':
-    app_prefix = f'Payload/{appName}/'.lower()
+    prefix = app_prefix.lower()
+    if not prefix.endswith('/'):
+        prefix += '/'
     
     # Normalize icon names
     search_names = []
@@ -1017,26 +1035,25 @@ def expandImageName(
         if x.file_size == 0 or x.filename.endswith('/'):
             continue
         fn = x.filename.lstrip('/')
-        if fn.lower().startswith(app_prefix):
-            rel_fn = fn[len(app_prefix):].lower()
+        if fn.lower().startswith(prefix):
+            rel_fn = fn[len(prefix):].lower()
             if rel_fn in search_names:
                 return x
 
     # 2. Try matching by resolution (if multiple files match the base name)
     for name in search_names:
-        zipPath = f'Payload/{appName}/{name}'.lower()
+        zipPath = f'{prefix}{name}'.lower()
         matching = [x for x in zip_listing 
                     if x.file_size > 0 and not x.filename.endswith('/') and x.filename.lstrip('/').lower().startswith(zipPath)]
         if matching:
             return sorted(matching, key=lambda x: resolutionIndex(x.filename))[0]
 
-    # 3. Fallback: Any PNG in the app folder that looks like an icon (e.g. has "icon" in name, even if encoded)
-    # This handles the Japanese characters issue where the name in Info.plist doesn't match the ZIP encoding.
+    # 3. Fallback: Any PNG in the app folder that looks like an icon
     fallback_icons = []
     for x in zip_listing:
         fn = x.filename.lstrip('/')
-        if fn.lower().startswith(app_prefix) and fn.lower().endswith('.png'):
-            rel_fn = fn[len(app_prefix):].lower()
+        if fn.lower().startswith(prefix) and fn.lower().endswith('.png'):
+            rel_fn = fn[len(prefix):].lower()
             # If it contains 'icon', or starts with 'icon', or is just a small PNG
             if 'icon' in rel_fn or 'πéó' in rel_fn or x.file_size < 500000:
                 fallback_icons.append(x)
