@@ -1074,6 +1074,15 @@ def resolutionIndex(icon_name: str):
 
 
 def sortedByResolution(icons: 'list[str]') -> 'list[str]':
+    if not isinstance(icons, list):
+        if isinstance(icons, str):
+            icons = [icons]
+        else:
+            return []
+            
+    # Filter to only strings
+    icons = [str(x) for x in icons if x]
+    
     icons.sort(key=resolutionIndex)
     return icons
 
@@ -1092,7 +1101,14 @@ def iconNameFromPlist(plist: dict) -> 'list[str]':
                 if not icons:
                     # Check for CFBundleIconFile (legacy, before 3.2)
                     icon = plist.get('CFBundleIconFile')  # may be None
-                    return [icon] if icon else []
+                    return [str(icon)] if icon else []
+    
+    # Ensure icons is a list before sorting
+    if isinstance(icons, str):
+        icons = [icons]
+    elif not isinstance(icons, list):
+        return []
+
     return sortedByResolution(icons)
 
 
