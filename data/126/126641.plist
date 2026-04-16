@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>NSLocationAlwaysUsageDescription should be set to a valid usage description</string>
+    <key>DTPlatformVersion</key>
+    <string>10.1</string>
+    <key>DTSDKBuild</key>
+    <string>14B72</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleBlackTranslucent</string>
+    <key>NSSiriUsageDescription</key>
+    <string>NSSiriUsageDescription should be set to a valid usage description</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Unused by an application</string>
+    <key>NSMainNibFile</key>
+    <string>MainWindow</string>
+    <key>CFBundleDisplayName</key>
+    <string>AWS</string>
+    <key>CoronaViewSupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTXcodeBuild</key>
+    <string>8B62</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>NSRemindersUsageDescription should be set to a valid usage description</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+      <string>en</string>
+    </array>
+    <key>CFBundleIdentifier</key>
+    <string>com.robobobo.apps.barometer</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fb</string>
+      <string>fbapi20130214</string>
+      <string>fbapi20130410</string>
+      <string>fbapi20140410</string>
+      <string>fbapi20140116</string>
+      <string>fbapi20150313</string>
+      <string>fbapi20150629</string>
+      <string>fbauth</string>
+      <string>fbauth2</string>
+      <string>fb-messenger-api20140430</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSMainNibFile~ipad</key>
+    <string>MainWindow-iPad</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>NSHealthUpdateUsageDescription should be set to a valid usage description</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CoronaSDKBuild</key>
+    <string>2016.2992</string>
+    <key>MinimumOSVersion</key>
+    <string>6.0</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>NSBluetoothPeripheralUsageDescription should be set to a valid usage description</string>
+    <key>CFBundleIconFiles</key>
+    <array>
+      <string>Icon.png</string>
+      <string>Icon@2x.png</string>
+      <string>Icon-72.png</string>
+      <string>Icon-72@2x.png</string>
+      <string>Icon-Small-50.png</string>
+      <string>Icon-Small-50@2x.png</string>
+      <string>Icon-Small.png</string>
+      <string>Icon-Small@2x.png</string>
+      <string>Icon-Small-40.png</string>
+      <string>Icon-Small-40@2x.png</string>
+      <string>Icon-76.png</string>
+      <string>Icon-76@2x.png</string>
+      <string>Icon-60.png</string>
+      <string>Icon-60@2x.png</string>
+    </array>
+    <key>NSMotionUsageDescription</key>
+    <string>NSMotionUsageDescription should be set to a valid usage description</string>
+    <key>CFBundleName</key>
+    <string>AWS</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.5</string>
+    <key>UIApplicationExitsOnSuspend</key>
+    <false/>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Gothic.ttf</string>
+      <string>GothicBold.ttf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>AWS</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>NSHealthShareUsageDescription should be set to a valid usage description</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>NSAppleMusicUsageDescription should be set to a valid usage description</string>
+    <key>FacebookAppID</key>
+    <string>1104162829657726</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>NSSpeechRecognitionUsageDescription should be set to a valid usage description</string>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>NSLocationUsageDescription</key>
+    <string>NSLocationUsageDescription should be set to a valid usage description</string>
+    <key>BuildMachineOSBuild</key>
+    <string>15G31</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>NSCalendarsUsageDescription should be set to a valid usage description</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>NSMicrophoneUsageDescription should be set to a valid usage description</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>App needs to know your location to provide correct weather data</string>
+    <key>CFBundleVersion</key>
+    <string>2017.03.061808</string>
+    <key>CFBundleIconFile</key>
+    <string>Icon.png</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb1104162829657726</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSHomeKitUsageDescription</key>
+    <string>NSHomeKitUsageDescription should be set to a valid usage description</string>
+    <key>DTSDKName</key>
+    <string>iphoneos10.1</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>akamaihd.net</key>
+        <dict>
+          <key>NSExceptionRequiresForwardSecrecy</key>
+          <false/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+        <key>facebook.com</key>
+        <dict>
+          <key>NSExceptionRequiresForwardSecrecy</key>
+          <false/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+        <key>fbcdn.net</key>
+        <dict>
+          <key>NSExceptionRequiresForwardSecrecy</key>
+          <false/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+      </dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>NSContactsUsageDescription</key>
+    <string>NSContactsUsageDescription should be set to a valid usage description</string>
+    <key>DTPlatformBuild</key>
+    <string>14B72</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Unused by an application</string>
+    <key>CoronaDelegates</key>
+    <array>
+      <string>CoronaFacebookDelegate</string>
+    </array>
+    <key>DTXcode</key>
+    <string>0810</string>
+    <key>UIInterfaceOrientation</key>
+    <string>UIInterfaceOrientationPortrait</string>
+  </dict>
+</plist>

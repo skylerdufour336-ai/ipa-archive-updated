@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>9.3</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>nxm50Wm7XMiq</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>nxm50Wm7XMiq</string>
+          <string>nxm50Wm7XMiq</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTSDKName</key>
+    <string>iphoneos9.3</string>
+    <key>CFBundleName</key>
+    <string>appm50Wm7XMiq</string>
+    <key>Bug Reporter Key</key>
+    <string>AA6428909520408fd0899c4e36423e5b6e5503a4f5</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library so you can post photos to the app.</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>Icon-60.png</string>
+          <string>Icon-60@2x.png</string>
+          <string>Icon-76.png</string>
+          <string>Icon-76@2x.png</string>
+        </array>
+        <key>UIPrerenderedIcon</key>
+        <true/>
+      </dict>
+    </dict>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CC Version Check URL</key>
+    <string>versions.crowdcompass.com/supportcheck/ios-release-v4.25-4acf62af8e</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>Booth Exec MBA</string>
+    <key>DTThinningTraits</key>
+    <dict>
+      <key>devPerfMemoryClass</key>
+      <integer>1</integer>
+      <key>gfxFeatureSetFallbacks</key>
+      <array>
+        <string>MTL1,2</string>
+        <string>GLES2,0</string>
+      </array>
+      <key>platform</key>
+      <string>iphoneos</string>
+      <key>featuresToRemove</key>
+      <array/>
+      <key>artworkDevSubtype</key>
+      <integer>570</integer>
+      <key>architecture</key>
+      <string>arm64</string>
+      <key>gfxFeatureSetClass</key>
+      <string>MTL2,2</string>
+      <key>artworkDevIdiom</key>
+      <string>phone</string>
+      <key>artworkHostedIdioms</key>
+      <array>
+        <string>car</string>
+        <string>watch</string>
+      </array>
+      <key>artworkScaleFactor</key>
+      <integer>3</integer>
+    </dict>
+    <key>UIBackgroundModes</key>
+    <array/>
+    <key>DTSDKBuild</key>
+    <string>13E230</string>
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera so you can take a picture to post to the app.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.11</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>This app may use iBeacons to give you location-specific alerts. For the best event experience enable Bluetooth and allow location services.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>CC App Oid</key>
+    <string>m50Wm7XMiq</string>
+    <key>BuildMachineOSBuild</key>
+    <string>15B42</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CC Build Sha</key>
+    <string>526c3f305f4c39b57509b7710c64b1d61def3ff8</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CC Release Version</key>
+    <string>4.25</string>
+    <key>CFBundleVersion</key>
+    <string>1.11</string>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>DTXcodeBuild</key>
+    <string>7D1014</string>
+    <key>UILaunchImages</key>
+    <array>
+      <dict>
+        <key>UILaunchImageSize</key>
+        <string>{320, 480}</string>
+        <key>UILaunchImageName</key>
+        <string>Default</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageSize</key>
+        <string>{320, 480}</string>
+        <key>UILaunchImageName</key>
+        <string>Default</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Landscape</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageSize</key>
+        <string>{320, 568}</string>
+        <key>UILaunchImageName</key>
+        <string>Default-568h</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageSize</key>
+        <string>{375, 667}</string>
+        <key>UILaunchImageName</key>
+        <string>Default-667h</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageSize</key>
+        <string>{375, 667}</string>
+        <key>UILaunchImageName</key>
+        <string>Default-667h</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Landscape</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageSize</key>
+        <string>{414, 736}</string>
+        <key>UILaunchImageName</key>
+        <string>Default-736h</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageSize</key>
+        <string>{414, 736}</string>
+        <key>UILaunchImageName</key>
+        <string>Default-736h</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Landscape</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageSize</key>
+        <string>{768, 1024}</string>
+        <key>UILaunchImageName</key>
+        <string>Default-Portrait</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageSize</key>
+        <string>{768, 1024}</string>
+        <key>UILaunchImageName</key>
+        <string>Default-Landscape</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+        <key>UILaunchImageOrientation</key>
+        <string>Landscape</string>
+      </dict>
+    </array>
+    <key>DTPlatformBuild</key>
+    <string>13E230</string>
+    <key>MinimumOSVersion</key>
+    <string>8.0</string>
+    <key>CC API Version</key>
+    <string>2016070100</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>CC Build Environment</key>
+    <string>production</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.crowdcompass.appm50Wm7XMiq</string>
+    <key>CC Version Check Scheme</key>
+    <string>https</string>
+    <key>DTXcode</key>
+    <string>0731</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>We need access to your calendar to export your schedule.</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>CFBundleExecutable</key>
+    <string>appm50Wm7XMiq</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSContactsUsageDescription</key>
+    <string>This allows us to export your contacts list from the app.</string>
+    <key>UISupportedDevices</key>
+    <array>
+      <string>iPhone7,1</string>
+    </array>
+  </dict>
+</plist>

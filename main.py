@@ -207,6 +207,7 @@ def fix_missing_images(DB: 'CacheDB'):
     missing = []
     print("Checking for missing images...")
     # Only iterate over the unique master images (~58k)
+    # We skip entries where done=4 because those are known to be broken/unfixable
     entries = list(DB.getUniqueImagePks())
     total = len(entries)
     for i, (pk, img_pk) in enumerate(entries):
@@ -374,7 +375,7 @@ class CacheDB:
             ORDER BY tt COLLATE NOCASE, min_os, platform, version;''', [done])
 
     def getUniqueImagePks(self) -> Iterable[tuple[int, int]]:
-        ''' Returns (pk, image_pk) for each unique image_pk '''
+        ''' Returns (pk, image_pk) for each unique image_pk, excluding known errors (done=4) '''
         yield from self._db.execute('''
             SELECT MIN(pk), image_pk 
             FROM idx 
@@ -1040,6 +1041,7 @@ def processImage(png_path: Path) -> bool:
     except Exception as e:
         print(f"  [WARN] PIL conversion/optimization failed for {png_path}: {e}", file=stderr)
         return False
+
 
 
 ###############################################
