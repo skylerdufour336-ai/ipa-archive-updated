@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <dict>
+      <key>accelerometer</key>
+      <true/>
+      <key>arm64</key>
+      <true/>
+      <key>opengles-1</key>
+      <true/>
+    </dict>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>Obtain the IDFA mark permission to provide you with better personalized
+     services and content. We will not use it for other purposes without consent; after
+     turning it on, you can also go to the system "Settings-Privacy" to turn it off at any
+     time.</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>DTPlatformVersion</key>
+    <string>17.0</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.0</string>
+    <key>CFBundleName</key>
+    <string>Monster GO!</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>The APP customer service function requires access to your photos to quickly
+     handle game issues for you.</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15F31c</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>Monster GO!</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-share-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+      <string>lineauth2</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>21A325</string>
+    <key>NSCameraUsageDescription</key>
+    <string>The APP customer service function requires access to your camera to quickly
+     handle game issues for you.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.3.227</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>23A344</string>
+    <key>DTPlatformBuild</key>
+    <string>21A325</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>CFBundleVersion</key>
+    <string>59</string>
+    <key>DTXcodeBuild</key>
+    <string>15A240d</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>FacebookAppID</key>
+    <string>200249376469017</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen.storyboard</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>The APP customer service function requires access to your microphone to
+     quickly handle game issues for you.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.kkgwgc.iosgat</string>
+    <key>FacebookDisplayName</key>
+    <string>Monster GO!</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>FacebookClientToken</key>
+    <string>fb7d0cdbcfcceb1b84d4d8c38ae30252</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>CFBundleExecutable</key>
+    <string>Monster GO!</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict/>
+    </dict>
+    <key>UISupportedInterfaceOrientations~iphone</key>
+    <array/>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb200249376469017</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

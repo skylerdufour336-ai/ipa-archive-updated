@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>17.0</string>
+    <key>CFBundleName</key>
+    <string>My Aurora Forecast Pro</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.0</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This feature requires a stored image.</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon-260x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon-2</string>
+      </dict>
+    </dict>
+    <key>UIPreferredDefaultInterfaceOrientation</key>
+    <string>UIInterfaceOrientationPortrait</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>To ensure that you receive accurate and reliable notifications about aurora nearby, please grant the 'Always' permission.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Aurora Pro</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Your location is needed for calculating how likely you are to see the aurora.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>location</string>
+      <string>remote-notification</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>21A326</string>
+    <key>CFBundleShortVersionString</key>
+    <string>6.3.6</string>
+    <key>CFBundleAllowMixedLocalizations</key>
+    <true/>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>To ensure that you receive accurate and reliable notifications about aurora nearby, please grant the 'Always' permission.</string>
+    <key>BuildMachineOSBuild</key>
+    <string>23B92</string>
+    <key>DTPlatformBuild</key>
+    <string>21A326</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>15A507</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>14.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This feature requires this permission.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.jrustonapps.My-Aurora-Forecast-Pro</string>
+    <key>DTXcode</key>
+    <string>1501</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Your location is needed for calculating how likely you are to see the aurora.</string>
+    <key>CFBundleExecutable</key>
+    <string>My Aurora Forecast Pro</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon-260x60</string>
+          <string>AppIcon-276x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon-2</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.jrustonapps.My-Aurora-Forecast-Pro</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>myauroraforecastpro</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15C5065a</string>
+  </dict>
+</plist>

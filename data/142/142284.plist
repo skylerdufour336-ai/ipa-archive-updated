@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>co.noteplan.syncData</string>
+		<string>com.setapp.usageReport</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>24F74</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>NotePlan</string>
+	<key>CFBundleExecutable</key>
+	<string>NotePlan</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>AppIcon 2</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon 260x60</string>
+					<string>AppIcon 276x76</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 2</string>
+			</dict>
+			<key>AppIcon 3</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon 360x60</string>
+					<string>AppIcon 376x76</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 3</string>
+			</dict>
+			<key>AppIcon 4</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon 460x60</string>
+					<string>AppIcon 476x76</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 4</string>
+			</dict>
+			<key>AppIcon 5</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon 560x60</string>
+					<string>AppIcon 576x76</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 5</string>
+			</dict>
+			<key>DarkIcon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>DarkIcon60x60</string>
+					<string>DarkIcon76x76</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>DarkIcon</string>
+			</dict>
+			<key>primaryDark</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>primaryDark</string>
+				</array>
+			</dict>
+			<key>primaryLight</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>primaryLight</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>AppIcon 2</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon 260x60</string>
+					<string>AppIcon 276x76</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 2</string>
+			</dict>
+			<key>AppIcon 3</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon 360x60</string>
+					<string>AppIcon 376x76</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 3</string>
+			</dict>
+			<key>AppIcon 4</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon 460x60</string>
+					<string>AppIcon 476x76</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 4</string>
+			</dict>
+			<key>AppIcon 5</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>AppIcon 560x60</string>
+					<string>AppIcon 576x76</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 5</string>
+			</dict>
+			<key>DarkIcon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>DarkIcon60x60</string>
+					<string>DarkIcon76x76</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>DarkIcon</string>
+			</dict>
+			<key>primaryDark</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>primaryDark</string>
+				</array>
+			</dict>
+			<key>primaryLight</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>primaryLight</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>CFBundleIdentifier</key>
+	<string>co.noteplan.NotePlan3</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>NotePlan</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.18</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>co.noteplan.x-callback-url</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>noteplan</string>
+				<string>db-ah0etqhlrrrgywt</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>CFBundleURLName</key>
+			<string>Setapp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>co.noteplan.NotePlan3</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1338</string>
+	<key>CKSharingSupported</key>
+	<true/>
+	<key>DTAppStoreToolsBuild</key>
+	<string>16F7</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>22F76</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>18.5</string>
+	<key>DTSDKBuild</key>
+	<string>22F76</string>
+	<key>DTSDKName</key>
+	<string>iphoneos18.5</string>
+	<key>DTXcode</key>
+	<string>1640</string>
+	<key>DTXcodeBuild</key>
+	<string>16F6</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>dbapi-8-emm</string>
+		<string>dbapi-2</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<false/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>MinimumOSVersion</key>
+	<string>13.0</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>To display, edit and create calendar events.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Display, edit and create calendar events.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Import images from your camera.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone to create transcriptions.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Save images from NotePlan to your Camera Roll</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Import images from your photo library.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>To display, edit and create Reminders.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Loading reminders into the notes and NotePlan calendar.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>Control NotePlan with Voice</string>
+	<key>NSUbiquitousContainers</key>
+	<dict>
+		<key>iCloud.co.noteplan.NotePlan</key>
+		<dict>
+			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
+			<true/>
+			<key>NSUbiquitousContainerName</key>
+			<string>NotePlan</string>
+			<key>NSUbiquitousContainerSupportedFolderLevels</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>co.noteplan.today.openEditor</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Font Awesome 6 Brands-Regular-400.otf</string>
+		<string>Font Awesome 6 Pro-Light-300.otf</string>
+		<string>Font Awesome 6 Pro-Regular-400.otf</string>
+		<string>Font Awesome 6 Pro-Solid-900.otf</string>
+		<string>Font Awesome 6 Duotone-Solid-900.otf</string>
+		<string>Font Awesome 6 Pro-Thin-100.otf</string>
+		<string>Font Awesome Kit 4ff0f934f1-Regular-400.otf</string>
+		<string>noteplanstate-iOS.ttf</string>
+		<string>SF-Pro-Text-Semibold.otf</string>
+		<string>SF-Pro-Text-Bold.otf</string>
+		<string>SF-Pro-Text-BoldItalic.otf</string>
+		<string>SF-Pro-Text-Regular.otf</string>
+		<string>SF-Pro-Text-RegularItalic.otf</string>
+		<string>Font Awesome 5 Pro-Regular-400.otf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>NotePlan.SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeLove</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Please share your feedback, so we can fix it!</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Any Problems?</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>co.noteplan.sendfeedback</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeAdd</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Prepends a task to today's note</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>New Task (Today)</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>co.noteplan.quickaddtask</string>
+		</dict>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>NotePlan Notecard</string>
+			<key>UTTypeIdentifier</key>
+			<string>co.noteplan.notecard</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>notecard</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

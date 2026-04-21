@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>17.4</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.4</string>
+    <key>CFBundleName</key>
+    <string>Drum Beats+</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>FacebookAutoLogAppEventsEnabled</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15F31c</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>App Icon - Drum Beats Plus60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>App Icon - Drum Beats Plus</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This app can use bluetooth to connect to a footswitch.</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>Drum Beats+</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Your location is not accessed on this device.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>21E210</string>
+    <key>FacebookAdvertiserIDCollectionEnabled</key>
+    <true/>
+    <key>CFBundleShortVersionString</key>
+    <string>4.5</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Your location is not accessed on this device.</string>
+    <key>BuildMachineOSBuild</key>
+    <string>23E224</string>
+    <key>DTPlatformBuild</key>
+    <string>21E210</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>This app can use bluetooth to connect to a footswitch.</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>12.4</string>
+    <key>CFBundleVersion</key>
+    <string>201</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>OpenSans-Bold.ttf</string>
+      <string>SF-Pro-Display-Bold.otf</string>
+      <string>SF-Pro-Display-Light.otf</string>
+      <string>SF-Pro-Display-Semibold.otf</string>
+      <string>SF-Pro-Display-Heavy.otf</string>
+    </array>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>DTXcodeBuild</key>
+    <string>15E204a</string>
+    <key>FacebookAppID</key>
+    <string>461355264012138</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen-DrumBeatsPlus</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.ninebuzz.beatsplus</string>
+    <key>FacebookDisplayName</key>
+    <string>Drum Beats+ Rhythm Machine</string>
+    <key>AudioComponents</key>
+    <array>
+      <dict>
+        <key>subtype</key>
+        <string>sndr</string>
+        <key>manufacturer</key>
+        <string>nibz</string>
+        <key>type</key>
+        <string>aurg</string>
+        <key>name</key>
+        <string>Drum Beats+</string>
+        <key>version</key>
+        <integer>4</integer>
+      </dict>
+    </array>
+    <key>DTXcode</key>
+    <string>1530</string>
+    <key>CFBundleExecutable</key>
+    <string>DrumBeatsPlus</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>UISupportedInterfaceOrientations~iphone</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>App Icon - Drum Beats Plus60x60</string>
+          <string>App Icon - Drum Beats Plus76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>App Icon - Drum Beats Plus</string>
+      </dict>
+    </dict>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb461355264012138</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>CFBundleURLName</key>
+        <string>com.ninebuzz.drumbeatsplus</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>drumbeatsplus</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

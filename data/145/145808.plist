@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <false/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This identifier will be used to collect Crash Data and in-app activity in order to improve functionalities and user engagement</string>
+    <key>DTPlatformVersion</key>
+    <string>26.2</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTSDKName</key>
+    <string>iphoneos26.2</string>
+    <key>CFBundleName</key>
+    <string>AI Chat</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon - OriginalBlueGradientP3</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon - OriginalBlueGradientP3</string>
+        </dict>
+        <key>AppIcon - Black - Solid</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon - Black - Solid</string>
+        </dict>
+        <key>AppIcon_ChatNow-Colorful-Black</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon_ChatNow-Colorful-Black</string>
+        </dict>
+        <key>AppIcon_ChatNow-Colorful-White</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon_ChatNow-Colorful-White</string>
+        </dict>
+        <key>AppIcon - White</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon - White</string>
+        </dict>
+        <key>AppIcon - GreenP3</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon - GreenP3</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon_ChatNow60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon_ChatNow</string>
+      </dict>
+    </dict>
+    <key>UILaunchScreen</key>
+    <dict>
+      <key>UILaunchScreen</key>
+      <dict/>
+    </dict>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>ChatNow</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+      <string>voip</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>23C53</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Scan text or take and add photos to the conversation to analyse them with the help of AI</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.6</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSAccentColorName</key>
+    <string>AccentColor</string>
+    <key>BuildMachineOSBuild</key>
+    <string>25C56</string>
+    <key>NSPrivacyTrackingDomains</key>
+    <array>
+      <string>https://consent.adjust.cn</string>
+      <string>https://consent.adjust.com</string>
+      <string>https://consent.adjust.io</string>
+      <string>https://consent.adjust.net.in</string>
+      <string>https://consent.adjust.world</string>
+      <string>https://consent.eu.adjust.com</string>
+      <string>https://consent.tr.adjust.com</string>
+      <string>https://consent.us.adjust.com</string>
+    </array>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>17C52</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>GochiHand-Regular.ttf</string>
+      <string>FunnelDisplay-Bold.ttf</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1669</string>
+    <key>MinimumOSVersion</key>
+    <string>17.0</string>
+    <key>DTPlatformBuild</key>
+    <string>23C53</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Your permission is required so that you can save generated images on your device.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>By enabling this, the app understands what you say 🗣️💬</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen.storyboard</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>The app uses the microphone to record and analyze audio messages, as well as to enable Voice Mode and Speech-to-Text.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.tappz.aichat</string>
+    <key>UIApplicationSceneManifest</key>
+    <false/>
+    <key>DTXcode</key>
+    <string>2620</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>CFBundleExecutable</key>
+    <string>AI Chat</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon - OriginalBlueGradientP3</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon - OriginalBlueGradientP3</string>
+        </dict>
+        <key>AppIcon - Black - Solid</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon - Black - Solid</string>
+        </dict>
+        <key>AppIcon_ChatNow-Colorful-Black</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon_ChatNow-Colorful-Black</string>
+        </dict>
+        <key>AppIcon_ChatNow-Colorful-White</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon_ChatNow-Colorful-White</string>
+        </dict>
+        <key>AppIcon - White</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon - White</string>
+        </dict>
+        <key>AppIcon - GreenP3</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon - GreenP3</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon_ChatNow60x60</string>
+          <string>AppIcon_ChatNow76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon_ChatNow</string>
+      </dict>
+    </dict>
+    <key>UIApplicationSupportsMultipleScenes</key>
+    <false/>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>CFBundleURLName</key>
+        <string>com.tappz.aichat</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>tappz-aichat</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

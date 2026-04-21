@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>BootSplash</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>firebase_json_raw</key>
+    <string>e30=</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>DTPlatformVersion</key>
+    <string>26.1</string>
+    <key>DTSDKBuild</key>
+    <string>23B77</string>
+    <key>NSSiriUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Please allow camera access to verify your identity securely. Your data is safely stored and not shared. </string>
+    <key>CFBundleDisplayName</key>
+    <string>mSale++</string>
+    <key>DTXcodeBuild</key>
+    <string>17B100</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>CFBundleIdentifier</key>
+    <string>vn.mobifone.msaleplus</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>msaleapp</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSMotionUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>MinimumOSVersion</key>
+    <string>12.4</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>CFBundleName</key>
+    <string>mSaleApp</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.58</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>voip</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIAppFonts</key>
+    <array>
+      <string>MaterialCommunityIcons.ttf</string>
+      <string>MaterialIcons.ttf</string>
+      <string>AntDesign.ttf</string>
+      <string>Entypo.ttf</string>
+      <string>EvilIcons.ttf</string>
+      <string>Feather.ttf</string>
+      <string>FontAwesome.ttf</string>
+      <string>FontAwesome5_Brands.ttf</string>
+      <string>FontAwesome5_Regular.ttf</string>
+      <string>FontAwesome5_Solid.ttf</string>
+      <string>Fontisto.ttf</string>
+      <string>Foundation.ttf</string>
+      <string>Ionicons.ttf</string>
+      <string>Octicons.ttf</string>
+      <string>SimpleLineIcons.ttf</string>
+      <string>Zocial.ttf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>mSaleApp</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+    <dict>
+      <key>YOUR-PURPOSE-KEY</key>
+      <string>YOUR TEXT</string>
+    </dict>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>BuildMachineOSBuild</key>
+    <string>25B78</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>MBXAccessToken</key>
+    <string>pk.eyJ1IjoibmdvYW5obG9uZyIsImEiOiJjbGNmbHh5YWIwNXN5M250ODZzdHppNmhtIn0.84yge2aFuNIYEo20UvuZSQ</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Need microphone access for video call</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>CFBundleVersion</key>
+    <string>20260203.3</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Mở khoá</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>msale</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>msale</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>msaleNew</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.1</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>localhost</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>NSContactsUsageDescription</key>
+    <string>YOUR TEXT</string>
+    <key>DTPlatformBuild</key>
+    <string>23B77</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app requires access to the photo library.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTXcode</key>
+    <string>2611</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+  </dict>
+</plist>

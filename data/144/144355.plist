@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <false/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>18.2</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleName</key>
+    <string>Igloo</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.2</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Access is required to send photos to the chat.</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>Version 3</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Version 360x60</string>
+            <string>Version 376x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>Version 3</string>
+        </dict>
+        <key>Version 1</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Version 160x60</string>
+            <string>Version 176x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>Version 1</string>
+        </dict>
+        <key>Version 2</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Version 260x60</string>
+            <string>Version 276x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>Version 2</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcons60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcons</string>
+      </dict>
+    </dict>
+    <key>CFBundleDisplayName</key>
+    <string>Igloo</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>DTSDKBuild</key>
+    <string>22C146</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Access is required to capture photos to share with the chat.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.11.1</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24E263</string>
+    <key>DTPlatformBuild</key>
+    <string>22C146</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>16C5032a</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>14.0</string>
+    <key>CFBundleVersion</key>
+    <string>5782</string>
+    <key>NSUbiquitousContainers</key>
+    <dict>
+      <key>iCloud.software.eskimo.igloo.irc</key>
+      <dict>
+        <key>NSUbiquitousContainerSupportedFolderLevels</key>
+        <string>Any</string>
+        <key>NSUbiquitousContainerName</key>
+        <string>Igloo</string>
+        <key>NSUbiquitousContainerIsDocumentScopePublic</key>
+        <true/>
+      </dict>
+    </dict>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Hack-Regular.ttf</string>
+      <string>Hack-Bold.ttf</string>
+      <string>Hack-Italic.ttf</string>
+      <string>Hack-BoldItalic.ttf</string>
+    </array>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Access is required to capture videos to share with the chat.</string>
+    <key>CFBundleIdentifier</key>
+    <string>software.eskimo.igloo.irc</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Access is required to see what you're currently listening to and share it via the /nowplaying command.</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>Igloo.SceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>DTXcode</key>
+    <string>1620</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>CFBundleExecutable</key>
+    <string>Igloo</string>
+    <key>UISupportedInterfaceOrientations~iphone</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.0</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>Version 3</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Version 360x60</string>
+            <string>Version 376x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>Version 3</string>
+        </dict>
+        <key>Version 1</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Version 160x60</string>
+            <string>Version 176x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>Version 1</string>
+        </dict>
+        <key>Version 2</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Version 260x60</string>
+            <string>Version 276x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>Version 2</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcons60x60</string>
+          <string>AppIcons76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcons</string>
+      </dict>
+    </dict>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Access is required to unlock Igloo with FaceID/TouchID.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>software.eskimo.igloo.irc</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>igloo</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>software.eskimo.igloo.irc</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>irc</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>software.eskimo.igloo.irc</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>ircs</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTAppStoreToolsBuild</key>
+    <string>16E137</string>
+  </dict>
+</plist>

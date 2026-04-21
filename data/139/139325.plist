@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>DTPlatformVersion</key>
+	<string>17.2</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>ConfigurationIntent</string>
+	</array>
+	<key>DTSDKName</key>
+	<string>iphoneos17.2</string>
+	<key>CFBundleName</key>
+	<string>Revisits</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15C5500a</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>iconBeta</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBeta</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>neuMorpM</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>neuMorpM</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconGreen</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconGreen</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconMex</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconMex</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconAfrica</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconAfrica</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconOrange</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconOrange</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconPurple</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPurple</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconBlue</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBlue</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>neuMorpB</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>neuMorpB</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>cristalToonbCovbig</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>cristalToonbCovbig</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconBlack</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBlack</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>neuMorpG</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>neuMorpG</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconPinkGirl</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPinkGirl</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconYelow</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconYelow</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconTemplate</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconTemplate</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconAqua</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconAqua</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconBlueFlat</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBlueFlat</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconWhite</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconWhite</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconGreenGlow</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconGreenGlow</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconLeatherBlue</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconLeatherBlue</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconBlueDog</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBlueDog</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconPinkFlat</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPinkFlat</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>tooncristalbC</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>tooncristalbC</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconLeatherPurple</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconLeatherPurple</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconCielo</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconCielo</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconDark</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconDark</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconNeon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconNeon</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconLeatherWithe</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconLeatherWithe</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>toonmyi</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>toonmyi</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconPinkDog</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPinkDog</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconLila</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconLila</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconIlustration1</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconIlustration1</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconBlackWhite</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBlackWhite</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconPink</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPink</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconNeon2</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconNeon2</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconIlustration2</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconIlustration2</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>neuMorpP</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>neuMorpP</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>toonmyiC</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>toonmyiC</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>tooncristalb</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>tooncristalb</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconIlustration3</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconIlustration3</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Para mostrar revisitas cercanas</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>DTSDKBuild</key>
+	<string>21C52</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.2</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>23C64</string>
+	<key>DTPlatformBuild</key>
+	<string>21C52</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>MinimumOSVersion</key>
+	<string>17.0</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>DTXcodeBuild</key>
+	<string>15C500b</string>
+	<key>CFBundleVersion</key>
+	<string>20240217</string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>mx.landercorp.Revisits</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>Revisits.SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>DTXcode</key>
+	<string>1520</string>
+	<key>CFBundleExecutable</key>
+	<string>Revisits</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>iconBeta</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBeta</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>neuMorpM</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>neuMorpM</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconGreen</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconGreen</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconMex</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconMex</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconAfrica</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconAfrica</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconOrange</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconOrange</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconPurple</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPurple</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconBlue</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBlue</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>neuMorpB</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>neuMorpB</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>cristalToonbCovbig</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>cristalToonbCovbig</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconBlack</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBlack</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>neuMorpG</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>neuMorpG</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconPinkGirl</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPinkGirl</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconYelow</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconYelow</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconTemplate</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconTemplate</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconAqua</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconAqua</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconBlueFlat</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBlueFlat</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconWhite</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconWhite</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconGreenGlow</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconGreenGlow</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconLeatherBlue</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconLeatherBlue</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconBlueDog</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBlueDog</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconPinkFlat</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPinkFlat</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>tooncristalbC</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>tooncristalbC</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconLeatherPurple</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconLeatherPurple</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconCielo</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconCielo</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconDark</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconDark</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconNeon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconNeon</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconLeatherWithe</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconLeatherWithe</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>toonmyi</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>toonmyi</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconPinkDog</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPinkDog</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconLila</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconLila</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconIlustration1</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconIlustration1</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconBlackWhite</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconBlackWhite</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconPink</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPink</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconNeon2</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconNeon2</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconIlustration2</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconIlustration2</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>neuMorpP</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>neuMorpP</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>toonmyiC</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>toonmyiC</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>tooncristalb</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>tooncristalb</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+			<key>iconIlustration3</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconIlustration3</string>
+				</array>
+				<key>Icon already includes gloss effects</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Usar biometricos para desbloquear</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>iconBlue@3x</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>Revisits</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>mx.landercorp.Revisits</string>
+		</dict>
+	</array>
+</dict>
+</plist>

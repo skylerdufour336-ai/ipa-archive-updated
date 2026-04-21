@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>See where you are in the store by allowing Bluetooth to interact with in-store sensors.</string>
+    <key>AppGroupKey</key>
+    <string>group.walmart.bodegaGM</string>
+    <key>DTPlatformVersion</key>
+    <string>26.1</string>
+    <key>DTSDKBuild</key>
+    <string>23B77</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>AppIdentifierPrefix</key>
+    <string>UDPJ785EBR.</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-8993200673470545~4783809542</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Scan items, use Walmart Pay, and more.</string>
+    <key>FirebaseAppDelegateProxyEnabled</key>
+    <false/>
+    <key>CFBundleDisplayName</key>
+    <string>Bodega Aurrera</string>
+    <key>DTXcodeBuild</key>
+    <string>17B55</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>Some features may require this functionality.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.walmart.bodegaGM</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>cashi</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>FirebaseMessagingAutoInitEnabled</key>
+    <false/>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>Tu autorización nos permitirá mostrarte artículos basados en tus intereses. </string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>See where you are in the store by allowing Bluetooth to interact with in-store sensors.</string>
+    <key>MinimumOSVersion</key>
+    <string>16.0</string>
+    <key>CFBundleName</key>
+    <string>Walmart.bodega</string>
+    <key>CFBundleShortVersionString</key>
+    <string>26.2</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Some features may require this functionality.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Walmart.bodega</string>
+    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+    <dict>
+      <key>checkInFullAccuracyRequestDescription</key>
+      <string>Enabling precise location lets us know when to expect you at the store so we can have your order ready to go.</string>
+    </dict>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Speech recognition will be used to determine which words you speak into this device's microphone.</string>
+    <key>UIDesignRequiresCompatibility</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+    <key>BuildMachineOSBuild</key>
+    <string>24G231</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Some features may require this functionality.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Speak to search for item.</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>Walmart_bodega.SceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Permite el acceso a tu ubicación para usar herramientas de compras en tienda, avisar que estás en camino para el Pickup y más.</string>
+    <key>CFBundleVersion</key>
+    <string>2601222003</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>Spanish (Mexico)</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Some features may require this functionality.</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>bodega</string>
+          <string>bodegaea</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Permite el acceso a tu ubicación para usar herramientas de compras en tienda, avisar que estás en camino para el Pickup y más.</string>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+      <string>com.module.Walmart.bodega.refresh.task</string>
+    </array>
+    <key>DTSDKName</key>
+    <string>iphoneos26.1</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Some features may require this functionality.</string>
+    <key>DTPlatformBuild</key>
+    <string>23B77</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Photo Library access is required for image upload when submitting a review.</string>
+    <key>DTXcode</key>
+    <string>2610</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+  </dict>
+</plist>

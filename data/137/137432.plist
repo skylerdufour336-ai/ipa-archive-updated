@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>17.2</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleName</key>
+    <string>Counting Dots</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.2</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>Counting Dots60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>Counting Dots</string>
+      </dict>
+    </dict>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
+    <key>CFBundleDisplayName</key>
+    <string>Counting Dots</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIStatusBarHidden~ipad</key>
+    <true/>
+    <key>DTSDKBuild</key>
+    <string>21C52</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.2</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>23C71</string>
+    <key>DTPlatformBuild</key>
+    <string>21C52</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>15C500b</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>12</string>
+    <key>CFBundleVersion</key>
+    <string>17</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>ArcherPro-Bold.otf</string>
+      <string>Catamaran-Bold.ttf</string>
+      <string>Rubik-Regular.ttf</string>
+      <string>Rubik-Bold.ttf</string>
+    </array>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.elliesgames.Counting-Dots</string>
+    <key>DTXcode</key>
+    <string>1520</string>
+    <key>CFBundleExecutable</key>
+    <string>Counting Dots</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>Counting Dots60x60</string>
+          <string>Counting Dots76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>Counting Dots</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.elliesgames.Counting-Dots</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>counting-dots</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15C5500a</string>
+  </dict>
+</plist>

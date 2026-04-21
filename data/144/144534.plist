@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen.storyboard</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Turn on Bluetooth to discover, connect with other devices</string>
+    <key>DTPlatformVersion</key>
+    <string>26.1</string>
+    <key>DTSDKBuild</key>
+    <string>23B77</string>
+    <key>NFCReaderUsageDescription</key>
+    <string>Scan NFC tags to set up your device.</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Please allow to scan QR code and take pitures</string>
+    <key>UILaunchToFullScreenByDefaultOnMac</key>
+    <false/>
+    <key>GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS</key>
+    <false/>
+    <key>CFBundleDisplayName</key>
+    <string>Matter Utilities</string>
+    <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+    <array>
+      <string>D27</string>
+    </array>
+    <key>DTXcodeBuild</key>
+    <string>17B100</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.DF.MatterTool</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.developer-tools</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>com.apple.home</string>
+      <string>alexa</string>
+      <string>smartthings</string>
+      <string>googlehome</string>
+      <string>wx7a47165b2980342d</string>
+    </array>
+    <key>LSEnvironment</key>
+    <dict>
+      <key>CommissioningCustomFlowReturnUrl</key>
+      <string>mt://modelinfo?payload</string>
+      <key>CommissioningCustomFlowLedgerUrl</key>
+      <string>https://dcl.dev.dsr-corporation.com/api/modelinfo/models</string>
+      <key>CommissioningCustomFlowUseMockFlag</key>
+      <true/>
+    </dict>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.6</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>MinimumOSVersion</key>
+    <string>16.4</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Turn on Bluetooth to discover, connect with other devices</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This app needs to save images to your photo library.</string>
+    <key>CFBundleName</key>
+    <string>MatterTool</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.5.5</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>You have to allow the Local Network permission to enable scanning, pairing, and control of the Matter devices connected to the local area network.</string>
+    <key>CFBundleExecutable</key>
+    <string>MatterTool</string>
+    <key>NSBluetoothWhileInUseUsageDescription</key>
+    <string>Turn on Bluetooth to discover, connect with other devices</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>UISupportsTrueScreenSizeOnMac</key>
+    <false/>
+    <key>BuildMachineOSBuild</key>
+    <string>25C56</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <true/>
+      <key>UISceneConfigurations</key>
+      <dict/>
+    </dict>
+    <key>com.apple.developer.nfc.readersession.felica.systemcodes
+</key>
+    <array>
+      <string></string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>The app need to use your location to scan nearly device</string>
+    <key>Privacy - Local Network Usage Description</key>
+    <string>You have to allow the Local Network permission to enable scanning, pairing, and control of the Matter devices connected to the local area network</string>
+    <key>com.apple.developer.nfc.readersession.felica.systemcodes</key>
+    <array>
+      <string>12FC</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>10</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>You need to allow location permission get your current Wi-Fi information. If not the feature will be occurred error.</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.1</string>
+    <key>NSBonjourServices</key>
+    <array>
+      <string>_matter._tcp</string>
+      <string>_matter._tcp.</string>
+      <string>_matterc._udp</string>
+      <string>_matterd._udp</string>
+      <string>_meshcop._udp</string>
+      <string>_srpl-tls._tcp</string>
+      <string>_trel._udp</string>
+      <string>_bonjour._tcp</string>
+      <string>_lnp._tcp.</string>
+    </array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <false/>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>23B77</string>
+    <key>UILaunchScreen</key>
+    <dict>
+      <key>UILaunchScreen</key>
+      <dict/>
+    </dict>
+    <key>DTXcode</key>
+    <string>2611</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs access to your photos to select images for upload.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C53</string>
+  </dict>
+</plist>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>NSAdvertisingAttributionReportEndpoint</key>
+    <string>https://appsflyer-skadnetwork.com/</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>DTPlatformVersion</key>
+    <string>17.2</string>
+    <key>DTSDKBuild</key>
+    <string>21C52</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>NSPhotoLibraryUsageDescription</key>
+      <string>$(PRODUCT_NAME) gallery use.</string>
+      <key>UIViewControllerBasedStatusBarAppearance</key>
+      <true/>
+      <key>NSRemindersUsageDescription</key>
+      <string>$(PRODUCT_NAME) reminders use.</string>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>NSCalendarsUsageDescription</key>
+        <string>$(PRODUCT_NAME) calendar use.</string>
+        <key>NSMotionUsageDescription</key>
+        <string>$(PRODUCT_NAME) motion data use.</string>
+        <key>NSContactsUsageDescription</key>
+        <string>$(PRODUCT_NAME) contacts use.</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>$(PRODUCT_NAME) microphone use.</string>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+          <string>AppIcon83.5x83.5</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+        <key>UIPrerenderedIcon</key>
+        <true/>
+        <key>UIViewControllerBasedStatusBarAppearance</key>
+        <true/>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+        <key>NSCameraUsageDescription</key>
+        <string>$(PRODUCT_NAME) camera use.</string>
+        <key>NSRemindersUsageDescription</key>
+        <string>$(PRODUCT_NAME) reminders use.</string>
+        <key>NSPhotoLibraryAddUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+      </dict>
+      <key>NSCameraUsageDescription</key>
+      <string>$(PRODUCT_NAME) camera use.</string>
+      <key>NSPhotoLibraryAddUsageDescription</key>
+      <string>$(PRODUCT_NAME) gallery use.</string>
+      <key>NSCalendarsUsageDescription</key>
+      <string>$(PRODUCT_NAME) calendar use.</string>
+      <key>NSMotionUsageDescription</key>
+      <string>$(PRODUCT_NAME) motion data use.</string>
+      <key>NSContactsUsageDescription</key>
+      <string>$(PRODUCT_NAME) contacts use.</string>
+      <key>NSMicrophoneUsageDescription</key>
+      <string>$(PRODUCT_NAME) microphone use.</string>
+    </dict>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-7769236841981517~6215050443</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>$(PRODUCT_NAME) camera use.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Legend of Wizard : Idle RPG</string>
+    <key>DTXcodeBuild</key>
+    <string>15C65</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>$(PRODUCT_NAME) reminders use.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.LockOn.WizardsGlobal.ios</string>
+    <key>UIFileSharingEnabled</key>
+    <false/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>NSPhotoLibraryUsageDescription</key>
+      <string>$(PRODUCT_NAME) gallery use.</string>
+      <key>UIViewControllerBasedStatusBarAppearance</key>
+      <true/>
+      <key>NSRemindersUsageDescription</key>
+      <string>$(PRODUCT_NAME) reminders use.</string>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>NSCalendarsUsageDescription</key>
+        <string>$(PRODUCT_NAME) calendar use.</string>
+        <key>NSMotionUsageDescription</key>
+        <string>$(PRODUCT_NAME) motion data use.</string>
+        <key>NSContactsUsageDescription</key>
+        <string>$(PRODUCT_NAME) contacts use.</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>$(PRODUCT_NAME) microphone use.</string>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+        <key>UIPrerenderedIcon</key>
+        <true/>
+        <key>UIViewControllerBasedStatusBarAppearance</key>
+        <true/>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+        <key>NSCameraUsageDescription</key>
+        <string>$(PRODUCT_NAME) camera use.</string>
+        <key>NSRemindersUsageDescription</key>
+        <string>$(PRODUCT_NAME) reminders use.</string>
+        <key>NSPhotoLibraryAddUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+      </dict>
+      <key>NSCameraUsageDescription</key>
+      <string>$(PRODUCT_NAME) camera use.</string>
+      <key>NSPhotoLibraryAddUsageDescription</key>
+      <string>$(PRODUCT_NAME) gallery use.</string>
+      <key>NSCalendarsUsageDescription</key>
+      <string>$(PRODUCT_NAME) calendar use.</string>
+      <key>NSMotionUsageDescription</key>
+      <string>$(PRODUCT_NAME) motion data use.</string>
+      <key>NSContactsUsageDescription</key>
+      <string>$(PRODUCT_NAME) contacts use.</string>
+      <key>NSMicrophoneUsageDescription</key>
+      <string>$(PRODUCT_NAME) microphone use.</string>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>EpicPackagingMode</key>
+    <string>Distribution</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This identifier will be used to deliver personalized ads to you.</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSMotionUsageDescription</key>
+    <string>$(PRODUCT_NAME) motion data use.</string>
+    <key>FacebookAutoLogAppEventsEnabled</key>
+    <string>false</string>
+    <key>MinimumOSVersion</key>
+    <string>14.0</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>$(PRODUCT_NAME) gallery use.</string>
+    <key>CFBundleName</key>
+    <string>WizardsGlobal</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.1.11</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>SKAdNetworkItems</key>
+    <array>
+      <dict>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+        <key>UIViewControllerBasedStatusBarAppearance</key>
+        <true/>
+        <key>NSPhotoLibraryAddUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+        <key>NSCameraUsageDescription</key>
+        <string>$(PRODUCT_NAME) camera use.</string>
+        <key>NSRemindersUsageDescription</key>
+        <string>$(PRODUCT_NAME) reminders use.</string>
+        <key>NSCalendarsUsageDescription</key>
+        <string>$(PRODUCT_NAME) calendar use.</string>
+        <key>SKAdNetworkIdentifier</key>
+        <string>cstr6suwn9.skadnetwork</string>
+        <key>NSMotionUsageDescription</key>
+        <string>$(PRODUCT_NAME) motion data use.</string>
+        <key>NSContactsUsageDescription</key>
+        <string>$(PRODUCT_NAME) contacts use.</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>$(PRODUCT_NAME) microphone use.</string>
+      </dict>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+      <string>metal</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Warriors</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15E204</string>
+    <key>BuildMachineOSBuild</key>
+    <string>23D60</string>
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array>
+      <dict>
+        <key>NSPhotoLibraryAddUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+        <key>UIViewControllerBasedStatusBarAppearance</key>
+        <true/>
+        <key>NSPrivacyAccessedAPITypeReasons</key>
+        <array>
+          <string>CA92.1</string>
+        </array>
+        <key>NSPrivacyAccessedAPIType</key>
+        <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+        <key>NSCameraUsageDescription</key>
+        <string>$(PRODUCT_NAME) camera use.</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+        <key>NSContactsUsageDescription</key>
+        <string>$(PRODUCT_NAME) contacts use.</string>
+        <key>NSRemindersUsageDescription</key>
+        <string>$(PRODUCT_NAME) reminders use.</string>
+        <key>NSMotionUsageDescription</key>
+        <string>$(PRODUCT_NAME) motion data use.</string>
+        <key>NSCalendarsUsageDescription</key>
+        <string>$(PRODUCT_NAME) calendar use.</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>$(PRODUCT_NAME) microphone use.</string>
+      </dict>
+      <dict>
+        <key>NSPhotoLibraryAddUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+        <key>UIViewControllerBasedStatusBarAppearance</key>
+        <true/>
+        <key>NSPrivacyAccessedAPITypeReasons</key>
+        <array>
+          <string>E174.1</string>
+        </array>
+        <key>NSPrivacyAccessedAPIType</key>
+        <string>NSPrivacyAccessedAPICategoryDiskSpace</string>
+        <key>NSCameraUsageDescription</key>
+        <string>$(PRODUCT_NAME) camera use.</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+        <key>NSContactsUsageDescription</key>
+        <string>$(PRODUCT_NAME) contacts use.</string>
+        <key>NSRemindersUsageDescription</key>
+        <string>$(PRODUCT_NAME) reminders use.</string>
+        <key>NSMotionUsageDescription</key>
+        <string>$(PRODUCT_NAME) motion data use.</string>
+        <key>NSCalendarsUsageDescription</key>
+        <string>$(PRODUCT_NAME) calendar use.</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>$(PRODUCT_NAME) microphone use.</string>
+      </dict>
+    </array>
+    <key>EpicAppVersion</key>
+    <string>0.774 04-08 14:56</string>
+    <key>FirebaseAppStoreReceiptURLCheckEnabled</key>
+    <string>NO</string>
+    <key>GIDClientID</key>
+    <string>326251671592-tbfu3vc3b1hctd9nhphrnankmgklj0gf.apps.googleusercontent.com</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>$(PRODUCT_NAME) calendar use.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>$(PRODUCT_NAME) microphone use.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>&gt;</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleVersion</key>
+    <string>0.775</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>NSPhotoLibraryAddUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+        <key>UIViewControllerBasedStatusBarAppearance</key>
+        <true/>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>$(PRODUCT_NAME) microphone use.</string>
+        <key>NSCameraUsageDescription</key>
+        <string>$(PRODUCT_NAME) camera use.</string>
+        <key>NSCalendarsUsageDescription</key>
+        <string>$(PRODUCT_NAME) calendar use.</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.326251671592-tbfu3vc3b1hctd9nhphrnankmgklj0gf</string>
+        </array>
+        <key>NSRemindersUsageDescription</key>
+        <string>$(PRODUCT_NAME) reminders use.</string>
+        <key>NSMotionUsageDescription</key>
+        <string>$(PRODUCT_NAME) motion data use.</string>
+        <key>NSContactsUsageDescription</key>
+        <string>$(PRODUCT_NAME) contacts use.</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>$(PRODUCT_NAME) gallery use.</string>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string></string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.2</string>
+    <key>GIDServerClientID</key>
+    <string>326251671592-hm843i2j8ivqtk73nqlac1od3iuq1qq1.apps.googleusercontent.com</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSPhotoLibraryAddUsageDescription</key>
+      <string>$(PRODUCT_NAME) gallery use.</string>
+      <key>UIViewControllerBasedStatusBarAppearance</key>
+      <true/>
+      <key>NSMicrophoneUsageDescription</key>
+      <string>$(PRODUCT_NAME) microphone use.</string>
+      <key>NSCameraUsageDescription</key>
+      <string>$(PRODUCT_NAME) camera use.</string>
+      <key>NSCalendarsUsageDescription</key>
+      <string>$(PRODUCT_NAME) calendar use.</string>
+      <key>NSRemindersUsageDescription</key>
+      <string>$(PRODUCT_NAME) reminders use.</string>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSMotionUsageDescription</key>
+      <string>$(PRODUCT_NAME) motion data use.</string>
+      <key>NSContactsUsageDescription</key>
+      <string>$(PRODUCT_NAME) contacts use.</string>
+      <key>NSPhotoLibraryUsageDescription</key>
+      <string>$(PRODUCT_NAME) gallery use.</string>
+    </dict>
+    <key>NSContactsUsageDescription</key>
+    <string>$(PRODUCT_NAME) contacts use.</string>
+    <key>DTPlatformBuild</key>
+    <string>21C52</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>$(PRODUCT_NAME) gallery use.</string>
+    <key>DTXcode</key>
+    <string>1510</string>
+    <key>UIInterfaceOrientation</key>
+    <string>UIInterfaceOrientationLandscapeRight</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+  </dict>
+</plist>

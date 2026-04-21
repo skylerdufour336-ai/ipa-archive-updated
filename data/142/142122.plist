@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>CoronaDelegates</key>
+    <array/>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Set Location Always Usage Description in build settings</string>
+    <key>DTPlatformVersion</key>
+    <string>18.2</string>
+    <key>DTSDKBuild</key>
+    <string>22C146</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleBlackTranslucent</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+          <string>AppIcon83.5x83.5</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSSiriUsageDescription</key>
+    <string>Set Siri Usage description in build settings</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>We take a picture in order to create a personalized Puppy School ID card</string>
+    <key>NSMainNibFile</key>
+    <string>MainWindow</string>
+    <key>CFBundleDisplayName</key>
+    <string>Bath Battle</string>
+    <key>CoronaViewSupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTXcodeBuild</key>
+    <string>16C5032a</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>Set Reminders Usage description in build settings</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.megapops.MilliesBathBattle</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSMainNibFile~ipad</key>
+    <string>MainWindow-iPad</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>NSMotionUsageDescription</key>
+    <string>Set Motion Usage description in build settings</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Set Bluetooth Peripheral description in build settings</string>
+    <key>MinimumOSVersion</key>
+    <string>11.0</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Millie would like to save your photo</string>
+    <key>CoronaSDKBuild</key>
+    <string>3717</string>
+    <key>CFBundleName</key>
+    <string>Bath Battle</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.1.0</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Bath Battle V1.1.0</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Set Apple Music description in build settings</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Set Speech Recognition Usage description in build settings</string>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>16C5031b</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Set Location Usage Description in build settings</string>
+    <key>BuildMachineOSBuild</key>
+    <string>24C101</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Not used within app</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Millie would like to access your microphone in order to record your voiceover</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Set Location When In Use Usage description in build settings</string>
+    <key>CFBundleVersion</key>
+    <string>2025.2.162145</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>NSHomeKitUsageDescription</key>
+    <string>Set Home Kit Usage Description in build settings</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.2</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>milliewashere.com</key>
+        <dict>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+          <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>NSContactsUsageDescription</key>
+    <string>Set Contacts Usage Description in build settings</string>
+    <key>DTPlatformBuild</key>
+    <string>22C146</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Millie would like to save your photo</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UIInterfaceOrientation</key>
+    <string>UIInterfaceOrientationLandscapeLeft</string>
+    <key>DTXcode</key>
+    <string>1620</string>
+  </dict>
+</plist>

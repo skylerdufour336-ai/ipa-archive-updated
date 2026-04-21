@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>DTPlatformVersion</key>
+	<string>18.0</string>
+	<key>CFBundleName</key>
+	<string>Fontpacks</string>
+	<key>DTSDKName</key>
+	<string>iphoneos18.0</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>AppIcon5</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon5</string>
+			</dict>
+			<key>AppIcon9</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon9</string>
+			</dict>
+			<key>AppIcon4</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon4</string>
+			</dict>
+			<key>AppIcon8</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon8</string>
+			</dict>
+			<key>AppIcon3</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon3</string>
+			</dict>
+			<key>AppIcon7</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon7</string>
+			</dict>
+			<key>AppIcon2</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon2</string>
+			</dict>
+			<key>AppIcon6</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon6</string>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict>
+	</dict>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>processing</string>
+	</array>
+	<key>DTSDKBuild</key>
+	<string>22A3362</string>
+	<key>NSAccentColorName</key>
+	<string>AccentColor</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>24A335</string>
+	<key>DTPlatformBuild</key>
+	<string>22A3362</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>fr.mdapps.fontpacks.verifySubscription</string>
+	</array>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>DTXcodeBuild</key>
+	<string>16A242d</string>
+	<key>CFBundleVersion</key>
+	<string>64</string>
+	<key>MinimumOSVersion</key>
+	<string>15.0</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OpenDyslexic-Regular.otf</string>
+		<string>OpenDyslexic-Bold.otf</string>
+		<string>OpenDyslexic-BoldItalic.otf</string>
+		<string>OpenDyslexic-Italic.otf</string>
+		<string>OpenDyslexicAlta-Bold.otf</string>
+		<string>OpenDyslexicAlta-BoldItalic.otf</string>
+		<string>OpenDyslexicAlta-Italic.otf</string>
+		<string>OpenDyslexicAlta-Regular.otf</string>
+		<string>OpenDyslexicMono-Regular.otf</string>
+		<string>OpenDyslexicThree-Bold.ttf</string>
+		<string>OpenDyslexicThree-Regular.ttf</string>
+		<string>HarryP.ttf</string>
+		<string>MagicSchoolOne.ttf</string>
+		<string>MagicSchoolTwo.ttf</string>
+		<string>Benne.otf</string>
+		<string>Dumbledor.ttf</string>
+		<string>Lumos.ttf</string>
+		<string>Parseltongue.ttf</string>
+		<string>Aurebesh_droid-Regular.ttf</string>
+		<string>Aurebesh_English-Regular.ttf</string>
+		<string>Aurek-Besh.ttf</string>
+		<string>Aurek-Besh-Narrow.ttf</string>
+		<string>SfDistantGalaxy.ttf</string>
+		<string>SfDistantGalaxyAlternate.ttf</string>
+		<string>SFDistantGalaxyAlternate-Italic.ttf</string>
+		<string>SfDistantGalaxyAltoutline.ttf</string>
+		<string>SFDistantGalaxyAltOutline-Italic.ttf</string>
+		<string>SFDistantGalaxy-Italic.ttf</string>
+		<string>SfDistantGalaxyOutline.ttf</string>
+		<string>SFDistantGalaxyOutline-Italic.ttf</string>
+		<string>SfDistantGalaxySymbols.ttf</string>
+		<string>SFDistantGalaxySymbols-Italic.ttf</string>
+		<string>AccessibleDfA-bold.ttf</string>
+		<string>AccessibleDfA-italic.ttf</string>
+		<string>AccessibleDfA.ttf</string>
+		<string>eido_mono.otf</string>
+		<string>Luciole-BoldItalic.ttf</string>
+		<string>Luciole-Bold.ttf</string>
+		<string>Luciole-Italic.ttf</string>
+		<string>Luciole-Regular.ttf</string>
+		<string>SylexiadSansSpacedMed-BIta.ttf</string>
+		<string>SylexiadSansSpacedMed-Bold.ttf</string>
+		<string>SylexiadSansSpacedMed-Ita.ttf</string>
+		<string>SylexiadSansSpacedMed.ttf</string>
+		<string>aAmazingMother.ttf</string>
+		<string>AlexBrush-Regular.ttf</string>
+		<string>Beautifyscript.otf</string>
+		<string>BeautyFlawless.ttf</string>
+		<string>breather.ttf</string>
+		<string>BrockScript.ttf</string>
+		<string>BrushpenStory-Regular.ttf</string>
+		<string>ChopinScript.ttf</string>
+		<string>Constantia.ttf</string>
+		<string>Earcy Night.ttf</string>
+		<string>Fair-Prosper.ttf</string>
+		<string>Gebrina-Regular.ttf</string>
+		<string>GreatVibes-Regular.ttf</string>
+		<string>HanfordScript.ttf</string>
+		<string>Kleymissky.otf</string>
+		<string>Magiera-Script.ttf</string>
+		<string>MonsieurLaDoulaise-Regular.ttf</string>
+		<string>MottinghamElegantCalligraphy.ttf</string>
+		<string>Nickainley.otf</string>
+		<string>Philosophy.ttf</string>
+		<string>PinyonScript.ttf</string>
+		<string>Precious.ttf</string>
+		<string>RaBali.ttf</string>
+		<string>raustila.ttf</string>
+		<string>Reading.ttf</string>
+		<string>Zenithcp.otf</string>
+		<string>AAntaraDistance.ttf</string>
+		<string>AArigatouGozaimasu.ttf</string>
+		<string>Collegiateheavyoutline.ttf</string>
+		<string>Fontania.ttf</string>
+		<string>ACharmingFont.ttf</string>
+		<string>ALolitaScorned.ttf</string>
+		<string>Beurk.ttf</string>
+		<string>Bloody.ttf</string>
+		<string>Buffied.ttf</string>
+		<string>Cryptik.ttf</string>
+		<string>Dead Font Walking.otf</string>
+		<string>DoubleFeature.ttf</string>
+		<string>GorefontIi.ttf</string>
+		<string>Gypsy Curse.ttf</string>
+		<string>Horrorfind.ttf</string>
+		<string>LunacyMore.ttf</string>
+		<string>October Crow.ttf</string>
+		<string>Paintdrips.ttf</string>
+		<string>plasdrip.ttf</string>
+		<string>plasdrpe.ttf</string>
+		<string>ROCKY AOE.ttf</string>
+		<string>Solsticeofsuffering.ttf</string>
+		<string>TangoMacabre.ttf</string>
+		<string>Zombie.ttf</string>
+		<string>Big Snow.ttf</string>
+		<string>Blenkinsopbold.ttf</string>
+		<string>BodiemfHolly.ttf</string>
+		<string>Cardita.ttf</string>
+		<string>Christbaumkugeln.ttf</string>
+		<string>FontleroyBrownNf.ttf</string>
+		<string>Holly.ttf</string>
+		<string>IceCaps.ttf</string>
+		<string>Jfsnowbiz.ttf</string>
+		<string>Kerstkaart.ttf</string>
+		<string>MagicChristmas.ttf</string>
+		<string>Peppermintcanes.otf</string>
+		<string>Snowfall.ttf</string>
+		<string>Wizardry.ttf</string>
+		<string>Xmastree.ttf</string>
+		<string>ColeCarreira.ttf</string>
+		<string>Cursif.ttf</string>
+		<string>Graphecrit.otf</string>
+		<string>Graphecrit Junior.otf</string>
+		<string>HabitDeMotNormal.ttf</string>
+		<string>Maternellecolor trace cursive.ttf</string>
+		<string>Alamain.ttf</string>
+		<string>Gruenewald VA.ttf</string>
+		<string>Ecolier_Court.ttf</string>
+		<string>Ecolier_Lignes_Court.ttf</string>
+		<string>LearningCurve.ttf</string>
+		<string>LearningCurveDashed.ttf</string>
+		<string>Little Days.ttf</string>
+		<string>AEZhearts Regular.ttf</string>
+		<string>Happy Valentine's Day.ttf</string>
+		<string>Heartz.ttf</string>
+		<string>Iloveyouforever.ttf</string>
+		<string>Love Me For A Reason.ttf</string>
+		<string>Love Me Tender.ttf</string>
+		<string>Lovestruck.ttf</string>
+		<string>Lsthisnightisflawless.otf</string>
+		<string>LUVYA BABE.ttf</string>
+		<string>We Are In Love.ttf</string>
+		<string>VALENTINEHEARTS.ttf</string>
+		<string>A Awake Hearts.ttf</string>
+		<string>Be My Valentine.ttf</string>
+		<string>Lovely Valentine.ttf</string>
+		<string>a Amore Lettera.ttf</string>
+		<string>Miss Fajardose.ttf</string>
+		<string>Atkinson Hyperlegible.ttf</string>
+		<string>Atkinson Hyperlegible Bold.ttf</string>
+		<string>Atkinson Hyperlegible Bold Italic.ttf</string>
+		<string>Atkinson Hyperlegible Italic.ttf</string>
+		<string>Andika New Basic Bold.ttf</string>
+		<string>Andika New Basic Bold Italic.ttf</string>
+		<string>Andika New Basic Italic.ttf</string>
+		<string>Andika New Basic.ttf</string>
+		<string>1942 report.ttf</string>
+		<string>AmerType Md BT.ttf</string>
+		<string>CarbonType.ttf</string>
+		<string>Cella.otf</string>
+		<string>Draconian Typewriter.ttf</string>
+		<string>Erika Ormig.ttf</string>
+		<string>F25 Executive.otf</string>
+		<string>GNUTypewriter.ttf</string>
+		<string>junko's typewriter.ttf</string>
+		<string>Kingthings Trypewriter 2.ttf</string>
+		<string>Metacopy.ttf</string>
+		<string>Mom´sTypewriter.ttf</string>
+		<string>Old printing press.ttf</string>
+		<string>Remington Noiseless.ttf</string>
+		<string>Schreibmaschine.ttf</string>
+		<string>Silk RemingtonSBold.ttf</string>
+		<string>Special Elite.ttf</string>
+		<string>STAMPWRITER-KIT.ttf</string>
+		<string>Tippa.ttf</string>
+		<string>Typical Writer.ttf</string>
+		<string>Veteran Typewriter.ttf</string>
+		<string>Another Typewriter.ttf</string>
+		<string>Artisan12.otf</string>
+		<string>Courier Prime Bold Italic.ttf</string>
+		<string>Courier Prime Bold.ttf</string>
+		<string>Courier Prime Italic.ttf</string>
+		<string>Courier Prime.ttf</string>
+		<string>Cutive Mono.ttf</string>
+		<string>F25 Bank Printer Bold.ttf</string>
+		<string>F25 Bank Printer.ttf</string>
+		<string>Mechanical.otf</string>
+		<string>Mechanical Bold.otf</string>
+		<string>Mechanical Bold Oblique.otf</string>
+		<string>Mechanical Oblique.otf</string>
+		<string>Nimbus Mono Bold Oblique.otf</string>
+		<string>Nimbus Mono Bold.otf</string>
+		<string>Nimbus Mono Regular Oblique.otf</string>
+		<string>Nimbus Mono.otf</string>
+		<string>ReallyQuickStaffMeeting.ttf</string>
+		<string>StaffMeeting.ttf</string>
+		<string>TeX Gyre Cursor Bold Italic.otf</string>
+		<string>TeX Gyre Cursor Bold.otf</string>
+		<string>TeX Gyre Cursor Italic.otf</string>
+		<string>TeX Gyre Cursor.otf</string>
+		<string>Typewriter_Condensed Bold.otf</string>
+		<string>Typewriter_Condensed_Demi.otf</string>
+		<string>Typewriter_Condensed.otf</string>
+		<string>Typewriterhand.ttf</string>
+		<string>Blob Spongey Lowercase.ttf</string>
+		<string>Hawaiian Kids.ttf</string>
+		<string>Some Time Later.otf</string>
+		<string>SpongeBob Font Condensed.otf</string>
+		<string>SpongeBob Font Wide.otf</string>
+		<string>Spongeboy.otf</string>
+		<string>Spongeboytt2.ttf</string>
+		<string>New Waltograph UI.ttf</string>
+		<string>New Waltograph.ttf</string>
+		<string>Bears.ttf</string>
+		<string>Dan's Disney UI.ttf</string>
+		<string>Dan's Disney.ttf</string>
+		<string>Diogenes.ttf</string>
+		<string>Lost Fish.ttf</string>
+		<string>Mickorama.ttf</string>
+		<string>Mouse Memoirs.ttf</string>
+		<string>PrincessAndTheFrog.ttf</string>
+		<string>Akbar.ttf</string>
+		<string>EatMyShorts.ttf</string>
+		<string>HollywoodHills.ttf</string>
+		<string>SuperBakery.ttf</string>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
+	<key>CFBundleIdentifier</key>
+	<string>fr.mdapps.fontpacks</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+	</dict>
+	<key>DTXcode</key>
+	<string>1600</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>CFBundleExecutable</key>
+	<string>Fontpacks</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>AppIcon5</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon5</string>
+			</dict>
+			<key>AppIcon9</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon9</string>
+			</dict>
+			<key>AppIcon4</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon4</string>
+			</dict>
+			<key>AppIcon8</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon8</string>
+			</dict>
+			<key>AppIcon3</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon3</string>
+			</dict>
+			<key>AppIcon7</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon7</string>
+			</dict>
+			<key>AppIcon2</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon2</string>
+			</dict>
+			<key>AppIcon6</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon6</string>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>fr.mdapps.fontpacks</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fontpacks</string>
+			</array>
+		</dict>
+	</array>
+	<key>DTAppStoreToolsBuild</key>
+	<string>16A242d</string>
+</dict>
+</plist>

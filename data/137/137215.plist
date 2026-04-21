@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSContactsUsageDescription</key>
+    <string>We neew access to your contact list for sharing application with your friends</string>
+    <key>DTPlatformVersion</key>
+    <string>16.1</string>
+    <key>CFBundleName</key>
+    <string>Business Click</string>
+    <key>DTSDKName</key>
+    <string>iphoneos16.1</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>You can pick an image from your Gallery to assign it to your profile</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Track yourself where you can play</string>
+    <key>CFBundleDisplayName</key>
+    <string>Business Click</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Track yourself where you can play</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>20B71</string>
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera to allow you to take and add a photo to your profile</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.1</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Track yourself where you can play</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>22G120</string>
+    <key>DTPlatformBuild</key>
+    <string>20B71</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>14B47b</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>15.0</string>
+    <key>CFBundleVersion</key>
+    <string>3</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>You can pick an image from your Gallery to assign it to your profile</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Use voice dictation</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.le-hong-thang.business-click</string>
+    <key>DTXcode</key>
+    <string>1410</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>NSCalendarsUsageDescription</key>
+    <string>We need access to your calendar to add reminder</string>
+    <key>CFBundleExecutable</key>
+    <string>Business Click</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Increase privacy level of your application</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>DTXcodeBuildDistribution</key>
+    <string>14B47b</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15E204</string>
+  </dict>
+</plist>

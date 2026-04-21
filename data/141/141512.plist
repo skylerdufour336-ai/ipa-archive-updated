@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>DTPlatformVersion</key>
+    <string>18.2</string>
+    <key>CFBundleName</key>
+    <string>FlockEye</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.2</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>I need that because it is the only way to store pictures and videos this application takes.
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;string&gt;I need that because it is the only way to store pictures and videos application takes.&lt;/string&gt;
+&lt;/plist&gt;
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;string&gt;I need that because it is the only way to store pictures and videos application takes.&lt;/string&gt;
+&lt;/plist&gt;
+</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
+    <key>CFBundleDisplayName</key>
+    <string></string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>DTSDKBuild</key>
+    <string>22C146</string>
+    <key>NSCameraUsageDescription</key>
+    <string>I need camera because this is a video and picture taking application. Application does not share content directly but you can copy picture or videos to  photo library by pressing a button.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.06</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24D81</string>
+    <key>DTPlatformBuild</key>
+    <string>22C146</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>16C5032a</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+    <key>CFBundleVersion</key>
+    <string>6</string>
+    <key>NSBonjourServices</key>
+    <array>
+      <string>_myBekci._tcp</string>
+      <string>_myBekci._udp</string>
+    </array>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>I need that because it is the only way to store pictures and videos this application takes.</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen.xib</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>To trigger taking with enviromental audio level we need microphone.</string>
+    <key>CFBundleIdentifier</key>
+    <string>info.celen.flock</string>
+    <key>DTXcode</key>
+    <string>1620</string>
+    <key>CFBundleExecutable</key>
+    <string>FlockEye</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Need to receive and send image</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>16C7015</string>
+  </dict>
+</plist>

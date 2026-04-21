@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>18.1</string>
+    <key>CFBundleName</key>
+    <string>Live Studio</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.1</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Access content from your photos</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>DTSDKBuild</key>
+    <string>22B74</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Used to detect max video resolution for creating Live Photos.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.3.1</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24B83</string>
+    <key>DTPlatformBuild</key>
+    <string>22B74</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>16B40</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+    <key>CFBundleVersion</key>
+    <string>2941</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Live Studio uses microphone</string>
+    <key>SendGrid Token</key>
+    <string>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</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.aasatt.livePhotoConverter</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneStoryboardFile</key>
+            <string>Main</string>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>Live_Studio.SceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>DTXcode</key>
+    <string>1610</string>
+    <key>Log Level</key>
+    <string>error</string>
+    <key>CFBundleExecutable</key>
+    <string>Live Studio</string>
+    <key>GIPHY API Key</key>
+    <string>O6M4w6FfYOdJYDSfko8H9lDkUolMjAJn</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>16B39</string>
+  </dict>
+</plist>

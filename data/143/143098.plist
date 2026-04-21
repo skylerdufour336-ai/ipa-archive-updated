@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>The data will only be used to deliver personalized ads to you. Please support this app by allowing tracking to help us build and sustain this app. Thank you!</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>DTPlatformVersion</key>
+    <string>17.0</string>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>AddTypeConfigurationIntent</string>
+      <string>AllTypeConfigurationIntent</string>
+      <string>AllTypeMediumConfigurationIntent</string>
+      <string>AllTypeSmallConfigurationIntent</string>
+      <string>IconConfigurationIntent</string>
+      <string>TaskConfigurationIntent</string>
+    </array>
+    <key>CFBundleName</key>
+    <string>FRPlanner</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.0</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>To attach photos to a note or task, Tiny Planner needs to access your Photos which lets you insert photos from your Photos library.</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.fengge.everplan</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>EverPlanFRShareExtension</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Tiny Planner will use it to provide better location search suggestions.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Tiny Planner</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Tiny Planner will use it to provide better location search suggestions. </string>
+    <key>DTSDKBuild</key>
+    <string>21A325</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This lets you take photos to insert into your note or task’s attachment.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.4</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Tiny Planner will use it to provide better location search suggestions.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>22G120</string>
+    <key>DTPlatformBuild</key>
+    <string>21A325</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>15A240d</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>12.0</string>
+    <key>CFBundleVersion</key>
+    <string>58</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>To be able to show your events, Tiny Planner needs to access your Calendar. </string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>To attach photos to a note or task, Tiny Planner needs to access your Photos which lets you insert photos from your Photos library.</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>HelveticaNeue.ttc</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This lets you record audio notes.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.fengge.everplan</string>
+    <key>DTXcode</key>
+    <string>1500</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>To be able to show your events, Tiny Planner needs to access your Calendar.</string>
+    <key>CFBundleExecutable</key>
+    <string>FRPlanner</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Tiny Planner incorporates Touch ID/Face ID for unlocking the note without requiring manual entry of a passcode.</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSContactsUsageDescription</key>
+    <string>To be able to invite Email Contacts, Tiny Planner needs to access your Contacts.</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15A240a</string>
+  </dict>
+</plist>

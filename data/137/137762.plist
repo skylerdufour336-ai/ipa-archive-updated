@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>DTPlatformVersion</key>
+    <string>16.2</string>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>com.johnhair.mycal2.monthview</string>
+      <string>com.johnhair.mycal2.weekview</string>
+      <string>com.johnhair.mycal2.dayview</string>
+    </array>
+    <key>CFBundleName</key>
+    <string>Eventium</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>This option requires access to the Reminders on this device. Tap OK to continue.</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Eventium requires access to your photos to use this feature.
+
+Tap OK to continue.</string>
+    <key>DTSDKName</key>
+    <string>iphoneos16.2</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcons60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcons</string>
+      </dict>
+    </dict>
+    <key>com.xamarin.ios</key>
+    <dict>
+      <key>Version</key>
+      <string>16.0.0.72 (release/6.0.4xx-xcode14: 6756a1146)</string>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>Eventium</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>googlechrome</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>20C52</string>
+    <key>CFBundleShortVersionString</key>
+    <string>4.1.2</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>21G920</string>
+    <key>DTPlatformBuild</key>
+    <string>20C52</string>
+    <key>MinimumOSVersion</key>
+    <string>12.2</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>14C18</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>Welcome!
+
+Eventium requires permission to access your calendars in order to view, add and amend the events stored in them.
+
+Tap Allow Full Access to continue.</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+      <string>en</string>
+      <string>en-GB</string>
+      <string>fr</string>
+      <string>de</string>
+    </array>
+    <key>CFBundleIdentifier</key>
+    <string>com.johnhair.mycal2</string>
+    <key>DTXcode</key>
+    <string>1420</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Welcome!
+
+Eventium requires permission to access your calendars in order to view, add and amend the events stored in them.
+
+Tap OK to continue.</string>
+    <key>CFBundleExecutable</key>
+    <string>eventium.iOS</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcons60x60</string>
+          <string>AppIcons76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcons</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSContactsUsageDescription</key>
+    <string>One last step...
+
+You can now optionally provide permission for Eventium to access your Contacts.
+This will allow you to long tap on an event with attendees to text, email or call them, directly from within the app.
+It also allows you to add attendees from your Contacts list to events that you create yourself, automatically sending emails or iCloud invitations on your behalf.
+
+Tap OK to allow access to enable these features.</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15C5065a</string>
+  </dict>
+</plist>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv6</string>
+		<string>arm64</string>
+	</array>
+	<key>Minimum System Version</key>
+	<string>13.0.0</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>DTPlatformVersion</key>
+	<string>18.0</string>
+	<key>CFBundleName</key>
+	<string>WOT Guide</string>
+	<key>DTSDKName</key>
+	<string>iphoneos18.0</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>16A242d</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>CFBundleDisplayName</key>
+	<string>WOT Guide</string>
+	<key>DTSDKBuild</key>
+	<string>22A3362</string>
+	<key>CFBundleShortVersionString</key>
+	<string>6.0.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>24A348</string>
+	<key>DTPlatformBuild</key>
+	<string>22A3362</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>MinimumOSVersion</key>
+	<string>15.0</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>Base</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>12-2_WarHeliosCondCBold.ttf</string>
+		<string>12-1_WarHeliosCondC.ttf</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>DTXcodeBuild</key>
+	<string>16A242d</string>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>com.kostykentertainment.GuideforWorldofTanks</string>
+	<key>DTXcode</key>
+	<string>1600</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>CFBundleExecutable</key>
+	<string>Guide for WORLD OF TANKS</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+</dict>
+</plist>

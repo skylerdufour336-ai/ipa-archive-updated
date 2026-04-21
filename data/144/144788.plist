@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <false/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>26.1</string>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>CFBundleName</key>
+    <string>plus_fitness_member_id</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.1</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>PhotoLibrary permission is required for ID upload</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Not used in the app directly, but used in a PermissionHandler library implemented</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>App needs to use location services to locate nearby doors and set up SmartAccess</string>
+    <key>CFBundleDisplayName</key>
+    <string>Plus Fitness</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>comgooglemaps</string>
+      <string>baidumap</string>
+      <string>iosamap</string>
+      <string>waze</string>
+      <string>yandexmaps</string>
+      <string>yandexnavi</string>
+      <string>citymapper</string>
+      <string>mapswithme</string>
+      <string>osmandmaps</string>
+      <string>dgis</string>
+      <string>qqmap</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>App needs to use location services to locate nearby doors and set up SmartAccess</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+      <string>remote-notification</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>23B77</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Camera permission is required for ID upload</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.3.3</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>App needs to use location services to locate nearby doors</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>25B78</string>
+    <key>DTPlatformBuild</key>
+    <string>23B77</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>17B100</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>17.6</string>
+    <key>CFBundleVersion</key>
+    <string>117</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Not used in the app directly, but used in a PermissionHandler library implemented</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Not used in the app directly, but used in a PermissionHandler library implemented</string>
+    <key>NSUserNotificationsUsageDescription</key>
+    <string>This app needs notification access to show you important updates and reminders</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Microphone access is required for Shazam to identify songs playing on the radio</string>
+    <key>NSMotionUsageDescription</key>
+    <string>Not used in the app directly, but used in a PermissionHandler library implemented</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.vivaleisure.plus-fitness-member-id</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Not used in the app directly, but used in a PermissionHandler library implemented</string>
+    <key>DTXcode</key>
+    <string>2611</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>NSLocationUsageDescription</key>
+    <string>App needs to use location services to locate nearby doors and set up SmartAccess</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>App needs to access calendar to set booking reminders</string>
+    <key>CFBundleExecutable</key>
+    <string>Runner</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Not used in the app directly, but used in a PermissionHandler library implemented</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+  </dict>
+</plist>

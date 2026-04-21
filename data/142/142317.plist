@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>24A348</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Theory Test</string>
+	<key>CFBundleExecutable</key>
+	<string>App</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>DisplayIcon</string>
+		<string>DisplayIcon@2x</string>
+		<string>DisplayIcon@3x</string>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>com.tso.cartheorytestkit</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>App</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundlePrimaryIcon</key>
+	<dict>
+		<key>CFBundleIconFiles</key>
+		<array>
+			<string>DisplayIcon</string>
+			<string>DisplayIcon@2x</string>
+			<string>DisplayIcon@3x</string>
+		</array>
+		<key>CFBundleIconName</key>
+		<string>DisplayIcon</string>
+	</dict>
+	<key>CFBundleShortVersionString</key>
+	<string>6.9.1</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.getcapacitor.capacitor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>capacitor</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>600408</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>16B39</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>22A3362</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>18.0</string>
+	<key>DTSDKBuild</key>
+	<string>22A3362</string>
+	<key>DTSDKName</key>
+	<string>iphoneos18.0</string>
+	<key>DTXcode</key>
+	<string>1600</string>
+	<key>DTXcodeBuild</key>
+	<string>16A242d</string>
+	<key>From DumpDecrypter</key>
+	<true/>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-4604366272326384~5720872024</string>
+	<key>GADIsAdManagerApp</key>
+	<false/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>ITSDRMScheme</key>
+	<string>v2</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>MinimumOSVersion</key>
+	<string>13.0</string>
+	<key>NSCameraUsageDescription</key>
+	<string>To Take Photos and Video</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Always allow Geolocation?</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow Geolocation?</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>To Record Audio With Video</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Store camera photos to camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To Pick Photos from Library</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>We anonymously track your progress through the App to help us continually improve the learning experience for you and others.</string>
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string></string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+</dict>
+</plist>

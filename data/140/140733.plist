@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>18.2</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleName</key>
+    <string>AlphaBlurNoTF</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.2</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need to access photo library so you can run effect on your own image.</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
+    <key>ITSEncryptionExportComplianceCode</key>
+    <string>NO</string>
+    <key>CFBundleDisplayName</key>
+    <string>AlphaBlur</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>instagram</string>
+    </array>
+    <key>NSPhotoLibraryUsageDescription - 2</key>
+    <string>We need to access photo library so you can run effect on your own image</string>
+    <key>DTSDKBuild</key>
+    <string>22C146</string>
+    <key>NSCameraUsageDescription</key>
+    <string>The app uses the camera to capture a picture for applying follow blur effects on shots.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.1.3</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24D70</string>
+    <key>DTPlatformBuild</key>
+    <string>22C146</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>16C5032a</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>11.4</string>
+    <key>CFBundleVersion</key>
+    <string>1.1.2</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Tha app needs to access the library to export the picture.</string>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Use Microphone to record sounds</string>
+    <key>CFBundleIdentifier</key>
+    <string>adobefx.com.alphaBlurNoTF</string>
+    <key>DTXcode</key>
+    <string>1620</string>
+    <key>CFBundleExecutable</key>
+    <string>AlphaBlurNoTF</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <false/>
+    </dict>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSCameraUsageDescription - 2</key>
+    <string>We need to access the camera to capture a picture.</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key> ITSAppUsesNonExemptEncryption </key>
+    <string>NO</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>16C7009</string>
+  </dict>
+</plist>

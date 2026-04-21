@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <false/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>17.2</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.2</string>
+    <key>CFBundleName</key>
+    <string>Calmus Remote</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15C5500a</string>
+    <key>UIMainStoryboardFile~ipad</key>
+    <string>LaunchScreen</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon 120x20</string>
+          <string>AppIcon 129x29</string>
+          <string>AppIcon 140x40</string>
+          <string>AppIcon 160x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon 1</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDarkContent</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.music</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>Calmus Remote</string>
+    <key>DTSDKBuild</key>
+    <string>21C52</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.3</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>23E5205c</string>
+    <key>DTPlatformBuild</key>
+    <string>21C52</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>9.0</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>15C500b</string>
+    <key>CFBundleVersion</key>
+    <string>5.3</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>CFBundleIdentifier</key>
+    <string>calmus.is</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+    </dict>
+    <key>DTXcode</key>
+    <string>1520</string>
+    <key>CFBundleExecutable</key>
+    <string>Calmus Remote</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon 120x20</string>
+          <string>AppIcon 129x29</string>
+          <string>AppIcon 140x40</string>
+          <string>AppIcon 160x60</string>
+          <string>AppIcon 176x76</string>
+          <string>AppIcon 183.5x83.5</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon 1</string>
+      </dict>
+    </dict>
+    <key>UIMainStoryboardFile</key>
+    <string>LaunchScreen</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+  </dict>
+</plist>

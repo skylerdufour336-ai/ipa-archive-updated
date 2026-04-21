@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This allows us to deliver personalized ads and measure their effectiveness to improve your app experience.</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>location-services</string>
+		<string>arm64</string>
+	</array>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>DTPlatformVersion</key>
+	<string>18.2</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>CFBundleName</key>
+	<string>FindMyCar</string>
+	<key>DTSDKName</key>
+	<string>iphoneos18.2</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>FindMyCar needs access to your photo library to select existing photos for your parking location.</string>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<string>TRUE</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>FindMyCar needs location access to save your parking spot and show your car on the map. This also enables the Watch app to save parking locations and provide haptic navigation.</string>
+	<key>CFBundleDisplayName</key>
+	<string>Find My Car</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>navigon</string>
+		<string>findmycar</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>FindMyCar needs location access to save your parking spot and show your car on the map. This also enables the Watch app to save parking locations and provide haptic navigation.</string>
+	<key>DTSDKBuild</key>
+	<string>22C146</string>
+	<key>FacebookAdvertiserIDCollectionEnabled</key>
+	<string>TRUE</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>FindMyCar needs camera access to take photos of your parking location for easy identification.</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>24F74</string>
+	<key>DTPlatformBuild</key>
+	<string>22C146</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DTXcodeBuild</key>
+	<string>16C5032a</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>MinimumOSVersion</key>
+	<string>17.0</string>
+	<key>CFBundleVersion</key>
+	<string>13</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>FindMyCar needs permission to save photos to your photo library when documenting parking locations.</string>
+	<key>FacebookAppID</key>
+	<string>1553812021514936</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.appcelerate.FindMyCar</string>
+	<key>FacebookDisplayName</key>
+	<string>Find My Car</string>
+	<key>DTXcode</key>
+	<string>1620</string>
+	<key>CFBundleExecutable</key>
+	<string>FindMyCar</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+			</array>
+		</dict>
+	</dict>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1553812021514936</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>120</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1553812021514936</string>
+				<string>findmycar</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>com.appcelerate.FindMyCar</string>
+		</dict>
+	</array>
+	<key>DTAppStoreToolsBuild</key>
+	<string>16F7</string>
+</dict>
+</plist>

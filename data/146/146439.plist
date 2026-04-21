@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Allow the mobile client to access bluetooth before using  bluetooth to open the door.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Allow the mobile client to access always location before using  bluetooth to open the door when in auto mode.</string>
+    <key>DTPlatformVersion</key>
+    <string>18.4</string>
+    <key>DTSDKBuild</key>
+    <string>22E235</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Allow Application to access the camera to scan QR code.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Guarding Vision</string>
+    <key>DTXcodeBuild</key>
+    <string>16E140</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.mcu.guardingvision</string>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>comgooglemaps</string>
+      <string>hik-proconnect</string>
+      <string>waze</string>
+      <string>prefs</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Allow the mobile client to access bluetooth before using  bluetooth to open the door.</string>
+    <key>MinimumOSVersion</key>
+    <string>14.0</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Allow Application to access the album to save the picture or add devices by scanning the QR code in the Photo Library .</string>
+    <key>CFBundleName</key>
+    <string>HikConnect</string>
+    <key>CFBundleShortVersionString</key>
+    <string>6.10.882</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Allow this app to access your local network to find and set up local devices.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+      <string>voip</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>HikConnect</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Allow app to use the device’s media library, users can save screenshots or videos of the cameras to the phone’s gallery.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Allow Application to access speech Recognition to search text.</string>
+    <key>UIDesignRequiresCompatibility</key>
+    <true/>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C53</string>
+    <key>BuildMachineOSBuild</key>
+    <string>24E263</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Allow the mobile client to access the microphone of the phone (or tablet) before using two-way audio.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Allow the mobile client to access always location before using  bluetooth to open the door when in auto mode.</string>
+    <key>CFBundleVersion</key>
+    <string>20260115.1</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Allow the mobile client to access Face ID, help users to log in to their account without having to manually enter their password.</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>toguardingvision</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>guardingvision</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>guardingvisionauth</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>guardingvisionauth</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string></string>
+        <key>CFBundleURLSchemes</key>
+        <array/>
+      </dict>
+      <dict/>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Allow the mobile client to access always location before using  bluetooth to open the door when in auto mode.</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.4</string>
+    <key>NSBonjourServices</key>
+    <array>
+      <string>_test._tcp</string>
+    </array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>22E235</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Our app requires access to your contact list so that you can more easily invite friends to join the app or share content with them</string>
+    <key>DTXcode</key>
+    <string>1630</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Allow Application to access the album to save the picture or add devices by scanning the QR code in the Photo Library .</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+  </dict>
+</plist>

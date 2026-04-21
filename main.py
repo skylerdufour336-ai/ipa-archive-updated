@@ -377,7 +377,8 @@ class CacheDB:
         x = self._db.execute('''SELECT url, path_name FROM idx
             INNER JOIN urls ON urls.pk=base_url WHERE idx.pk=?;''', [uid])
         base, path = x.fetchone()
-        # path_name now uses standard slashes for nested files
+        # Convert the internal ## separator to a slash for the final URL
+        path = path.replace(NESTED_SEP, '/')
         return base + '/' + quote(path)
 
     def hasImage(self, bundle_id: str, version: str) -> 'int|None':
@@ -893,8 +894,10 @@ def processPending():
                     DB.setFilesize(uid, fsize)
                 if success:
                     DB.setDone(uid)
+                    print(f'  [DONE] [{uid}]')
                 else:
                     DB.setError(uid, done=3)
+                    print(f'  [FAILED] [{uid}]')
                 del DB
     DB = CacheDB()
     err_count = DB.count(done=3)
@@ -953,16 +956,24 @@ def loadIpa(uid: int, url: str, *,
     # Support both old format (##) and new format (nested slash)
     inner_path = None
     
-    # Check for implicit nested path (archive.rar/file.ipa)
-    # Look for common archive extensions followed by a slash
-    for ext in ['.zip/', '.rar/', '.7z/', '.tar/', '.tar.gz/', '.tgz/']:
-        if ext in url.lower():
-            # Split at the end of the extension
-            idx = url.lower().find(ext) + len(ext) - 1
-            base_url = url[:idx]
-            inner_path = unquote(url[idx+1:])
+    # Handle the ## separator (possibly quoted as %23%23)
+    for sep in [NESTED_SEP, quote(NESTED_SEP)]:
+        if sep in url:
+            base_url, inner_path = url.split(sep, 1)
             url = base_url
+            inner_path = unquote(inner_path)
             break
+
+    # Check for implicit nested path (archive.rar/file.ipa) if ## wasn't found
+    if not inner_path:
+        for ext in ['.zip/', '.rar/', '.7z/', '.tar/', '.tar.gz/', '.tgz/']:
+            if ext in url.lower():
+                # Split at the end of the extension
+                idx = url.lower().find(ext) + len(ext) - 1
+                base_url = url[:idx]
+                inner_path = unquote(url[idx+1:])
+                url = base_url
+                break
 
     # Handle non-ZIP nested archives (RAR, 7z, etc.)
     # RemoteZip does not work on these via the Archive.org bridge.
@@ -1328,10 +1339,16 @@ def export_json():
         for i, entry in enumerate(DB.enumJsonIpa(done=1)):
             if i % 113 == 0:
                 print(f'\rprocessing [{i}/{total}]', end='')
+            
+            # Normalize path: replace ## with / for the JSON export
+            entry = list(entry)
+            path_name = entry[7].replace(NESTED_SEP, '/')
+            entry[7] = path_name
+
             # if path_name is in a subdirectory, reindex URLs
             if '/' in entry[7]:
                 baseurl = url_map[entry[6]]
-                sub_dir, sub_file = entry[7].split('/', 1)
+                sub_dir, sub_file = entry[7].rsplit('/', 1)
                 newurl = baseurl + '/' + sub_dir
                 subIdx = submap.get(newurl, None)
                 if subIdx is None:

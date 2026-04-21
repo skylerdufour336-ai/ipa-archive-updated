@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>17.0</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.0</string>
+    <key>CFBundleName</key>
+    <string>King Of Digital</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15A240a</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Use MIDI Bluetooth controller to play keyboard and music </string>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
+    <key>ABLLinkStartStopSyncSupported</key>
+    <true/>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>King Digital</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>21A326</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.2</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>23B92</string>
+    <key>DTPlatformBuild</key>
+    <string>21A326</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>14.4</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>15A507</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Arian LT.ttf</string>
+      <string>Arian LT Demi.ttf</string>
+      <string>Scientific Calculator LCD.ttf</string>
+      <string>lcd-hd44780u-a02.ttf</string>
+      <string>Arian LT Bold.ttf</string>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>CFBundleIdentifier</key>
+    <string>com.audiokitpro.kingdigital</string>
+    <key>DTXcode</key>
+    <string>1501</string>
+    <key>CFBundleExecutable</key>
+    <string>King Of Digital</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIMainStoryboardFile</key>
+    <string>Parent</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>"App uses the network to sync tempo with other apps such as Ableton Link"</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string></string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>myapp</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

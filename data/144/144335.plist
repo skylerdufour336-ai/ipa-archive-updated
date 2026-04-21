@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>15.2</string>
+    <key>UILaunchStoryboardName~ipad</key>
+    <string>LaunchScreeniPad</string>
+    <key>CFBundleName</key>
+    <string>IPTV Smarters</string>
+    <key>DTSDKName</key>
+    <string>iphoneos15.2</string>
+    <key>NSMainStoryboardFile</key>
+    <string>iPad</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>To play existing videos into app</string>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-4975567023160455~5696379116</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This app uses Bluetooth to discover nearby devices.</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleDisplayName</key>
+    <string>Hydra TV</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>19C51</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>21A559</string>
+    <key>DTPlatformBuild</key>
+    <string>19C51</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>13C100</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>9.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Bluetooth is used to communicate with BLE devices.</string>
+    <key>NSBonjourServices</key>
+    <array>
+      <string>_googlecast._tcp</string>
+      <string>_ABCD1234._googlecast._tcp</string>
+    </array>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>to save recorded video</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>This app uses Speech recognition to transform your spoken words into text and then analyze the, so watch what you say!.</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>HelveticaNeue.ttc</string>
+      <string>Exo2-SemiBold.ttf</string>
+      <string>AvenirNext.ttc</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app uses your microphone to record what you say, so watch what you say!</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.smarters.HydraTV</string>
+    <key>DTXcode</key>
+    <string>1321</string>
+    <key>CFBundleExecutable</key>
+    <string>IPTV Smarters</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>IPTV Smarters uses the local network to discover Cast-enabled devices on your WiFi network.</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>14A305</string>
+  </dict>
+</plist>

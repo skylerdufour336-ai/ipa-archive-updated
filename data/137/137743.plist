@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>wifi</string>
+		<string>video-camera</string>
+		<string>arm64</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformVersion</key>
+	<string>17.2</string>
+	<key>CFBundleName</key>
+	<string>epoccamhd-2024.1</string>
+	<key>DTSDKName</key>
+	<string>iphoneos17.2</string>
+	<key>SCCameraKitAPIToken</key>
+	<string>eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNjU3MDk1MjY4LCJzdWIiOiI5N2I2NDJmNi0xMzYwLTRlNmYtYTIyNS05ZDc3MTJlM2UyOGZ-UFJPRFVDVElPTn5iNGM1ZjhkMy1iYmZkLTQzYmYtOWI4My1iMWQwY2U1Zjg1MmIifQ.iyTKcDHkD43KfwiWpqJxntDm_lAKP_9XSyWoJstXBF4</string>
+	<key>UIRequiresFullScreen~ipad</key>
+	<true/>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon HD60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon HD</string>
+		</dict>
+	</dict>
+	<key>CFBundleDisplayName</key>
+	<string>EpocCam Pro</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This enables location specific lenses.</string>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
+	<key>UIStatusBarHidden~ipad</key>
+	<true/>
+	<key>DTSDKBuild</key>
+	<string>21C52</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This enables you to stream your camera feed to your computer.</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2024.1</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>23C71</string>
+	<key>DTPlatformBuild</key>
+	<string>21C52</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DTXcodeBuild</key>
+	<string>15C500b</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>MinimumOSVersion</key>
+	<string>15.0</string>
+	<key>CFBundleVersion</key>
+	<string>62</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_egstreamwrap._tcp</string>
+		<string>_epoccam._tcp</string>
+		<string>_epoccamserver._tcp</string>
+		<string>_ndi._tcp</string>
+	</array>
+	<key>SentryDSN</key>
+	<string>https://fce27a2d11bd499795f3924b687cf50d@o324181.ingest.sentry.io/6143941</string>
+	<key>SentryEnvironment</key>
+	<string>production</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Univers LT 55 Roman.ttf</string>
+		<string>Univers LT 45 Light.ttf</string>
+		<string>Univers LT 67 Bold Condensed.ttf</string>
+		<string>Univers LT 47 Light Condensed.ttf</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This enables you to stream your microphone feed to your computer.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.kinoni.epoccamhd</string>
+	<key>NSCameraPortraitEffectEnabled</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>DTXcode</key>
+	<string>1520</string>
+	<key>CFBundleExecutable</key>
+	<string>epoccamhd-2024.1</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon HD60x60</string>
+				<string>AppIcon HD76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon HD</string>
+		</dict>
+	</dict>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This enables you to connect your phone to your computer wirelessly.</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>SCCameraKitClientID</key>
+	<string>97b642f6-1360-4e6f-a225-9d7712e3e28f</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15C5500a</string>
+</dict>
+</plist>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen.storyboard</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Runner wants to use your bluetooth</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Location service is used to take the current location of user at the time of marking the attendance</string>
+    <key>DTPlatformVersion</key>
+    <string>18.2</string>
+    <key>DTSDKBuild</key>
+    <string>22C146</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon-ubiHrm60x60</string>
+          <string>AppIcon-ubiHrm76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon-ubiHrm</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Camera is  used to take picture of employee at the time of marking the attendance</string>
+    <key>FirebaseAppDelegateProxyEnabled</key>
+    <false/>
+    <key>CFBundleDisplayName</key>
+    <string>ubiHrm</string>
+    <key>DTXcodeBuild</key>
+    <string>16C5032a</string>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>CFBundleIdentifier</key>
+    <string>com.ubihrm.ubihrm</string>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon-ubiHrm60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon-ubiHrm</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSMotionUsageDescription</key>
+    <string>Runner needs to be able to access your motion use</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Runner wants to use your bluetooth peripheral</string>
+    <key>MinimumOSVersion</key>
+    <string>16.6</string>
+    <key>CFBundleName</key>
+    <string>ubiHrm</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.3.2</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>audio</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+      <dict/>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Runner</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Runner requires access to play music</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Runner recognize speech</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C53</string>
+    <key>FirebaseScreenReportingEnabled</key>
+    <true/>
+    <key>BuildMachineOSBuild</key>
+    <string>24B2083</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Runner user your calendar.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Microphone is used to record video</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Location is only used to take current position of user at the time of marking the attendance</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleVersion</key>
+    <string>1.1</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>PermissionGroupNotification</key>
+    <string>This app needs notifications to keep you updated.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.288178486097-o172r9ds2nntm1envrpg5tthvt40iik0</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Location will be recorded in order to verify if employee marks attendance from office premise</string>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+      <string>com.gdelataillade.fetch</string>
+    </array>
+    <key>DTSDKName</key>
+    <string>iphoneos18.2</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>NSContactsUsageDescription</key>
+    <string>App needs to import contact info of the employee from your phone while adding</string>
+    <key>DTPlatformBuild</key>
+    <string>22C146</string>
+    <key>DTXcode</key>
+    <string>1620</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Your profile photo will be added from your photo library</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+  </dict>
+</plist>

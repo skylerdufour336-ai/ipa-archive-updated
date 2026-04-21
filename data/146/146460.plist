@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>DTPlatformVersion</key>
+	<string>26.0</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Allow the app to access your contacts to save an image to the selected contact.
+</string>
+	<key>CFBundleName</key>
+	<string>Happy Easter</string>
+	<key>DTSDKName</key>
+	<string>iphoneos26.0</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow the app to access your photo library so you can choose a photo, apply a filter, and insert it as a sticker into your card. Only the photos you select will be accessed.</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>CFBundleDisplayName</key>
+	<string>Happy Easter</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>DTSDKBuild</key>
+	<string>23A339</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow the app to access your camera so you can take a photo and insert it as a sticker into your card.</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2026</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>25A362</string>
+	<key>DTPlatformBuild</key>
+	<string>23A339</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DTXcodeBuild</key>
+	<string>17A400</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>MinimumOSVersion</key>
+	<string>16.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow the app to access your camera and microphone so you can take a photo and insert it as a sticker into your card (audio not added).</string>
+	<key>CFBundleIdentifier</key>
+	<string>fr.fortin.ghislain.Happy-Easter</string>
+	<key>DTXcode</key>
+	<string>2601</string>
+	<key>CFBundleExecutable</key>
+	<string>Happy Easter</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>http://vincentgarreau.com/particles.js/#snow</key>
+			<string></string>
+			<key>http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js</key>
+			<string></string>
+			<key>http://codepen.io/anon/pen/MbQpQK</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>17A323</string>
+</dict>
+</plist>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>When you enable activity tracking, you help us to improve the quality of the game and provide a better and personalized ads experience. &#13;
+&#13;
+*This setting can be changed on your device at any time.&#13;
+</string>
+    <key>DTPlatformVersion</key>
+    <string>16.2</string>
+    <key>UILaunchStoryboardName~iphone</key>
+    <string>Launch Screen</string>
+    <key>DTSDKName</key>
+    <string>iphoneos16.2</string>
+    <key>CFBundleName</key>
+    <string>Sailing Fame</string>
+    <key>UILaunchStoryboardName~ipad</key>
+    <string>Launch Screen</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15A240a</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>CADisableMinimumFrameDuration</key>
+    <false/>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIRequiresPersistentWiFi</key>
+    <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fbapi20130214</string>
+      <string>fbapi20130410</string>
+      <string>fbapi20130702</string>
+      <string>fbapi20131010</string>
+      <string>fbapi20131219</string>
+      <string>fbapi20140410</string>
+      <string>fbapi20140116</string>
+      <string>fbapi20150313</string>
+      <string>fbapi20150629</string>
+      <string>fbapi20160328</string>
+      <string>fbauth</string>
+      <string>fb-messenger-share-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+    </array>
+    <key>CFBundleDisplayName</key>
+    <string>Sailing Fame</string>
+    <key>UnityCloudProjectID</key>
+    <string></string>
+    <key>AppsFlyer</key>
+    <dict>
+      <key>appid</key>
+      <string>your_appsflyer_appid</string>
+      <key>appkey</key>
+      <string>your_appsflyer_appkey</string>
+    </dict>
+    <key>DTSDKBuild</key>
+    <string>20C52</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1003</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>UILaunchStoryboardName~ipod</key>
+    <string>Launch Screen</string>
+    <key>BuildMachineOSBuild</key>
+    <string>21G920</string>
+    <key>DTPlatformBuild</key>
+    <string>20C52</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>12.3</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>14C18</string>
+    <key>CFBundleVersion</key>
+    <string>1003</string>
+    <key>UIPrerenderedIcon</key>
+    <false/>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UnityCrashSubmissionURL</key>
+    <string></string>
+    <key>FacebookAppID</key>
+    <string>2283744331824963</string>
+    <key>View controller-based status bar appearance</key>
+    <false/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen.storyboard</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.agcl.ios.en.a4</string>
+    <key>FacebookDisplayName</key>
+    <string>Sailing Fame</string>
+    <key>DTXcode</key>
+    <string>1420</string>
+    <key>FacebookClientToken</key>
+    <string>6270ff2c2a3ebe43ddb121fca0822c4a</string>
+    <key>CFBundleExecutable</key>
+    <string>Sailing Fame</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>Unity_LoadingActivityIndicatorStyle</key>
+    <integer>-1</integer>
+    <key>CFBundleIcons~ipad</key>
+    <dict/>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>DTXcodeBuildDistribution</key>
+    <string>14C18</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb2283744331824963</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

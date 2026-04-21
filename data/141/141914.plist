@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>DTPlatformVersion</key>
+	<string>18.0</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>CFBundleName</key>
+	<string>LEDit</string>
+	<key>DTSDKName</key>
+	<string>iphoneos18.0</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>DTSDKBuild</key>
+	<string>22A3362</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.1.2</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>24C5057p</string>
+	<key>DTPlatformBuild</key>
+	<string>22A3362</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DTXcodeBuild</key>
+	<string>16A242d</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>MinimumOSVersion</key>
+	<string>15.0</string>
+	<key>CFBundleVersion</key>
+	<string>4.215</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app saves GIFs to your photo library</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>LEDit Sans.ttf</string>
+		<string>LEDit Sans Bold.ttf</string>
+		<string>LEDit Sans Condensed.ttf</string>
+		<string>LEDit Sans HD.ttf</string>
+		<string>Game Over.ttf</string>
+		<string>Do the robot.ttf</string>
+		<string>Bubblegum.ttf</string>
+		<string>Mineworks.ttf</string>
+		<string>Format C.ttf</string>
+		<string>Cathode.ttf</string>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.wessley.LEDit</string>
+	<key>DTXcode</key>
+	<string>1600</string>
+	<key>CFBundleExecutable</key>
+	<string>LEDit</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLName</key>
+			<string>net.wessley.LEDit</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ledit</string>
+			</array>
+		</dict>
+	</array>
+	<key>DTAppStoreToolsBuild</key>
+	<string>16B39</string>
+</dict>
+</plist>

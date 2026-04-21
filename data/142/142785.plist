@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSContactsUsageDescription</key>
+	<string>To print contacts, we need your permission to access contacts</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>DTPlatformVersion</key>
+	<string>17.2</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>CFBundleName</key>
+	<string>Smart Printer</string>
+	<key>DTSDKName</key>
+	<string>iphoneos17.2</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>dtaairprinter</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>AppIcon 4</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 4</string>
+			</dict>
+			<key>AppIcon 1</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 1</string>
+			</dict>
+			<key>AppIcon 5</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 5</string>
+			</dict>
+			<key>AppIcon 2</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 2</string>
+			</dict>
+			<key>AppIcon 6</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 6</string>
+			</dict>
+			<key>AppIcon 3</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon 3</string>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>DTSDKBuild</key>
+	<string>21C52</string>
+	<key>NSCameraUsageDescription</key>
+	<string>To scan documents or take photos, we need your permission to access the camera.</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.1</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>22G74</string>
+	<key>DTPlatformBuild</key>
+	<string>21C52</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DTXcodeBuild</key>
+	<string>15C500b</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>MinimumOSVersion</key>
+	<string>16.0</string>
+	<key>CFBundleVersion</key>
+	<string>24</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Gilroy-Bold.ttf</string>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreenViewController</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.dreamteampl.airprinter</string>
+	<key>DTXcode</key>
+	<string>1520</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>CFBundleExecutable</key>
+	<string>Smart Printer</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+			</array>
+		</dict>
+	</dict>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15F31e</string>
+</dict>
+</plist>

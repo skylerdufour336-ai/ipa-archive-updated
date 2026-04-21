@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Allow iKFMC to access  Contact </string>
+    <key>DTPlatformVersion</key>
+    <string>18.5</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.5</string>
+    <key>CFBundleName</key>
+    <string>iKFMC</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+    <key>UIMainStoryboardFile~ipad</key>
+    <string>Main_iPad</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>You can use Bluetooth® to pair with smart health devices.  Bluetooth® can also help you find your way in buildings when you receive care.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This allow us to use your current location to provide you certain features like medicines delivery (Always)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>iKFMC</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>comgooglemaps</string>
+      <string>googlechromes</string>
+      <string>comgooglemaps-x-callback</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This allow us to use your current location to provide you certain features like medicines delivery (When In Use)</string>
+    <key>DTSDKBuild</key>
+    <string>22F76</string>
+    <key>CFBundleShortVersionString</key>
+    <string>12.4</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24E263</string>
+    <key>DTPlatformBuild</key>
+    <string>22F76</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>16.2</string>
+    <key>UILaunchImageFile</key>
+    <string>LaunchImage</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en_US</string>
+    <key>CFBundleVersion</key>
+    <string>12.4.5</string>
+    <key>DTXcodeBuild</key>
+    <string>16F6</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Allow iKFMC to access Speech Recognition for better experience</string>
+    <key>UILaunchImages</key>
+    <array>
+      <dict>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>LaunchImage-700</string>
+        <key>UILaunchImageSize</key>
+        <string>{320, 480}</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>7.0</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>LaunchImage-700-568h</string>
+        <key>UILaunchImageSize</key>
+        <string>{320, 568}</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>7.0</string>
+      </dict>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Allow iKFMC to access  Microphone</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.KingFahadMedicalCity.iKFMC</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+    </dict>
+    <key>DTXcode</key>
+    <string>1640</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Allow iKFMC to access Calander
+</string>
+    <key>CFBundleExecutable</key>
+    <string>iKFMC</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>Your data will never be uploaded to the "Health" app.</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main_iPhone</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>Data in the "Health" app updates your medical record for you and your healthcare providers. If you have a health issue that concerns you, call your healthcare provider.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.KingFahadMedicalCity.iKFMC</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>iKFMC</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

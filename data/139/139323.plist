@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UIApplicationShortcutItems</key>
+    <array>
+      <dict/>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>DTPlatformVersion</key>
+    <string>17.2</string>
+    <key>DTSDKBuild</key>
+    <string>21C52</string>
+    <key>NFCReaderUsageDescription</key>
+    <string>Use your device's NFC to read and write NFC Chip</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon-2</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>iPadIcon-2</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>AppIcon-3</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>iPadIcon-3</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>AppIcon-4</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>iPadIcon-4</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>com.apple.developer.nfc.readersession.formats</key>
+    <array>
+      <string>NDEF</string>
+      <string>TAG</string>
+    </array>
+    <key>NSSiriUsageDescription</key>
+    <string>As an option, enable shortcut voice commands to perform some app functions.</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <false/>
+    <key>NSCameraUsageDescription</key>
+    <string>The camera is used to update the account owner profile photo, capture Front-camera snapshots to aid in user  identification for lost device recovery, scan the Serial/Model Number for an item in your Inventory, or when creating a customized Wallpaper image. Also, a snapshot of a Vaccination Card can be securely imported for prompt display, serving as identification.</string>
+    <key>NSMainNibFile</key>
+    <string>MainWindow</string>
+    <key>CFBundleDisplayName</key>
+    <string>Return2Me</string>
+    <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+    <array>
+      <string>D2760000850101</string>
+      <string>D4100000030001</string>
+    </array>
+    <key>Fonts provided by application</key>
+    <array>
+      <string>SanFranciscoText-Bold.otf</string>
+      <string>SanFranciscoText-BoldItalic.otf</string>
+      <string>SanFranciscoText-Heavy.otf</string>
+      <string>SanFranciscoText-HeavyItalic.otf</string>
+      <string>SanFranciscoText-Light.otf</string>
+      <string>SanFranciscoText-Italic.otf</string>
+      <string>SanFranciscoText-Medium.otf</string>
+      <string>SanFranciscoText-MediumItalic.otf</string>
+      <string>SanFranciscoText-Regular.otf</string>
+      <string>SanFranciscoText-RegularItalic.otf</string>
+      <string>SanFranciscoText-Semibold.otf</string>
+      <string>SanFranciscoText-SemiboldItalic.otf</string>
+    </array>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeName</key>
+        <string>Return2Me Inventory Documents</string>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleTypeIconFiles</key>
+        <array>
+          <string>Icon</string>
+        </array>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>Return2Me.r2mlk</string>
+          <string>Return2Me.r2mbk</string>
+          <string>Return2Me.r2me</string>
+        </array>
+        <key>LSHandlerRank</key>
+        <string>Owner</string>
+      </dict>
+    </array>
+    <key>DTXcodeBuild</key>
+    <string>15C500b</string>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeIdentifier</key>
+        <string>Return2Me.r2mlk</string>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Return2Me Document</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.mime-type</key>
+          <array>
+            <string>application/Return2Me</string>
+          </array>
+          <key>public.filename-extension</key>
+          <array>
+            <string>r2mlk</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeIdentifier</key>
+        <string>Return2Me.r2me</string>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Return2Me Document</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.mime-type</key>
+          <string>application/Return2Me</string>
+          <key>public.filename-extension</key>
+          <string>r2me</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeIdentifier</key>
+        <string>Return2Me.r2mbk</string>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Return2Me Document</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.mime-type</key>
+          <string>application/Return2Me</string>
+          <key>public.filename-extension</key>
+          <string>r2mbk</string>
+        </dict>
+      </dict>
+    </array>
+    <key>CFBundleIdentifier</key>
+    <string>com.itrackmobile.Return2Me</string>
+    <key>NSUserActivityTypes</key>
+    <dict>
+      <key>Default Device ID</key>
+      <string>com.itrackmobile.Return2Me.defaultDeviceID</string>
+      <key>Remove Demo</key>
+      <string>com.itrackmobile.Return2Me.removeDemo</string>
+      <key>Print Other</key>
+      <string>com.itrackmobile.Return2Me.printOther</string>
+      <key>Print Watches</key>
+      <string>com.itrackmobile.Return2Me.printWatches</string>
+      <key>Default Label</key>
+      <string>com.itrackmobile.Return2Me.makeDefaultLabel</string>
+      <key>Show Vaccinations</key>
+      <string>com.itrackmobile.Return2Me.ShowJabCard</string>
+      <key>Search Inventory</key>
+      <string>com.itrackmobile.Return2Me.search</string>
+      <key>Show Watches</key>
+      <string>com.itrackmobile.Return2Me.showWatches</string>
+      <key>Print Macs</key>
+      <string>com.itrackmobile.Return2Me.printMacs</string>
+      <key>Default Watch ID</key>
+      <string>com.itrackmobile.Return2Me.defaultWatchID</string>
+      <key>Show 3rd-Party Items</key>
+      <string>com.itrackmobile.Return2Me.show3rdPartyItems</string>
+      <key>Custom Watch ID</key>
+      <string>com.itrackmobile.Return2Me.watchID</string>
+      <key>Print Inventory</key>
+      <string>com.itrackmobile.Return2Me.printInventory</string>
+      <key>Print Custom</key>
+      <string>com.itrackmobile.Return2Me.printCustom</string>
+      <key>Make Finder Alert</key>
+      <string>com.itrackmobile.Return2Me.voiceMessage</string>
+      <key>Restore Backup</key>
+      <string>com.itrackmobile.Return2Me.restore</string>
+      <key>Show Lost Items</key>
+      <string>com.itrackmobile.Return2Me.showLost</string>
+      <key>Show Other</key>
+      <string>com.itrackmobile.Return2Me.showOther</string>
+      <key>Print Labels</key>
+      <string>com.itrackmobile.Return2Me.printLabels</string>
+      <key>Include Demo</key>
+      <string>com.itrackmobile.Return2Me.addDemo</string>
+      <key>Show Custom</key>
+      <string>com.itrackmobile.Return2Me.showCustom</string>
+      <key>Show Inventory</key>
+      <string>com.itrackmobile.Return2Me.showInventory</string>
+      <key>Show Macs</key>
+      <string>com.itrackmobile.Return2Me.showMacs</string>
+      <key>Custom Label</key>
+      <string>com.itrackmobile.Return2Me.makeCustomLabel</string>
+      <key>Custom Device ID</key>
+      <string>com.itrackmobile.Return2Me.deviceID</string>
+      <key>New item</key>
+      <string>com.itrackmobile.Return2Me.show3rdPartyItems</string>
+      <key>Show My Shots</key>
+      <string>com.itrackmobile.Return2Me.ShowMyJabCard</string>
+      <key>Print Lost Poster</key>
+      <string>com.itrackmobile.Return2Me.printLost</string>
+      <key>Make Backup</key>
+      <string>com.itrackmobile.Return2Me.backup</string>
+    </dict>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>file</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon-2</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Icon-2</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>AppIcon-3</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Icon-3</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>AppIcon-4</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Icon-4</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>MinimumOSVersion</key>
+    <string>12.0</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>In order to save any generated WallPaper images for user installation as a device Lock Screen.</string>
+    <key>CFBundleName</key>
+    <string>Return2Me</string>
+    <key>CFBundleShortVersionString</key>
+    <string>24.27</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright 2008 - 2023 Omni Consulting, LLC</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Local Area Network Access is used to AirPrint an Item Inventory report or AirDrop the app Help Guide. Also, to determine the IP Address of a Starling Home Hub for data import into the users Item Inventory.</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>SanFranciscoText-Bold.otf</string>
+      <string>SanFranciscoText-BoldItalic.otf</string>
+      <string>SanFranciscoText-Heavy.otf</string>
+      <string>SanFranciscoText-HeavyItalic.otf</string>
+      <string>SanFranciscoText-Light.otf</string>
+      <string>SanFranciscoText-LightItalic.otf</string>
+      <string>SanFranciscoText-Medium.otf</string>
+      <string>SanFranciscoText-MediumItalic.otf</string>
+      <string>SanFranciscoText-Regular.otf</string>
+      <string>SanFranciscoText-Italic.otf</string>
+      <string>SanFranciscoText-Semibold.otf</string>
+      <string>SanFranciscoText-SemiboldItalic.otf</string>
+      <string>Helvetica.ttc</string>
+      <string>HelveticaNeue.ttc</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Return2Me</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>UIPrerenderedIcon</key>
+    <false/>
+    <key>UIRequiresPersistentWiFi</key>
+    <true/>
+    <key>BuildMachineOSBuild</key>
+    <string>23D60</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>The microphone is used when creating a Live Photo from video input, recording a Voice Message for the Finder of this device, or taking a photo using the camera to make a device Recovery Tag.</string>
+    <key>com.apple.developer.nfc.readersession.felica.systemcodes</key>
+    <array>
+      <string>12FC</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>24.27</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Use your Face to log into the app.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>Return2Me</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>Return2Melaunch</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTSDKName</key>
+    <string>iphoneos17.2</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoadsForMedia</key>
+      <true/>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSAllowsArbitraryLoadsInWebContent</key>
+      <true/>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>21C52</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Access to Contacts is suggested with minimum user keystrokes. All information is securely retained on your device.</string>
+    <key>DTXcode</key>
+    <string>1520</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>The Photo Library is used to create and store Lock Screen Wallpaper images to assist in returning a lost unit to the owner, or augment the documentation of an item in your Inventory. Additionally, an image of a Vaccination Card can be securely imported for prompt display, serving as identification.</string>
+    <key>UIInterfaceOrientation</key>
+    <string>UIInterfaceOrientationPortrait</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15C5500a</string>
+  </dict>
+</plist>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key></key>
+    <string></string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>26.4</string>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>ConfigurationIntent</string>
+    </array>
+    <key>CFBundleName</key>
+    <string>ImAFish</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.4</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>保存分享图到相册</string>
+    <key>NSContactsUsageDescription</key>
+    <string>使用通讯录来导入联系人</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon 4</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 4</string>
+        </dict>
+        <key>AppIcon 2</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 2</string>
+        </dict>
+        <key>AppIcon_MonkFish</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon_MonkFish</string>
+        </dict>
+        <key>AppIcon 7</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 7</string>
+        </dict>
+        <key>AppIcon 5</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 5</string>
+        </dict>
+        <key>AppIcon 3</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 3</string>
+        </dict>
+        <key>AppIcon 1</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 1</string>
+        </dict>
+        <key>AppIcon 6</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 6</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UILaunchScreen</key>
+    <dict>
+      <key>UILaunchScreen</key>
+      <dict/>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string></string>
+    <key>CFBundleDisplayName</key>
+    <string>我是鱼</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>baidumap</string>
+      <string>iosamap</string>
+      <string>maps</string>
+      <string>comgooglemaps</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>使用地址建立资料</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>23E237</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.10.4</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>25D125</string>
+    <key>DTPlatformBuild</key>
+    <string>23E237</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>17E192</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh-Hans</string>
+    <key>MinimumOSVersion</key>
+    <string>16.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>我是鱼将支持写入纪念日和事件到日历</string>
+    <key>NSAlarmKitUsageDescription</key>
+    <string>访问时钟，以建立内容的紧急提醒</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen.storyboard</string>
+    <key>CFBundleIdentifier</key>
+    <string>liyu.ImAFish</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <true/>
+      <key>UISceneConfigurations</key>
+      <dict/>
+    </dict>
+    <key>DTXcode</key>
+    <string>2640</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>NSCalendarsUsageDescription</key>
+    <string>为了提供更多的功能，本应用可能需要访问您的日历信息。</string>
+    <key>CFBundleExecutable</key>
+    <string>ImAFish</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon 4</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 4</string>
+        </dict>
+        <key>AppIcon 2</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 2</string>
+        </dict>
+        <key>AppIcon_MonkFish</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon_MonkFish</string>
+        </dict>
+        <key>AppIcon 7</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 7</string>
+        </dict>
+        <key>AppIcon 5</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 5</string>
+        </dict>
+        <key>AppIcon 3</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 3</string>
+        </dict>
+        <key>AppIcon 1</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 1</string>
+        </dict>
+        <key>AppIcon 6</key>
+        <dict>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 6</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSFaceIDUsageDescription</key>
+    <string>需要使用生物识别来解锁数据</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17E187</string>
+  </dict>
+</plist>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>REVERSED_CLIENT_ID</key>
+    <string>com.googleusercontent.apps.1021101821051-5cv7gt20l6bahl5a5ksnmf0mk8587ggm</string>
+    <key>CLIENT_ID</key>
+    <string>1021101821051-5cv7gt20l6bahl5a5ksnmf0mk8587ggm.apps.googleusercontent.com</string>
+    <key>DTPlatformVersion</key>
+    <string>17.0</string>
+    <key>DTSDKBuild</key>
+    <string>21A326</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>The application ‘DJ Mix Pads 2’ is requesting permission to access Camera so you can create your own avatar.</string>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>DJ Mix Pads 2</string>
+    <key>DTXcodeBuild</key>
+    <string>15A507</string>
+    <key>CFBundleIdentifier</key>
+    <string>mobi.musicparadise.DJMixPads2RemixVersionmpubs</string>
+    <key>App Data</key>
+    <data>
+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
+</data>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>FacebookDisplayName</key>
+    <string>DJ Mix Pads 2 - Remix Version</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+      <string>vk</string>
+      <string>vk-share</string>
+      <string>vkauthorize</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>DJMixPads2 Bluetooth Peripheral use</string>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+    <key>CFBundleName</key>
+    <string>DJ Mix Pads 2</string>
+    <key>CFBundleShortVersionString</key>
+    <string>71.0.2</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright ©2023 Inline Solutions s.r.o. All rights reserved.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Ubuntu-Bold.ttf</string>
+      <string>ubuntu.bold.ttf</string>
+      <string>ubuntuc-r.ttf</string>
+      <string>Ubuntu-M.ttf</string>
+      <string>Ubuntu-R.ttf</string>
+      <string>Ubuntu-B.ttf</string>
+      <string>Ubuntu-Medium.ttf</string>
+      <string>Oswald-Bold.ttf</string>
+      <string>Oswald-Regular.ttf</string>
+      <string>DISPLAY FREE TFB.ttf</string>
+      <string>Oswald-Medium.ttf</string>
+      <string>Oswald-Light.ttf</string>
+      <string>Oswald-SemiBold.ttf</string>
+      <string>SF-Pro-Text-Semibold.otf</string>
+      <string>SF-Pro-Text-Regular.otf</string>
+      <string>SF-UI-Text-Bold.otf</string>
+      <string>SF-Pro-Text-Heavy.otf</string>
+      <string>SF-Pro-Text-Medium.otf</string>
+      <string>SF-Pro-Text-Bold.ttf</string>
+      <string>Montserrat-SemiBold.ttf</string>
+      <string>Ubuntu-BoldItalic.ttf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>DJMixPads2</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>The application ‘DJ Mix Pads 2’ is requesting permission to access Media Library so you will be able to add your sound to the loop.</string>
+    <key>FacebookAppID</key>
+    <string>1693633337552723</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15C5065a</string>
+    <key>BuildMachineOSBuild</key>
+    <string>22G90</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>DJMixPads2 calendar events</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>The application ‘DJ Mix Pads 2’ is requesting permission to access Microphone so you will be able to record your voice for loops.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>DJ Mix Pads 2 location use</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleVersion</key>
+    <string>1182</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>mobi.musicparadise.DJMixPads2RemixVersionmpubs</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb1693633337552723</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>mobi.musicparadise.DJMixPads2RemixVersionmpubs</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.1021101821051-5cv7gt20l6bahl5a5ksnmf0mk8587ggm</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>mobi.musicparadise.DJMixPads2RemixVersionmpubs</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>vk6035435</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>djmixpads2</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTSDKName</key>
+    <string>iphoneos17.0</string>
+    <key>Fabric</key>
+    <dict>
+      <key>Kits</key>
+      <array>
+        <dict>
+          <key>KitInfo</key>
+          <dict/>
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+      </array>
+      <key>APIKey</key>
+      <string>9ffbb0f9cec5636a1718d32ad764c34e66fc76b9</string>
+    </dict>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>21A326</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>The application ‘DJ Mix Pads 2’ is requesting permission to access Photo so you can create your own avatar.</string>
+    <key>DTXcode</key>
+    <string>1501</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+  </dict>
+</plist>

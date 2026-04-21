@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>NSHumanReadableCopyright</key>
+    <string>© 2009-2024 Andreas Amann</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>17.4</string>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>com.gvconnect.activity_reply</string>
+      <string>com.gvconnect.activity_call</string>
+    </array>
+    <key>CFBundleName</key>
+    <string>GV Connect</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.4</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Selection of photos for sending via MMS message and storing of received photos to the photo library.</string>
+    <key>UIViewGroupOpacity</key>
+    <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.aamann.GV-Connect</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>gvconnect</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>Icon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>Icon</string>
+      </dict>
+    </dict>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>ITSEncryptionExportComplianceCode</key>
+    <string>77ac3cf9-7d54-42db-b14a-1abedd8693c4</string>
+    <key>CFBundleDisplayName</key>
+    <string>GV Connect</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>tetouch</string>
+      <string>tetouch-xc</string>
+      <string>tetouch-settings</string>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Automatic switching of account settings via Quick Settings based on current location.
+The application uses "Region Monitoring" which requires "Always" access. Choosing "Only While Using the App" will make Location Awareness inaccessible until full access is granted in the Privacy Settings.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Automatic switching of account settings via Quick Settings based on current location.
+The application uses "Region Monitoring" which requires "Always" access. Choosing "Only While Using the App" will make Location Awareness inaccessible until full access is granted in the Privacy Settings.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>21E210</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Capturing photos in order to send them via MMS messages.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.10.1</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Automatic switching of account settings via Quick Settings based on current location</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>23E224</string>
+    <key>DTPlatformBuild</key>
+    <string>21E210</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>15E204a</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>MinimumOSVersion</key>
+    <string>12.0</string>
+    <key>CFBundleVersion</key>
+    <string>2915</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Storing of photos received via MMS to the photo library.</string>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMainNibFile</key>
+    <string>MainWindow</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.aamann.GV-Connect</string>
+    <key>DTXcode</key>
+    <string>1530</string>
+    <key>CFBundleExecutable</key>
+    <string>GV Connect</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>gvconnect.com</key>
+        <dict>
+          <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSExceptionAllowInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>Icon60x60</string>
+          <string>Icon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>Icon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Authenticate using Face recognition instead of entering the application-specific PIN.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <true/>
+    <key>NSContactsUsageDescription</key>
+    <string>Selection of contacts for dialing/messaging and contact name lookup based on phone number.</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15E204</string>
+  </dict>
+</plist>

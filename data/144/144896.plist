@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>18.0</string>
+    <key>MKDirectionsApplicationSupportedModes</key>
+    <array/>
+    <key>CFBundleName</key>
+    <string>Smart Switch</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.0</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Used to transfer your photos and videos</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>Used to transfer your reminder data</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>smartswitch</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon-160x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon-1</string>
+      </dict>
+    </dict>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>DTSDKBuild</key>
+    <string>22A3362</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Used to scan QR codes to connect to Galaxy phones and tablets</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.13</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+    <true/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24G90</string>
+    <key>DTPlatformBuild</key>
+    <string>22A3362</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>16A242d</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>12.0</string>
+    <key>CFBundleVersion</key>
+    <string>4</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>Used to transfer your calendar data</string>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.samsung.ios.smartswitch</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneStoryboardFile</key>
+            <string>Main</string>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>Smart_Switch.SceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>DTXcode</key>
+    <string>1600</string>
+    <key>NSRemindersFullAccessUsageDescription</key>
+    <string>Used to transfer your reminder data</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Used to transfer your calendar data</string>
+    <key>CFBundleExecutable</key>
+    <string>Smart Switch</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon-160x60</string>
+          <string>AppIcon-176x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon-1</string>
+      </dict>
+    </dict>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Used to connect to Galaxy phones and tablets on the same Wi-Fi network</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSContactsUsageDescription</key>
+    <string>Used to transfer contacts</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17A323</string>
+  </dict>
+</plist>

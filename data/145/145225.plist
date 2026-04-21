@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This allows us to access the device bluetooth.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Your location allows us to find nearby stores, check product availability, and get local beauty deals.</string>
+    <key>DTPlatformVersion</key>
+    <string>18.5</string>
+    <key>DTSDKBuild</key>
+    <string>22F76</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+      </dict>
+    </dict>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-8398078847121213~3778834344</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>This allows you to scan product barcodes, take or upload photos, and uses TrueDepth Camera for facial tracking in our Virtual Try-On experiences.</string>
+    <key>DTXUserOptIn</key>
+    <true/>
+    <key>FirebaseAppDelegateProxyEnabled</key>
+    <false/>
+    <key>CFBundleDisplayName</key>
+    <string>Ulta Beauty</string>
+    <key>DTXcodeBuild</key>
+    <string>16F6</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.ulta.UltaMcommerceApp</string>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
+    <key>FirebaseAutomaticScreenReportingEnabled</key>
+    <false/>
+    <key>DTXBeaconURL</key>
+    <string>https://bf78180lnp.bf.dynatrace.com/mbeacon</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>waze</string>
+      <string>comgooglemaps</string>
+      <string>googlechromes</string>
+      <string>ultahelper</string>
+      <string>com.venmo.touch.v2</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>That way, the ads you see will be tailored to you. Change this anytime in your Settings.</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Launch</string>
+    <key>MinimumOSVersion</key>
+    <string>17.6</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This allows you to upload photos.</string>
+    <key>CFBundleName</key>
+    <string>Ulta Beauty</string>
+    <key>CFBundleShortVersionString</key>
+    <string>10.8</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>DTXApplicationID</key>
+    <string>3cbe8b4b-4081-476b-b45f-e70236429b13</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>bluetooth-central</string>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIAppFonts</key>
+    <array>
+      <string>usd-icon-font.ttf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Ulta Beauty</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>DTXAutoStart</key>
+    <false/>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Speech recognition will be used to determine which words you speak into this device's microphone.</string>
+    <key>UIDesignRequiresCompatibility</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C53</string>
+    <key>BuildMachineOSBuild</key>
+    <string>24G419</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>This allows us to add events to your calendar.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Your microphone will be used to easily find products in the Ulta Beauty app.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Your location allows us to find nearby stores and check product availability.</string>
+    <key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+    <string>This allows us to add events to your calendar.</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en_US</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Allow us to use Face ID to authenticate the user before account deletion.</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string></string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>ulta</string>
+          <string>cashstarulta</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Your location allows us to find nearby stores, check product availability, and get local beauty deals.</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.5</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>api-qa2.ulta.com</key>
+        <dict>
+          <key>NSExceptionRequiresForwardSecrecy</key>
+          <false/>
+        </dict>
+        <key>api-da3.ulta.com</key>
+        <dict>
+          <key>NSExceptionRequiresForwardSecrecy</key>
+          <false/>
+        </dict>
+        <key>apistg-stress.ulta.com</key>
+        <dict>
+          <key>NSExceptionRequiresForwardSecrecy</key>
+          <false/>
+        </dict>
+        <key>api-qa3.ulta.com</key>
+        <dict>
+          <key>NSExceptionRequiresForwardSecrecy</key>
+          <false/>
+        </dict>
+        <key>api-qa4.ulta.com</key>
+        <dict>
+          <key>NSExceptionRequiresForwardSecrecy</key>
+          <false/>
+        </dict>
+        <key>apistg.ulta.com</key>
+        <dict>
+          <key>NSExceptionRequiresForwardSecrecy</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>22F76</string>
+    <key>DTXcode</key>
+    <string>1640</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This allows you to upload photos.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+  </dict>
+</plist>

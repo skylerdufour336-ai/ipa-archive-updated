@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>NSUserTrackingUsageDescription</key>
+    <string> Your data will be used to provide you a better and personalized ad experience.</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.2</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.crateandbarrel.giftregistry</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>crateandbarrel</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.crateandbarrel.giftregistry.testfairy</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>crateandbarrel</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>26.2</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>CFBundleName</key>
+    <string>Crate&amp;Barrel</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.2</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Crate and Barrel would like to access your photo library to add a registry profile picture and save View in Your Room images.</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Crate and Barrel would like to access your bluetooth interface to improve the accuracy of your location information.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Crate and Barrel would like to use your location to provide localized product availability information and a richer experience when you are in our stores.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Crate&amp;Barrel</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>cb2</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Crate and Barrel would like to use your location to provide localized product availability information and a richer experience when you are in our stores.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>location</string>
+      <string>remote-notification</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>23C53</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Crate &amp; Barrel requires access to the camera to scan barcodes</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2026.2</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Crate and Barrel would like to use your location to provide localized product availability information and a richer experience when you are in our stores.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24G84</string>
+    <key>DTPlatformBuild</key>
+    <string>23C53</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>17C52</string>
+    <key>MinimumOSVersion</key>
+    <string>17.0</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Crate and Barrel would like to access your bluetooth interface to improve the accuracy of your location information.</string>
+    <key>CFBundleVersion</key>
+    <string>5520</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Crate and Barrel would like to access your photo library to add a registry profile picture.</string>
+    <key>UIDesignRequiresCompatibility</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen.storyboard</string>
+    <key>NSMotionUsageDescription</key>
+    <string>Crate and Barrel would like to use your location to provide localized product availability information and a richer experience when you are in our stores.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.crateandbarrel.giftregistry</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>Crate_Barrel.SceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>DTXcode</key>
+    <string>2620</string>
+    <key>CFBundleExecutable</key>
+    <string>Crate&amp;Barrel</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+      </dict>
+    </dict>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Crate and Barrel would like to allow Face ID to speed access to your Crate and Barrel credit card account.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSHumanReadableCopyright</key>
+    <string>2024 Crate and Barrel</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+  </dict>
+</plist>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>17.0</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>CFBundleName</key>
+    <string>Ski Tracker</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.0</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UIMainStoryboardFile~ipad</key>
+    <string>Storyboard</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>
+IMPORTANT PLEASE READ
+
+This application uses iPhone GPS data (your location) to track your ski sessions.
+
+iOS 14+ users must allow Precise Location permission in order to accurately track a ski session.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Ski Tracker</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>
+IMPORTANT PLEASE READ
+
+This application uses iPhone GPS data (your location) to track your ski sessions.
+
+iOS 14+ users must allow Precise Location permission in order to accurately track a ski session.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>location</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>21A326</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.28</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>
+IMPORTANT PLEASE READ
+
+This application uses iPhone GPS data (your location) to track your ski sessions.
+
+iOS 14+ users must allow Precise Location permission in order to accurately track a ski session.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>22G91</string>
+    <key>DTPlatformBuild</key>
+    <string>21A326</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>15A507</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>12.0</string>
+    <key>CFBundleVersion</key>
+    <string>3</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Permission is required to save your season stats as a photo.</string>
+    <key>NSUbiquitousContainers</key>
+    <dict>
+      <key>iCloud.lwbrands.skitrackerandsnowreport</key>
+      <dict>
+        <key>NSUbiquitousContainerSupportedFolderLevels</key>
+        <string>Any</string>
+        <key>NSUbiquitousContainerName</key>
+        <string>Documents</string>
+        <key>NSUbiquitousContainerIsDocumentScopePublic</key>
+        <true/>
+      </dict>
+    </dict>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>CFBundleIdentifier</key>
+    <string>lwbrands.skitrackerandsnowreport</string>
+    <key>DTXcode</key>
+    <string>1501</string>
+    <key>NSLocationUsageDescription</key>
+    <string>
+IMPORTANT PLEASE READ
+
+This application uses iPhone GPS data (your location) to track your ski sessions.
+
+iOS 14+ users must allow Precise Location permission in order to accurately track a ski session.</string>
+    <key>CFBundleExecutable</key>
+    <string>Ski Tracker</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Storyboard</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15A240a</string>
+  </dict>
+</plist>

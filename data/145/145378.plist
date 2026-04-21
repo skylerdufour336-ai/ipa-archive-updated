@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This data is used to understand app usage and improve performance</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSLocationWhenInUsageDescription</key>
+    <string>Use Location</string>
+    <key>DTPlatformVersion</key>
+    <string>26.1</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>CFBundleName</key>
+    <string>ZainCash Iraq</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.1</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Using photo library</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C7003g</string>
+    <key>NSContactsUsageDescription</key>
+    <string>We need access to your contacts to fetch the phone book.</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>GoogleKey</key>
+    <string></string>
+    <key>FirebaseAutomaticScreenReportingEnabled</key>
+    <false/>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>The app needs permission for the correct usage.</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>comgooglemaps</string>
+      <string>comgooglemaps-x-callback</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>The app needs permission for the correct usage.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>23B77</string>
+    <key>NSCameraUsageDescription</key>
+    <string>ZainCash requires access to your phone’s camera.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>4.0.1</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>The app needs permission for the correct usage.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>25D125</string>
+    <key>DTPlatformBuild</key>
+    <string>23B77</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>15.6</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>NunitoSans-SemiBold.ttf</string>
+      <string>NunitoSans-Medium.ttf</string>
+      <string>NunitoSans-Bold.ttf</string>
+      <string>NunitoSans-Regular.ttf</string>
+      <string>NunitoSans-Light.tff</string>
+      <string>NunitoSans-ExtraBold.ttf</string>
+      <string>Zain-Black.ttf</string>
+      <string>Zain-Regular.ttf</string>
+      <string>Zain-Bold.ttf</string>
+      <string>Zain-ExtraBold.ttf</string>
+      <string>Zain-Light.ttf</string>
+      <string>Zain-ExtraLight.ttf</string>
+      <string>Zain-Italic.ttf</string>
+      <string>Zain-LightItalic.ttf</string>
+      <string>QT-Zain-Bold_KU.ttf</string>
+      <string>QT-Zain-Regular_KU.ttf</string>
+      <string>QT-Zain-Bold_AR.otf</string>
+      <string>QT-Zain-Regular_AR.otf</string>
+      <string>NunitoSans-ExtraLight.ttf</string>
+      <string>NunitoSans-Light.ttf</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>ZainCash requires access to your photos.</string>
+    <key>DTXcodeBuild</key>
+    <string>17B100</string>
+    <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+    <array>
+      <string>A0000002471001</string>
+      <string>A0000002472001</string>
+      <string>00000000000000</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen.storyboard</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.zain.zaincash</string>
+    <key>PublicKey</key>
+    <string></string>
+    <key>DTXcode</key>
+    <string>2611</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>NFCReaderUsageDescription</key>
+    <string>App needs access to your NFC to read Id chip</string>
+    <key>CFBundleExecutable</key>
+    <string>ZainCash Iraq</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+      </dict>
+    </dict>
+    <key>NSFaceIDUsageDescription</key>
+    <string>ZainCash Iraq Authentication with TouchId or FaceID</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+  </dict>
+</plist>
