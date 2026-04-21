@@ -300,11 +300,10 @@ function entryToDict(entry) {
         pathName: entry[7],
         size: entry[8],
         ipa_url: baseUrls[entry[6]] + '/' + entry[7],
-        img_url: 'data/' + Math.floor(img_pk / 1000) + '/' + img_pk + '.jpg?v=' + Date.now(),
+        img_url: 'data/' + Math.floor(img_pk / 1000) + '/' + img_pk + '.jpg',
     }
 }
 
-var alerted = false;
 function onImgError(img) {
     img.onerror = null;
     img.src = 'apple-touch-icon.png';
