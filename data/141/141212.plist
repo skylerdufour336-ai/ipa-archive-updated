@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>We need access to your documents folder to save files and images for easy retrieval and organization.</string>
+    <key>DTPlatformVersion</key>
+    <string>17.4</string>
+    <key>CFBundleName</key>
+    <string>CustomGallery - Files Pro</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.4</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to allow you to upload and manage images in your custom galleries.</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-3144169908690020~7990306391</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>aps-environment</key>
+    <string>production</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>file</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need access to your location to provide location-based file organization and management features.</string>
+    <key>google_mobile_ads_json_raw</key>
+    <string>eyJhbmRyb2lkX2FwcF9pZCI6ICJjYS1hcHAtcHViLTMxNDQxNjk5MDg2OTAwMjB+MTQyMDk4Mjg2MiIsICJpb3NfYXBwX2lkIjogImNhLWFwcC1wdWIteHh4eHh4eHh+eHh4eHh4eHgifQ==</string>
+    <key>DTSDKBuild</key>
+    <string>21E210</string>
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera to capture images and videos for your custom galleries.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+    <true/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>23E224</string>
+    <key>DTPlatformBuild</key>
+    <string>21E210</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>15E204a</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We need access to your photo library to save images and files to your custom galleries.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>We need access to your microphone to recognize and transcribe speech for audio annotations in your custom galleries.</string>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>NSFileUsageDescription</key>
+    <string>We need access to your files to store and organize your custom gallery images and documents securely.</string>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need access to your microphone to record audio annotations for your files and gallery items.</string>
+    <key>UILaunchStoryboardName</key>
+    <string>SplashScreen</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.mni.custom.gallery.files.pro</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>We need access to your Apple Music library to enhance your user experience with personalized music integration.</string>
+    <key>DTXcode</key>
+    <string>1530</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>localhost</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>CFBundleExecutable</key>
+    <string>docScannerApp</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSDocumentDirectoryUsageDescription</key>
+    <string>We need access to your documents to allow you to upload and manage files within your custom galleries.</string>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15F31e</string>
+  </dict>
+</plist>

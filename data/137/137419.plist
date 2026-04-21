@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CoronaDelegates</key>
+    <array>
+      <string>OneSignalCoronaDelegate</string>
+      <string>CoronaNotificationsDelegate</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Set Location Always Usage Description in build settings</string>
+    <key>DTPlatformVersion</key>
+    <string>17.2</string>
+    <key>DTSDKBuild</key>
+    <string>21C52</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleBlackTranslucent</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+          <string>AppIcon83.5x83.5</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-6332350449698897~3251523269</string>
+    <key>NSSiriUsageDescription</key>
+    <string>Set Siri Usage description in build settings</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Advertisement would like to store a photo.</string>
+    <key>NSMainNibFile</key>
+    <string>MainWindow</string>
+    <key>CFBundleDisplayName</key>
+    <string>Cookies Inc.</string>
+    <key>CoronaViewSupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTXcodeBuild</key>
+    <string>15C500b</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>Set Reminders Usage description in build settings</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.pixelcubestudios.cookiecollector2</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSMainNibFile~ipad</key>
+    <string>MainWindow-iPad</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This will be used to deliver more relevant ads to you.</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CoronaSDKBuild</key>
+    <string>3704</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Set Bluetooth Peripheral description in build settings</string>
+    <key>MinimumOSVersion</key>
+    <string>11.0</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Save Cookies Inc. wallpaper to your device.</string>
+    <key>NSMotionUsageDescription</key>
+    <string>Set Motion Usage description in build settings</string>
+    <key>CFBundleName</key>
+    <string>Cookies Inc.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>76400</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>SKAdNetworkItems</key>
+    <array>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>bvpn9ufa9b.skadnetwork</string>
+      </dict>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Cookies.ttf</string>
+      <string>Si Kancil.ttf</string>
+      <string>Boogaloo-Regular.otf</string>
+      <string>Courgette-Regular.ttf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Cookies Inc.</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UILaunchImages</key>
+    <array>
+      <dict>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>Default</string>
+        <key>UILaunchImageSize</key>
+        <string>{320, 480}</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>7.0</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>Default-568h</string>
+        <key>UILaunchImageSize</key>
+        <string>{320, 568}</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>7.0</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>Default-Portrait</string>
+        <key>UILaunchImageSize</key>
+        <string>{768, 1024}</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>7.0</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>Default-667h</string>
+        <key>UILaunchImageSize</key>
+        <string>{375, 667}</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>Default-736h</string>
+        <key>UILaunchImageSize</key>
+        <string>{414, 736}</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+      </dict>
+      <dict>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>Default-812h</string>
+        <key>UILaunchImageSize</key>
+        <string>{375, 812}</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>8.0</string>
+      </dict>
+    </array>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Set Apple Music description in build settings</string>
+    <key>FacebookAppID</key>
+    <string>1695717827330964</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Set Speech Recognition Usage description in build settings</string>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15E204</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Set Location Usage Description in build settings</string>
+    <key>BuildMachineOSBuild</key>
+    <string>22G436</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Advertisement would like to use calendar.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Use mic audio while broadcasting gameplay.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Set Location When In Use Usage description in build settings</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleVersion</key>
+    <string>2024.4.42039</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.pixelcubestudios.cookiecollector2</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>cookiecollector2</string>
+          <string>cookiesinc</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSHomeKitUsageDescription</key>
+    <string>Set Home Kit Usage Description in build settings</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.2</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>cookiecollector.com</key>
+        <dict>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+          <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+        <key>pixelcubestudios.com</key>
+        <dict>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+          <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>NSContactsUsageDescription</key>
+    <string>Set Contacts Usage Description in build settings</string>
+    <key>DTPlatformBuild</key>
+    <string>21C52</string>
+    <key>DTXcode</key>
+    <string>1520</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Advertisement would like to store a photo.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>UIInterfaceOrientation</key>
+    <string>UIInterfaceOrientationPortrait</string>
+  </dict>
+</plist>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>microphone</string>
+		<string>accelerometer</string>
+		<string>auto-focus-camera</string>
+		<string>video-camera</string>
+		<string>opengles-3</string>
+		<string>metal</string>
+		<string>arm64</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>DTPlatformVersion</key>
+	<string>17.0</string>
+	<key>CFBundleName</key>
+	<string>MAVIS</string>
+	<key>DTSDKName</key>
+	<string>iphoneos17.0</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This allows the app to save your recordings to Photos</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>ATOMOSAppIcon</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>ATOMOSAppIcon</string>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This allows the app to connect to devices like the UltraSync BLUE as well as Bluetooth audio capture and monitoring equipment.</string>
+	<key>CFBundleDisplayName</key>
+	<string>Pro Camera</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This allows the app to tag files with your GPS location when you start recording</string>
+	<key>DTSDKBuild</key>
+	<string>21A326</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This allows the app to preview and record video</string>
+	<key>CFBundleShortVersionString</key>
+	<string>6.1.6</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>23B81</string>
+	<key>DTPlatformBuild</key>
+	<string>21A326</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DTXcodeBuild</key>
+	<string>15A507</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>MinimumOSVersion</key>
+	<string>16.0</string>
+	<key>CFBundleVersion</key>
+	<string>1229</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This allows the app to connect to devices like the UltraSync BLUE as well as Bluetooth audio capture and monitoring equipment.</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<false/>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This allows the app to monitor and record audio</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.drphilsapps.Mavis</string>
+	<key>DTXcode</key>
+	<string>1501</string>
+	<key>CFBundleExecutable</key>
+	<string>MAVIS</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15C5500a</string>
+</dict>
+</plist>

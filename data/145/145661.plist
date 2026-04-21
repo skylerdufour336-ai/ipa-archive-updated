@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>需要您的同意，才能始终访问位置</string>
+    <key>DTPlatformVersion</key>
+    <string>18.5</string>
+    <key>DTSDKBuild</key>
+    <string>22F76</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>头像拍照</string>
+    <key>CFBundleDisplayName</key>
+    <string>隋唐英杰传</string>
+    <key>FacebookClientToken</key>
+    <string>664377558bb7e21209d3f2d832ab0549</string>
+    <key>DTXcodeBuild</key>
+    <string>16F6</string>
+    <key>NSPrivacyTrackingDomains</key>
+    <array>
+      <string>ep1.facebook.com</string>
+    </array>
+    <key>CFBundleIdentifier</key>
+    <string>com.bantu.styxz</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.games</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>FacebookDisplayName</key>
+    <string>歸離九闕</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-share-api</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>为了更好地了解您如何使用我们的应用，以便我们进行改进，我们需要您的允许，才能使用您的设备IDFA。这有助于我们了解哪些功能最受用户欢迎，并进行优化。</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>MinimumOSVersion</key>
+    <string>12.0</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>允许保存图片到您的相册</string>
+    <key>CFBundleName</key>
+    <string>隋唐英杰传</string>
+    <key>CFBundleShortVersionString</key>
+    <string>100.21.0</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIAppFonts</key>
+    <array/>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>隋唐英杰传</string>
+    <key>UILaunchImages</key>
+    <array>
+      <dict>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>LaunchImage-700-568h</string>
+        <key>UILaunchImageSize</key>
+        <string>{320, 568}</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>7.0</string>
+      </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>1749100245552667</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+    <key>NSLocationUsageDescription</key>
+    <string>需要您的同意，才能使用过程中访问位置</string>
+    <key>BuildMachineOSBuild</key>
+    <string>24E263</string>
+    <key>GIDClientID</key>
+    <string>290160758555-7i6g388mmobf5jhha7bf4pq2um1de114.apps.googleusercontent.com</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Some ad content may access calendar</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>是否允许在使用过程中获取您的定位信息用于自动判断最近服务器的连接</string>
+    <key>CFBundleVersion</key>
+    <string>2</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb1749100245552667</string>
+          <string>com.googleusercontent.apps.290160758555-7i6g388mmobf5jhha7bf4pq2um1de114</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>是否允许始终获取您的定位信息用于自动判断最近服务器的连接</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.5</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>xyplay.cn</key>
+        <dict>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+          <key>NSPinnedIntermediateCertificates</key>
+          <data>
+MIIEqjCCA5KgAwIBAgIQAnmsRYvBskWr+YBTzSybsTANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQG
+EwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAw
+HgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBDQTAeFw0xNzExMjcxMjQ2MTBaFw0yNzExMjcx
+MjQ2MTBaMG4xCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3
+dy5kaWdpY2VydC5jb20xLTArBgNVBAMTJEVuY3J5cHRpb24gRXZlcnl3aGVyZSBEViBUTFMgQ0Eg
+LSBHMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPeP6wkab41dyQh6mKcoHqt3jRI
+xW5MDvf9QyiOR7VfFwK656es0UFiIb74N9pRntzF1UgYzDGu3ppZVMdolbxhm6dWS9OK/lFehKNT
+0OYI9aqk6F+U7cA6jxSC+iDBPXwdF4rs3KRyp3aQn6pjpp1yr7IB6Y4zv72Ee/PlZ/6rK6InC6Wp
+K0nPVOYR7n9iDuPe1E4IxUMBH/T33+3hyuH3dvfgiWUOUkjdpMbyxX+XNle5uEIiyBsi4IvbcTCh
+8ruifCIi5mDXkZrnMT8nwfYCV6v6kDdXkbgGRLKsR4pucbJtbKqIkUGxuZI2t7pfewKRc5nWecvD
+BZf3+p1MpA8CAwEAAaOCAU8wggFLMB0GA1UdDgQWBBRVdE+yck/1YLpQ0dfmUVyaAYca1zAfBgNV
+HSMEGDAWgBQD3lA1VtFMu2bwo+IbG8OXsj3RVTAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYI
+KwYBBQUHAwEGCCsGAQUFBwMCMBIGA1UdEwEB/wQIMAYBAf8CAQAwNAYIKwYBBQUHAQEEKDAmMCQG
+CCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wQgYDVR0fBDswOTA3oDWgM4YxaHR0
+cDovL2NybDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNybDBMBgNVHSAERTBD
+MDcGCWCGSAGG/WwBAjAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy5kaWdpY2VydC5jb20vQ1BT
+MAgGBmeBDAECATANBgkqhkiG9w0BAQsFAAOCAQEAK3Gp6/aGq7aBZsxf/oQ+TD/BSwW3AU4ETK+G
+Qf2kFzYZkby5SFrHdPomunx2HBzViUchGoofGgg7gHW0W3MlQAXWM0r5LUvStcr82QDWYNPaUy4t
+aCQmyaJ+VB+6wxHstSigOlSNF2a6vg4rgexixeiV4YSB03Yqp2t3TeZHM9ESfkus74nQyW7pRGez
+j+TC44xCagCQQOzzNmzEAP2SnCrJsNE2DpRVMnL8J6xBRdjmOsC3N6cQuKuRXbzByVBjCqAA8t1L
+0I+9wXJerLPyErjyrMKWaBFLmfK/AHNF4ZihwPGOc7w6UHczBZXH5RFzJNnww+WnKuTPI0HfnVH8
+lg==
+</data>
+        </dict>
+      </dict>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>22F76</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>需要访问您的相册以设置个人头像</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+    </array>
+    <key>DTXcode</key>
+    <string>1640</string>
+  </dict>
+</plist>

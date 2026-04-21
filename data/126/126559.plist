@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>NSContactsUsageDescription</key>
+    <string>Please allow us to use your contacts list</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UIRequiresFullScreen</key>
+    <false/>
+    <key>DTPlatformVersion</key>
+    <string>13.2</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>CFBundleName</key>
+    <string>CallsignSearch</string>
+    <key>DTSDKName</key>
+    <string>iphoneos13.2</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Please allow us to use your photo library</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>Please allow us to use reminders</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>ITSEncryptionExportComplianceCode</key>
+    <string>ed8fc127-ed12-4fde-a9e6-a3de7b371a2a</string>
+    <key>CFBundleDisplayName</key>
+    <string>Call Search</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Map QTH of selected call sign</string>
+    <key>DTSDKBuild</key>
+    <string>17B102</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Please allow us to use your camera</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.56</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Map QTH of selected call sign</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>19B88</string>
+    <key>DTPlatformBuild</key>
+    <string>17B102</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Please allow us to use your bluetooth</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>9.3</string>
+    <key>CFBundleVersion</key>
+    <string>3.56</string>
+    <key>DTXcodeBuild</key>
+    <string>11B53</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Please allow us to use speech</string>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Please allow us to use your microphone</string>
+    <key>NSMotionUsageDescription</key>
+    <string>Please allow us to use motion</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.nkutchera.CallsignSearch</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Please allow us to use your media library</string>
+    <key>DTXcode</key>
+    <string>1120</string>
+    <key>NSSiriUsageDescription</key>
+    <string>Please allow us to use SIRI</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Location used to determine heading to selected call sign</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Please allow us to use your calendars</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>CFBundleExecutable</key>
+    <string>CallsignSearch</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+          <string>AppIcon83.5x83.5</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <true/>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>11B48b</string>
+    <key>UISupportedDevices</key>
+    <array>
+      <string>iPhone4,1</string>
+      <string>iPod5,1</string>
+    </array>
+  </dict>
+</plist>

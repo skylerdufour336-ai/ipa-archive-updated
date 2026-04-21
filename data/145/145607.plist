@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>We need to access your advertising identifier to provide you with more personalized content and services</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Access to your contacts is needed to share content with your contacts</string>
+    <key>DTPlatformVersion</key>
+    <string>18.5</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.5</string>
+    <key>CFBundleName</key>
+    <string>RocketSandbox</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Use the images selected from your local album for QR code recognition and other functions</string>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-3369067175489572~1320614352</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Provide personalized information based on your geographical location</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>RocketSandbox</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>rocketsandbox</string>
+      <string>weixin</string>
+      <string>weixinULAPI</string>
+      <string>weixinURLParamsAPI</string>
+      <string>alipays</string>
+      <string>alipay</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Provide personalized information based on your geographical location</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+      <string>audio</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>22F76</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Need to use your camera for QR code scanning and recognition functions</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1.8</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Provide personalized information based on your geographical location</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24F74</string>
+    <key>DTPlatformBuild</key>
+    <string>22F76</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>15.0</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>16F6</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Speech recognition permission is needed to enable voice search functionality</string>
+    <key>CFBundleVersion</key>
+    <string>26020501</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>RocketLaunch.storyboard</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Microphone access is needed to enable voice search functionality</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.zdb.shahe</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+    </dict>
+    <key>DTXcode</key>
+    <string>1640</string>
+    <key>NSSiriUsageDescription</key>
+    <string>Siri permission is needed to allow you to add a shortcut for 'View Game Release Schedule'</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Access to your calendar is needed to add reminders for game releases</string>
+    <key>CFBundleExecutable</key>
+    <string>RocketSandbox</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+      </dict>
+    </dict>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Use your Face ID to quickly unlock the app's privacy mode</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>launch.urlscheme</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>rocketsandbox</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

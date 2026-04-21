@@ -29,9 +29,17 @@ if TYPE_CHECKING:
     from zipfile import ZipInfo
 
 
+import platform
 USE_ZIP_FILESIZE = False
 NESTED_SEP = '##'
-re_info_plist = re.compile(r'Payload/([^/]+)/Info.plist')
+
+# Detect OS and set pngdefry binary name
+if platform.system() == 'Windows':
+    PNGDEFRY_BIN = Path(__file__).parent / 'pngdefry' / 'pngdefry.exe'
+else:
+    PNGDEFRY_BIN = Path(__file__).parent / 'pngdefry' / 'pngdefry'
+
+re_info_plist = re.compile(r'((?:Payload/)?([^/]+\.app))/Info.plist', re.IGNORECASE)
 # re_links = re.compile(r'''<a\s[^>]*href=["']([^>]+\.ipa)["'][^>]*>''')
 re_archive_url = re.compile(
     r'https?://archive.org/(?:metadata|details|download)/([^/]+)(?:/.*)?')
@@ -46,7 +54,7 @@ def main():
 
     cmd = cli.add_parser('add', help='Add urls to cache')
     cmd.add_argument('urls', metavar='URL', nargs='+',
-                     help='Search URLs for .ipa links')
+                     help='Search URLs for .ipa links. Use "continue" to resume interrupted progress.')
 
     cmd = cli.add_parser('update', help='Update all urls')
     cmd.add_argument('urls', metavar='URL', nargs='*', help='URLs or index')
@@ -65,8 +73,8 @@ def main():
                      help='Export to json or temporary-filesize file')
 
     cmd = cli.add_parser('err', help='Handle problematic entries')
-    cmd.add_argument('err_type', choices=['reset', 'fix'], 
-                     help='reset: Set all done=3 to 0. fix: Reset and retry until no progress is made.')
+    cmd.add_argument('err_type', choices=['reset', 'fix', 'clear'], 
+                     help='reset: Set all done=3 to 0. fix: Reset and retry until no progress is made. clear: DELETE all entries with done=3 or done=4 from database.')
 
     cmd = cli.add_parser('get', help='Lookup value')
     cmd.add_argument('get_type', choices=['url', 'img', 'ipa'],
@@ -79,11 +87,31 @@ def main():
     cmd.add_argument('pk', metavar='PK', type=int,
                      nargs='+', help='Primary key')
 
+    cli.add_parser('fix-imgs', help='Check and fix missing images')
+    
+    cmd = cli.add_parser('clear-queue', help='DELETE pending entries from the database')
+    cmd.add_argument('queue_type', choices=['run', 'add'], metavar='type', 
+                     help='run: Processing queue (done=0), add: Scraping queue')
+
     args = parser.parse_args()
 
     if args.cmd == 'add':
-        for url in args.urls:
-            addNewUrl(url)
+        if args.urls == ['continue']:
+            queue = CacheDB().getScrapeQueue()
+            if not queue:
+                print('Nothing to resume.')
+            else:
+                print(f'Resuming {len(queue)} collections...')
+                for url in queue:
+                    addNewUrl(url, resume=True)
+        else:
+            # Add all URLs to queue first so they can be resumed if interrupted
+            db = CacheDB()
+            for url in args.urls:
+                db.addToScrapeQueue(url)
+            
+            for url in args.urls:
+                addNewUrl(url, resume=False)
         print('done.')
 
     elif args.cmd == 'update':
@@ -101,7 +129,10 @@ def main():
             for pk in args.pk:
                 url = DB.getUrl(pk)
                 print(pk, ': process', url)
-                loadIpa(pk, url, overwrite=True)
+                if loadIpa(pk, url, overwrite=True):
+                    DB.setDone(pk)
+                else:
+                    DB.setError(pk, done=3)
         else:
             if args.force:
                 print('Resetting done state ...')
@@ -118,12 +149,18 @@ def main():
                         DB.setAllUndone(whereDone=3)
                         continue
                 break
+        
+        # After run, always check for missing images
+        fix_missing_images(DB)
 
     elif args.cmd == 'err':
         DB = CacheDB()
         if args.err_type == 'reset':
             print('Resetting error state ...')
             DB.setAllUndone(whereDone=3)
+        elif args.err_type == 'clear':
+            count = DB.deleteAllErrors()
+            print(f'Successfully deleted {count} error entries from the database.')
         elif args.err_type == 'fix':
             while True:
                 err_count = DB.count(done=3)
@@ -175,6 +212,57 @@ def main():
                 print(pk, ': set done=4')
                 DB.setPermanentError(pk)
 
+    elif args.cmd == 'fix-imgs':
+        fix_missing_images(CacheDB())
+
+    elif args.cmd == 'clear-queue':
+        count = CacheDB().clearQueue(type=args.queue_type)
+        print(f'Successfully cleared {count} {args.queue_type} entries from the database.')
+
+
+def fix_missing_images(DB: 'CacheDB'):
+    missing = []
+    print("Checking for missing images...")
+    # Only iterate over the unique master images (~58k)
+    # We skip entries where done=4 because those are known to be broken/unfixable
+    entries = list(DB.getUniqueImagePks())
+    total = len(entries)
+    for i, (pk, img_pk) in enumerate(entries):
+        if i % 1000 == 0:
+            print(f"\rChecked {i}/{total} unique images...", end="")
+        img_path = diskPath(img_pk, '.jpg')
+        if not img_path.exists():
+            # Use the master pk to trigger the reload
+            missing.append(img_pk)
+    print(f"\rChecked {total}/{total} unique images. Done.")
+    
+    if not missing:
+        print("No missing images found.")
+    else:
+        print(f"Found {len(missing)} missing unique images. Fixing...")
+        for pk in missing:
+            url = DB.getUrl(pk)
+            print(f"[{pk}] Fix unique image: {url}")
+            
+            # Get current state to handle retry logic
+            res = DB._db.execute("SELECT done FROM idx WHERE pk=?", [pk]).fetchone()
+            state = res[0] if res else 1
+            
+            loadIpa(pk, url, overwrite=True, image_only=True)
+            
+            if not diskPath(pk, ".jpg").exists():
+                if state == 1:
+                    print(f"  [WARN] [{pk}] Still no image. Setting to retry state (done=2).")
+                    DB._db.execute("UPDATE idx SET done=2 WHERE image_pk=?", [pk])
+                    DB._db.commit()
+                else:
+                    print(f"  [ERROR] [{pk}] Still no image after retry. Marking as permanent error.")
+                    # Mark ALL entries sharing this image as permanent error
+                    uids = DB._db.execute("SELECT pk FROM idx WHERE image_pk=?", [pk]).fetchall()
+                    for (uid,) in uids:
+                        DB.setPermanentError(uid)
+    print("done.")
+
 
 ###############################################
 # Database
@@ -206,14 +294,67 @@ class CacheDB:
                 title TEXT DEFAULT NULL,
                 bundle_id TEXT DEFAULT NULL,
                 version TEXT DEFAULT NULL,
+                image_pk INTEGER DEFAULT NULL,
 
                 UNIQUE(base_url, path_name) ON CONFLICT ABORT,
                 FOREIGN KEY (base_url) REFERENCES urls (pk) ON DELETE RESTRICT
             );
         ''')
+        self._db.execute('''
+            CREATE TABLE IF NOT EXISTS scrape_queue(
+                url TEXT PRIMARY KEY
+            );
+        ''')
+        self._db.execute('''
+            CREATE TABLE IF NOT EXISTS scanned_archives(
+                base_url_id INTEGER,
+                archive_name TEXT,
+                size INTEGER,
+                crc TEXT,
+                PRIMARY KEY(base_url_id, archive_name),
+                FOREIGN KEY (base_url_id) REFERENCES urls (pk) ON DELETE CASCADE
+            );
+        ''')
 
     def __del__(self) -> None:
         self._db.close()
+
+    def addToScrapeQueue(self, url: str):
+        self._db.execute('INSERT OR IGNORE INTO scrape_queue (url) VALUES (?);', [url])
+        self._db.commit()
+
+    def removeFromScrapeQueue(self, url: str):
+        self._db.execute('DELETE FROM scrape_queue WHERE url=?;', [url])
+        self._db.commit()
+
+    def getScrapeQueue(self) -> 'list[str]':
+        x = self._db.execute('SELECT url FROM scrape_queue;')
+        return [row[0] for row in x.fetchall()]
+
+    def isArchiveScanned(self, baseUrlId: int, name: str, size: int, crc: str) -> bool:
+        x = self._db.execute('''SELECT 1 FROM scanned_archives 
+            WHERE base_url_id=? AND archive_name=? AND size=? AND crc=?;''', 
+            [baseUrlId, name, size, crc])
+        return x.fetchone() is not None
+
+    def markArchiveScanned(self, baseUrlId: int, name: str, size: int, crc: str):
+        self._db.execute('''INSERT OR REPLACE INTO scanned_archives 
+            (base_url_id, archive_name, size, crc) VALUES (?,?,?,?);''',
+            [baseUrlId, name, size, crc])
+        self._db.commit()
+
+    def getNestedIpasFromIdx(self, baseUrlId: int, archiveName: str) -> 'list[tuple[str, int, str]]':
+        prefix = archiveName + NESTED_SEP
+        x = self._db.execute('''SELECT path_name, fsize FROM idx 
+            WHERE base_url=? AND path_name LIKE ?;''', [baseUrlId, prefix + '%'])
+        return [(row[0], row[1], None) for row in x.fetchall()]
+
+    def clearScannedArchives(self, baseUrlId: int = None):
+        if baseUrlId:
+            self._db.execute('DELETE FROM scanned_archives WHERE base_url_id=?;', [baseUrlId])
+        else:
+            self._db.execute('DELETE FROM scanned_archives;')
+        self._db.commit()
 
     # Get URL
 
@@ -236,8 +377,22 @@ class CacheDB:
         x = self._db.execute('''SELECT url, path_name FROM idx
             INNER JOIN urls ON urls.pk=base_url WHERE idx.pk=?;''', [uid])
         base, path = x.fetchone()
-        # path_name now uses standard slashes for nested files
+        # Convert the internal ## separator to a slash for the final URL
+        path = path.replace(NESTED_SEP, '/')
         return base + '/' + quote(path)
+
+    def hasImage(self, bundle_id: str, version: str) -> 'int|None':
+        if not bundle_id or not version:
+            return None
+        res = self._db.execute('''
+            SELECT image_pk FROM idx 
+            WHERE bundle_id=? AND version=? AND image_pk IS NOT NULL 
+            LIMIT 1''', [bundle_id, version]).fetchone()
+        if res:
+            pk = res[0]
+            if diskPath(pk, '.jpg').exists():
+                return pk
+        return None
 
     # Insert URL
 
@@ -302,9 +457,19 @@ class CacheDB:
                 TRIM(IFNULL(title,
                     REPLACE(path_name,RTRIM(path_name,REPLACE(path_name,'/','')),'')
                 )) as tt, IFNULL(bundle_id, ""),
-                version, base_url, path_name, fsize / 1024
+                version, base_url, path_name, fsize / 1024,
+                image_pk
             FROM idx WHERE done=?
             ORDER BY tt COLLATE NOCASE, min_os, platform, version;''', [done])
+
+    def getUniqueImagePks(self) -> Iterable[tuple[int, int]]:
+        ''' Returns (pk, image_pk) for each unique image_pk, excluding known errors (done=4) '''
+        yield from self._db.execute('''
+            SELECT MIN(pk), image_pk 
+            FROM idx 
+            WHERE done IN (1, 2) AND image_pk IS NOT NULL 
+            GROUP BY image_pk
+        ''')
 
     # Filesize
 
@@ -334,7 +499,43 @@ class CacheDB:
         self._db.execute('UPDATE idx SET done=0 WHERE done=?;', [whereDone])
         self._db.commit()
 
-    # Finalize / Postprocessing
+    def deleteAllErrors(self) -> int:
+        '''
+        DELETE all entries with done=3 or done=4 from database.
+        Will also delete all plist and image files for these entries.
+        '''
+        # First find IDs to delete
+        x = self._db.execute('SELECT pk FROM idx WHERE done IN (3, 4);')
+        ids = [row[0] for row in x.fetchall()]
+        
+        # Delete files
+        for uid in ids:
+            for ext in ['.plist', '.png', '.jpg']:
+                fname = diskPath(uid, ext)
+                if fname.exists():
+                    os.remove(fname)
+        
+        # DELETE from DB
+        x = self._db.execute('DELETE FROM idx WHERE done IN (3, 4);')
+        self._db.commit()
+        return x.rowcount
+
+    def clearQueue(self, type: str = 'run') -> int:
+        ''' 
+        DELETE entries from the database.
+        run: pending entries (done=0) from idx table.
+        add: scraping queue and scanned archives cache.
+        '''
+        if type == 'run':
+            x = self._db.execute('DELETE FROM idx WHERE done=0;')
+            self._db.commit()
+            return x.rowcount
+        elif type == 'add':
+            x1 = self._db.execute('DELETE FROM scrape_queue;')
+            x2 = self._db.execute('DELETE FROM scanned_archives;')
+            self._db.commit()
+            return x1.rowcount
+        return 0
 
     def setError(self, uid: int, *, done: int) -> None:
         self._db.execute('UPDATE idx SET done=? WHERE pk=?;', [done, uid])
@@ -396,15 +597,33 @@ class CacheDB:
         if not platforms and minOS[0] in [0, 1, 2, 3]:
             platforms = 1 << 1  # fallback to iPhone for old versions
 
+        # Find existing image for same bundle_id and version
+        image_pk = uid
+        if bundleId and version:
+            res = self._db.execute('''
+                SELECT image_pk FROM idx 
+                WHERE bundle_id=? AND version=? AND image_pk IS NOT NULL 
+                LIMIT 1''', [bundleId, version]).fetchone()
+            if res:
+                potential_img_pk = res[0]
+                if diskPath(potential_img_pk, '.jpg').exists():
+                    image_pk = potential_img_pk
+                    # If we found a duplicate, we can delete our own image if it exists
+                    for ext in ['.jpg', '.png']:
+                        p = diskPath(uid, ext)
+                        if p.exists():
+                            os.remove(p)
+
         self._db.execute('''
             UPDATE idx SET
-                done=1, min_os=?, platform=?, title=?, bundle_id=?, version=?
+                done=1, min_os=?, platform=?, title=?, bundle_id=?, version=?, image_pk=?
             WHERE pk=?;''', [
             (minOS[0] * 10000 + minOS[1] * 100 + minOS[2]) or None,
             platforms or None,
             title or None,
             bundleId or None,
             version or None,
+            image_pk,
             uid,
         ])
         self._db.commit()
@@ -414,14 +633,31 @@ class CacheDB:
 # [add] Process HTML link list
 ###############################################
 
-def addNewUrl(url: str) -> None:
+def addNewUrl(url: str, resume: bool = False) -> None:
+    DB = CacheDB()
     archiveId = extractArchiveOrgId(url)
     if not archiveId:
         return
-    baseUrlId = CacheDB().insertBaseUrl(urlForArchiveOrgId(archiveId))
-    json_file = pathToListJson(baseUrlId)
-    entries = downloadListArchiveOrg(archiveId, json_file)
-    inserted = CacheDB().insertIpaUrls(baseUrlId, entries)
+    
+    # Pre-calculate base URL ID
+    baseUrl = urlForArchiveOrgId(archiveId)
+    baseUrlId = DB.insertBaseUrl(baseUrl)
+
+    if not resume:
+        # If explicitly adding a new URL, clear previous scan cache for this URL
+        # as requested "process a new URL from the beginning"
+        print(f'Starting fresh scan for: {url}')
+        DB.clearScannedArchives(baseUrlId)
+    
+    # Add to resume queue
+    DB.addToScrapeQueue(url)
+
+    json_file = pathToListJson(archiveId)
+    entries = downloadListArchiveOrg(baseUrlId, archiveId, json_file, resume=resume)
+    inserted = DB.insertIpaUrls(baseUrlId, entries)
+    
+    # If successful, remove from queue
+    DB.removeFromScrapeQueue(url)
     print(f'new links added: {inserted} of {len(entries)}')
 
 
@@ -437,10 +673,10 @@ def urlForArchiveOrgId(archiveId: str) -> str:
     return f'https://archive.org/download/{archiveId}'
 
 
-def pathToListJson(baseUrlId: int, *, tmp: bool = False) -> Path:
+def pathToListJson(archiveId: str, *, tmp: bool = False) -> Path:
     if tmp:
-        return CACHE_DIR / 'url_cache' / f'tmp_{baseUrlId}.json.gz'
-    return CACHE_DIR / 'url_cache' / f'{baseUrlId}.json.gz'
+        return CACHE_DIR / 'url_cache' / f'tmp_{archiveId}.json.gz'
+    return CACHE_DIR / 'url_cache' / f'{archiveId}.json.gz'
 
 
 def getNestedIpas(url: str, zipPath: str) -> 'list[tuple[str, int, str]]':
@@ -488,7 +724,7 @@ def getNestedIpasViaViewArchive(url: str, archivePath: str) -> 'list[tuple[str, 
 
 
 def downloadListArchiveOrg(
-    archiveId: str, json_file: Path, *, force: bool = False
+    baseUrlId: int, archiveId: str, json_file: Path, *, force: bool = False, resume: bool = False
 ) -> 'list[tuple[str, int, str]]':
     ''' :returns: List of `(path_name, file_size, crc32)` '''
     # store json for later
@@ -505,8 +741,14 @@ def downloadListArchiveOrg(
                         break
                     fp.write(block)
     # read saved json from disk
-    with gzip.open(json_file, 'rb') as fp:
-        data = json.load(fp)
+    try:
+        with gzip.open(json_file, 'rb') as fp:
+            data = json.load(fp)
+    except (EOFError, OSError, json.JSONDecodeError) as e:
+        print(f'[WARN] Cache file corrupted for {archiveId} ({e}). Re-downloading...', file=stderr)
+        if json_file.exists():
+            json_file.unlink()
+        return downloadListArchiveOrg(baseUrlId, archiveId, json_file, force=True, resume=resume)
     # process and add to DB
     if 'result' not in data:
         if 'error' in data:
@@ -515,8 +757,9 @@ def downloadListArchiveOrg(
 
     baseUrl = urlForArchiveOrgId(archiveId)
     rv = []
+    DB = CacheDB()
     for x in data['result']:
-        if x['source'] != 'original':
+        if x.get('source') != 'original':
             continue
         name = x['name']
         size = int(x.get('size', 0))
@@ -526,11 +769,35 @@ def downloadListArchiveOrg(
         if name_lower.endswith('.ipa'):
             rv.append((name, size, crc))
         elif name_lower.endswith('.zip'):
+            if resume and DB.isArchiveScanned(baseUrlId, name, size, crc):
+                # Skip re-peeking, fetch from idx
+                cached = DB.getNestedIpasFromIdx(baseUrlId, name)
+                if cached:
+                    print(f'  skipping already scanned zip: {name}')
+                    rv.extend(cached)
+                    continue
+
             url = f'{baseUrl}/{quote(name)}'
-            rv.extend(getNestedIpas(url, name))
-        elif name_lower.endswith(('.rar', '.7z', '.tar', '.tar.gz', '.tgz')):
+            nested_ipas = getNestedIpas(url, name)
+            # Efficiently insert as we go to avoid data loss on crash
+            DB.insertIpaUrls(baseUrlId, nested_ipas)
+            DB.markArchiveScanned(baseUrlId, name, size, crc)
+            rv.extend(nested_ipas)
+        elif name_lower.endswith(('.rar', '.7z', '.tar', '.tar.gz', '.tgz')) and not name_lower.endswith('_archive.torrent'):
+            if resume and DB.isArchiveScanned(baseUrlId, name, size, crc):
+                # Skip re-peeking, fetch from idx
+                cached = DB.getNestedIpasFromIdx(baseUrlId, name)
+                if cached:
+                    print(f'  skipping already scanned archive: {name}')
+                    rv.extend(cached)
+                    continue
+
             url = f'{baseUrl}/{quote(name)}'
-            rv.extend(getNestedIpasViaViewArchive(url, name))
+            nested_ipas = getNestedIpasViaViewArchive(url, name)
+            # Efficiently insert as we go
+            DB.insertIpaUrls(baseUrlId, nested_ipas)
+            DB.markArchiveScanned(baseUrlId, name, size, crc)
+            rv.extend(nested_ipas)
     return rv
 
 
@@ -547,10 +814,10 @@ def updateUrl(url_or_uid: 'str|int', proc_i: int, proc_total: int):
     archiveId = extractArchiveOrgId(url) or ''  # guaranteed to return str
     print(f'Updating [{proc_i}/{proc_total}] {archiveId}')
 
-    old_json_file = pathToListJson(baseUrlId)
-    new_json_file = pathToListJson(baseUrlId, tmp=True)
-    old_entries = set(downloadListArchiveOrg(archiveId, old_json_file))
-    new_entries = set(downloadListArchiveOrg(archiveId, new_json_file))
+    old_json_file = pathToListJson(archiveId)
+    new_json_file = pathToListJson(archiveId, tmp=True)
+    old_entries = set(downloadListArchiveOrg(baseUrlId, archiveId, old_json_file, resume=True))
+    new_entries = set(downloadListArchiveOrg(baseUrlId, archiveId, new_json_file, resume=True))
     old_diff = old_entries - new_entries
     new_diff = new_entries - old_entries
 
@@ -627,8 +894,10 @@ def processPending():
                     DB.setFilesize(uid, fsize)
                 if success:
                     DB.setDone(uid)
+                    print(f'  [DONE] [{uid}]')
                 else:
                     DB.setError(uid, done=3)
+                    print(f'  [FAILED] [{uid}]')
                 del DB
     DB = CacheDB()
     err_count = DB.count(done=3)
@@ -678,7 +947,7 @@ def onceReadSizeFromFile(uid: int) -> 'int|None':
 def loadIpa(uid: int, url: str, *,
             overwrite: bool = False, image_only: bool = False) -> bool:
     basename = diskPath(uid, '')
-    basename.parent.mkdir(exist_ok=True)
+    basename.parent.mkdir(exist_ok=True, mode=0o755)
     img_path = basename.with_suffix('.png')
     plist_path = basename.with_suffix('.plist')
     if not overwrite and plist_path.exists():
@@ -687,16 +956,24 @@ def loadIpa(uid: int, url: str, *,
     # Support both old format (##) and new format (nested slash)
     inner_path = None
     
-    # Check for implicit nested path (archive.rar/file.ipa)
-    # Look for common archive extensions followed by a slash
-    for ext in ['.zip/', '.rar/', '.7z/', '.tar/', '.tar.gz/', '.tgz/']:
-        if ext in url.lower():
-            # Split at the end of the extension
-            idx = url.lower().find(ext) + len(ext) - 1
-            base_url = url[:idx]
-            inner_path = unquote(url[idx+1:])
+    # Handle the ## separator (possibly quoted as %23%23)
+    for sep in [NESTED_SEP, quote(NESTED_SEP)]:
+        if sep in url:
+            base_url, inner_path = url.split(sep, 1)
             url = base_url
+            inner_path = unquote(inner_path)
             break
+
+    # Check for implicit nested path (archive.rar/file.ipa) if ## wasn't found
+    if not inner_path:
+        for ext in ['.zip/', '.rar/', '.7z/', '.tar/', '.tar.gz/', '.tgz/']:
+            if ext in url.lower():
+                # Split at the end of the extension
+                idx = url.lower().find(ext) + len(ext) - 1
+                base_url = url[:idx]
+                inner_path = unquote(url[idx+1:])
+                url = base_url
+                break
 
     # Handle non-ZIP nested archives (RAR, 7z, etc.)
     # RemoteZip does not work on these via the Archive.org bridge.
@@ -705,7 +982,20 @@ def loadIpa(uid: int, url: str, *,
         with tempfile.NamedTemporaryFile(suffix='.ipa') as tmp:
             print(f"  downloading inner ipa from bridge: {inner_path}")
             try:
-                urlretrieve(direct_inner_url, tmp.name)
+                req = Request(direct_inner_url, headers={'User-Agent': 'Mozilla/5.0'})
+                with urlopen(req) as response:
+                    data = response.read(1024)
+                    if data.startswith(b'<!DOCTYPE html>') or data.startswith(b'<html>'):
+                        print(f"ERROR: [{uid}] bridge returned HTML instead of file", file=stderr)
+                        return False
+                    
+                    with open(tmp.name, 'wb') as f:
+                        f.write(data)
+                        while True:
+                            chunk = response.read(1024*1024)
+                            if not chunk: break
+                            f.write(chunk)
+                
                 import zipfile
                 with zipfile.ZipFile(tmp.name) as zip:
                     return _processIpaZip(uid, zip, basename, img_path, plist_path, image_only)
@@ -742,6 +1032,12 @@ def loadIpa(uid: int, url: str, *,
         except Exception as e:
             last_err = e
             if '404' in str(e): break # Don't retry 404
+            
+            # Special handling for BadZipFile to help diagnose
+            if "File is not a zip file" in str(e):
+                print(f"  [ERROR] [{uid}] BadZipFile: {url} is not a valid zip.", file=stderr)
+                break
+
             print(f"  [WARN] connect attempt {attempt+1} failed for {uid}: {e}", file=stderr)
             time.sleep(1)
     
@@ -751,48 +1047,67 @@ def loadIpa(uid: int, url: str, *,
 
 
 def _processIpaZip(uid: int, zip, basename, img_path, plist_path, image_only) -> bool:
-    app_name = None
+    app_prefix = None
     artwork = False
     zip_listing = zip.infolist()
-    has_payload_folder = False
-
-    # First pass: find app_name and iTunesArtwork
+    
+    # First pass: find Info.plist AND check for duplicates
     for entry in zip_listing:
         fn = entry.filename.lstrip('/')
-        
-        # Detect Payload folder
-        if fn.lower().startswith('payload/'):
-            has_payload_folder = True
 
-        # Extract iTunesArtwork if not already found
-        if not artwork and fn.lower() == 'itunesartwork' and entry.file_size > 0:
-            extractZipEntry(zip, entry, img_path)
-            if os.path.exists(img_path) and os.path.getsize(img_path) > 0:
-                if processImage(img_path):
-                    artwork = True
-                else:
-                    img_path.unlink() # Cleanup
-        
-        # Find Info.plist to get app_name
-        if not app_name:
+        if not app_prefix:
             plist_match = re_info_plist.match(fn)
             if plist_match:
-                app_name = plist_match.group(1)
-                if not image_only:
-                    extractZipEntry(zip, entry, plist_path)
+                app_prefix = plist_match.group(1)
+                extractZipEntry(zip, entry, plist_path)
+                
+                # Deduplication check: if we already have this app's icon, don't download it again
+                if plist_path.exists():
+                    try:
+                        with open(plist_path, 'rb') as fp:
+                            plist = plistlib.load(fp)
+                            bid = plist.get('CFBundleIdentifier')
+                            v_short = str(plist.get('CFBundleShortVersionString', ''))
+                            v_long = str(plist.get('CFBundleVersion', ''))
+                            ver = v_short or v_long
+                            
+                            db = CacheDB()
+                            existing_img_pk = db.hasImage(bid, ver)
+                            if existing_img_pk:
+                                print(f'  reusing image from {existing_img_pk}')
+                                artwork = True # Skip further icon extraction
+                                if image_only: return True # Optimization: if only image requested, we are done
+                            del db
+                    except:
+                        pass
+                
+                if image_only and not artwork:
+                    pass # Continue to find icon
+                elif image_only and artwork:
+                    return True
 
-    if not has_payload_folder:
-        print(f'ERROR: [{uid}] ipa has no "Payload/" root folder', file=stderr)
+    # Second pass: extract iTunesArtwork if needed
+    if not artwork:
+        for entry in zip_listing:
+            fn = entry.filename.lstrip('/')
+            if fn.lower() == 'itunesartwork' and entry.file_size > 0:
+                extractZipEntry(zip, entry, img_path)
+                if os.path.exists(img_path) and os.path.getsize(img_path) > 0:
+                    if processImage(img_path):
+                        artwork = True
+                        break
+                    else:
+                        img_path.unlink() # Cleanup
 
     # if no iTunesArtwork found, load file referenced in plist
-    if not artwork and app_name and plist_path.exists():
+    if not artwork and app_prefix and plist_path.exists():
         with open(plist_path, 'rb') as fp:
             try:
                 plist = plistlib.load(fp)
                 icon_names = iconNameFromPlist(plist)
                 # Try all candidates until one works
                 for icon_name in icon_names + ['Icon', 'icon']:
-                    icon = expandImageName(zip_listing, app_name, [icon_name])
+                    icon = expandImageName(zip_listing, app_prefix, [icon_name])
                     if icon:
                         extractZipEntry(zip, icon, img_path)
                         if os.path.exists(img_path) and os.path.getsize(img_path) > 8:
@@ -854,7 +1169,7 @@ def processImage(png_path: Path) -> bool:
     if b'CgBI' in header:
         try:
             # -s for silent, -free to create [name]-free.png
-            subprocess.run(['pngdefry', '-s', '-free', str(png_path)], 
+            subprocess.run([str(PNGDEFRY_BIN), '-s', '-free', str(png_path)], 
                            check=True, capture_output=True)
             fixed_path = png_path.with_name(png_path.stem + "-free.png")
             if fixed_path.exists():
@@ -862,16 +1177,29 @@ def processImage(png_path: Path) -> bool:
         except Exception as e:
             print(f"  [WARN] pngdefry failed: {e}", file=stderr)
             
-    # Convert to JPG
+    # Convert to JPG and Optimize
     try:
         jpg_path = png_path.with_suffix('.jpg')
         with Image.open(png_path) as img:
-            img.convert('RGB').save(jpg_path, 'JPEG', quality=85)
+            # Convert to RGB
+            if img.mode != 'RGB':
+                img = img.convert('RGB')
+            
+            # Downscale if larger than 128x128
+            MAX_SIZE = (128, 128)
+            if img.width > MAX_SIZE[0] or img.height > MAX_SIZE[1]:
+                img.thumbnail(MAX_SIZE, Image.Resampling.LANCZOS)
+            
+            # Save optimized JPEG
+            img.save(jpg_path, 'JPEG', quality=80, optimize=True)
+            os.chmod(jpg_path, 0o644)
+            
         png_path.unlink() # Remove PNG after successful conversion
         return True
     except Exception as e:
-        print(f"  [WARN] PIL conversion failed for {png_path}: {e}", file=stderr)
+        print(f"  [WARN] PIL conversion/optimization failed for {png_path}: {e}", file=stderr)
         return False
+
 
 
 ###############################################
@@ -881,9 +1209,11 @@ RESOLUTION_ORDER = ['3x', '2x', '180', '167', '152', '120']
 
 
 def expandImageName(
-    zip_listing: 'list[ZipInfo]', appName: str, iconList: 'list[str]'
+    zip_listing: 'list[ZipInfo]', app_prefix: str, iconList: 'list[str]'
 ) -> 'ZipInfo|None':
-    app_prefix = f'Payload/{appName}/'.lower()
+    prefix = app_prefix.lower()
+    if not prefix.endswith('/'):
+        prefix += '/'
     
     # Normalize icon names
     search_names = []
@@ -895,27 +1225,28 @@ def expandImageName(
 
     # 1. Try case-insensitive exact matches
     for x in zip_listing:
+        if x.file_size == 0 or x.filename.endswith('/'):
+            continue
         fn = x.filename.lstrip('/')
-        if fn.lower().startswith(app_prefix):
-            rel_fn = fn[len(app_prefix):].lower()
+        if fn.lower().startswith(prefix):
+            rel_fn = fn[len(prefix):].lower()
             if rel_fn in search_names:
                 return x
 
     # 2. Try matching by resolution (if multiple files match the base name)
     for name in search_names:
-        zipPath = f'Payload/{appName}/{name}'.lower()
+        zipPath = f'{prefix}{name}'.lower()
         matching = [x for x in zip_listing 
-                    if x.filename.lstrip('/').lower().startswith(zipPath)]
+                    if x.file_size > 0 and not x.filename.endswith('/') and x.filename.lstrip('/').lower().startswith(zipPath)]
         if matching:
             return sorted(matching, key=lambda x: resolutionIndex(x.filename))[0]
 
-    # 3. Fallback: Any PNG in the app folder that looks like an icon (e.g. has "icon" in name, even if encoded)
-    # This handles the Japanese characters issue where the name in Info.plist doesn't match the ZIP encoding.
+    # 3. Fallback: Any PNG in the app folder that looks like an icon
     fallback_icons = []
     for x in zip_listing:
         fn = x.filename.lstrip('/')
-        if fn.lower().startswith(app_prefix) and fn.lower().endswith('.png'):
-            rel_fn = fn[len(app_prefix):].lower()
+        if fn.lower().startswith(prefix) and fn.lower().endswith('.png'):
+            rel_fn = fn[len(prefix):].lower()
             # If it contains 'icon', or starts with 'icon', or is just a small PNG
             if 'icon' in rel_fn or 'πéó' in rel_fn or x.file_size < 500000:
                 fallback_icons.append(x)
@@ -953,6 +1284,15 @@ def resolutionIndex(icon_name: str):
 
 
 def sortedByResolution(icons: 'list[str]') -> 'list[str]':
+    if not isinstance(icons, list):
+        if isinstance(icons, str):
+            icons = [icons]
+        else:
+            return []
+            
+    # Filter to only strings
+    icons = [str(x) for x in icons if x]
+    
     icons.sort(key=resolutionIndex)
     return icons
 
@@ -971,7 +1311,14 @@ def iconNameFromPlist(plist: dict) -> 'list[str]':
                 if not icons:
                     # Check for CFBundleIconFile (legacy, before 3.2)
                     icon = plist.get('CFBundleIconFile')  # may be None
-                    return [icon] if icon else []
+                    return [str(icon)] if icon else []
+    
+    # Ensure icons is a list before sorting
+    if isinstance(icons, str):
+        icons = [icons]
+    elif not isinstance(icons, list):
+        return []
+
     return sortedByResolution(icons)
 
 
@@ -993,10 +1340,16 @@ def export_json():
         for i, entry in enumerate(DB.enumJsonIpa(done=1)):
             if i % 113 == 0:
                 print(f'\rprocessing [{i}/{total}]', end='')
+            
+            # Normalize path: replace ## with / for the JSON export
+            entry = list(entry)
+            path_name = entry[7].replace(NESTED_SEP, '/')
+            entry[7] = path_name
+
             # if path_name is in a subdirectory, reindex URLs
             if '/' in entry[7]:
                 baseurl = url_map[entry[6]]
-                sub_dir, sub_file = entry[7].split('/', 1)
+                sub_dir, sub_file = entry[7].rsplit('/', 1)
                 newurl = baseurl + '/' + sub_dir
                 subIdx = submap.get(newurl, None)
                 if subIdx is None:

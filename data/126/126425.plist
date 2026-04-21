@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>FunimationNow always uses location </string>
+    <key>DTPlatformVersion</key>
+    <string>11.3</string>
+    <key>DTSDKBuild</key>
+    <string>15E217</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon57x57</string>
+          <string>AppIcon60x60</string>
+          <string>AppIcon50x50</string>
+          <string>AppIcon72x72</string>
+          <string>AppIcon76x76</string>
+          <string>AppIcon83.5x83.5</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSSiriUsageDescription</key>
+    <string>FunimationNow siri use</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>FunimationNow would like to access your Camera.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Funimation Now</string>
+    <key>DTXcodeBuild</key>
+    <string>9E145</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>FunimationNow reminder use</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.Funimation.FunimationNow</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>FacebookDisplayName</key>
+    <string>Funimation Now</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon57x57</string>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>FunimationNow heath update use</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSMotionUsageDescription</key>
+    <string>FunimationNow motion use</string>
+    <key>MinimumOSVersion</key>
+    <string>8.0</string>
+    <key>NSVideoSubscriberAccountUsageDescription</key>
+    <string>FunimationNow tvProvider use</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>FunimationNow would like to use Bluetooth.</string>
+    <key>CFBundleName</key>
+    <string>Funimation Now</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.6.5</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Roboto-Black.ttf</string>
+      <string>Roboto-Black.ttf</string>
+      <string>Roboto-BlackItalic.ttf</string>
+      <string>Roboto-Bold.ttf</string>
+      <string>Roboto-BoldItalic.ttf</string>
+      <string>Roboto-Italic.ttf</string>
+      <string>Roboto-Light.ttf</string>
+      <string>Roboto-LightItalic.ttf</string>
+      <string>Roboto-Medium.ttf</string>
+      <string>Roboto-MediumItalic.ttf</string>
+      <string>Roboto-Regular.ttf</string>
+      <string>Roboto-Thin.ttf</string>
+      <string>Roboto-ThinItalic.ttf</string>
+      <string>RobotoCondensed-Bold.ttf</string>
+      <string>RobotoCondensed-BoldItalic.ttf</string>
+      <string>RobotoCondensed-Italic.ttf</string>
+      <string>RobotoCondensed-Light.ttf</string>
+      <string>RobotoCondensed-LightItalic.ttf</string>
+      <string>RobotoCondensed-Regular.ttf</string>
+      <string>OpenSans-Bold.ttf</string>
+      <string>OpenSans-BoldItalic.ttf</string>
+      <string>OpenSans-ExtraBold.ttf</string>
+      <string>OpenSans-ExtraBoldItalic.ttf</string>
+      <string>OpenSans-Italic.ttf</string>
+      <string>OpenSans-Light.ttf</string>
+      <string>OpenSans-LightItalic.ttf</string>
+      <string>OpenSans-Regular.ttf</string>
+      <string>OpenSans-Semibold.ttf</string>
+      <string>OpenSans-SemiboldItalic.ttf</string>
+      <string>HelveticaNeue.ttc</string>
+      <string>Helvetica.ttc</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Funimation Now</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>FunimationNow heath share use</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UILaunchImages</key>
+    <array>
+      <dict>
+        <key>UILaunchImageOrientation</key>
+        <string>Portrait</string>
+        <key>UILaunchImageName</key>
+        <string>LaunchImage-700-568h</string>
+        <key>UILaunchImageSize</key>
+        <string>{320, 568}</string>
+        <key>UILaunchImageMinimumOSVersion</key>
+        <string>7.0</string>
+      </dict>
+    </array>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>FunimationNow media library use</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Automatic</string>
+    <key>FacebookAppID</key>
+    <string>444514955756615</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>FunimationNow speech use</string>
+    <key>NSLocationUsageDescription</key>
+    <string>FunimationNow location use</string>
+    <key>BuildMachineOSBuild</key>
+    <string>17E199</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>FunimationNow calendar events</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>FunimationNow would like to access your Microphone.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>FunimationNow location use</string>
+    <key>CFBundleVersion</key>
+    <string>156</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb444514955756615</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>funi</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>funi</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSHomeKitUsageDescription</key>
+    <string>FunimationNow home kit use</string>
+    <key>DTSDKName</key>
+    <string>iphoneos11.3</string>
+    <key>Fabric</key>
+    <dict>
+      <key>Kits</key>
+      <array>
+        <dict>
+          <key>KitInfo</key>
+          <dict/>
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+      </array>
+      <key>APIKey</key>
+      <string>a57900d1c93f2473d5644fa9b4bd9414a9055b9a</string>
+    </dict>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>NSContactsUsageDescription</key>
+    <string>FunimationNow contact use</string>
+    <key>DTPlatformBuild</key>
+    <string>15E217</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>FunimationNow would like to store a photo.</string>
+    <key>DTXcode</key>
+    <string>0930</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UISupportedDevices</key>
+    <array>
+      <string>iPhone4,1</string>
+      <string>iPhone5,1</string>
+      <string>iPhone5,2</string>
+      <string>iPhone5,3</string>
+      <string>iPhone5,4</string>
+      <string>iPod5,1</string>
+    </array>
+  </dict>
+</plist>

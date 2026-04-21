@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>26.2</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb1211746480709853</string>
+          <string>com.googleusercontent.apps.310482535461-dvv0s8jokehb9lir8k32o4j0vdba4j0r</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleName</key>
+    <string>Al Meera</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.2</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app requires access to the photo library so that you can upload your profile
+			picture.
+		</string>
+    <key>NSUserNotificationUsageDescription</key>
+    <string>We need to send you notifications to keep you updated on important events.</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AlmeeraAppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AlmeeraAppIcon</string>
+      </dict>
+    </dict>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This app needs access to location so that we can find stores near you.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Al Meera</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-share-api</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location to provide relevant services based on your current location.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>processing</string>
+      <string>remote-notification</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>23C57</string>
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera to allow you to take photos and videos.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>11.1.4</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>We need your location to provide continuous location-based services.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>25D125</string>
+    <key>DTPlatformBuild</key>
+    <string>23C57</string>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+      <string>com.cds.loyalty.customer.refresh</string>
+      <string>com.cds.loyalty.customer.processing</string>
+    </array>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>17C529</string>
+    <key>CFBundleVersion</key>
+    <string>144</string>
+    <key>MinimumOSVersion</key>
+    <string>16.0</string>
+    <key>NSBonjourServices</key>
+    <array>
+      <string>mqtt.tcp</string>
+    </array>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>We need access to speech recognition to provide voice command features in our app.</string>
+    <key>FacebookAppID</key>
+    <string>1211746480709853</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need access to your microphone to provide voice command features in our app.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.almeera.iosApp</string>
+    <key>FacebookDisplayName</key>
+    <string>Al Meera</string>
+    <key>DTXcode</key>
+    <string>2630</string>
+    <key>FacebookClientToken</key>
+    <string>c46ed763608396f071d12d9838dbde72</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>GOOGLE_MAPS_API_KEY</key>
+    <string>AIzaSyDYWyp04I3S9H3kqlLq5LhDA9ctVr_aHk0</string>
+    <key>CFBundleExecutable</key>
+    <string>Al Meera</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AlmeeraAppIcon60x60</string>
+          <string>AlmeeraAppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AlmeeraAppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>This is requires to send reltime comunication</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C7003g</string>
+  </dict>
+</plist>

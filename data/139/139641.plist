@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This application requires access to Bluetooth always</string>
+    <key>DTPlatformVersion</key>
+    <string>16.2</string>
+    <key>com_livecode_StatusBarSolid</key>
+    <false/>
+    <key>DTSDKBuild</key>
+    <string>20C52</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleBlackTranslucent</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIInitialInterfaceOrientation~ipad</key>
+    <string>UIInterfaceOrientationPortrait</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This application requires access to the device's camera</string>
+    <key>UIStatusBarHidden~ipad</key>
+    <false/>
+    <key>CFBundleDisplayName</key>
+    <string>Spell the Beans</string>
+    <key>DTXcodeBuild</key>
+    <string>14C18</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>This application requires access to your Reminders</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.fillology.stbtest3</string>
+    <key>UIFileSharingEnabled</key>
+    <false/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array/>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>NSMotionUsageDescription</key>
+    <string>This application requires access to the device's accelerometer</string>
+    <key>MinimumOSVersion</key>
+    <string>11.0</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>This application requires access to Bluetooth</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This application requires access to Photo Library</string>
+    <key>com_livecode_UsesLocalNotifications</key>
+    <false/>
+    <key>CFBundleName</key>
+    <string>SpelltheBeans</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.6.3</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>UIBackgroundModes</key>
+    <array/>
+    <key>UIRequiredDeviceCapabilities</key>
+    <dict>
+      <key>arm64</key>
+      <true/>
+    </dict>
+    <key>UIAppFonts</key>
+    <array>
+      <string>DIN Condensed Bold.ttf</string>
+      <string>edo.ttf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>SpelltheBeans</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UIPrerenderedIcon</key>
+    <false/>
+    <key>UIRequiresPersistentWiFi</key>
+    <false/>
+    <key>NSCalendarsUsageDescription</key>
+    <string>This application requires access to the device's calendar</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This application requires access to the device's microphone</string>
+    <key>UIInitialInterfaceOrientation</key>
+    <string>UIInterfaceOrientationPortrait</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This application requires access to Location Services when in use</string>
+    <key>CFBundleVersion</key>
+    <string>10</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This application requires access to Location Services</string>
+    <key>DTSDKName</key>
+    <string>iphoneos16.2</string>
+    <key>NSContactsUsageDescription</key>
+    <string>This application requires access to your Contacts</string>
+    <key>DTPlatformBuild</key>
+    <string>20C52</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This application requires access to Photo Library</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>DTXcode</key>
+    <string>1420</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15E204</string>
+  </dict>
+</plist>

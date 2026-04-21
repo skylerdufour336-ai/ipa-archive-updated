@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2023 DTN. All rights reserved.</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>DTPlatformVersion</key>
+	<string>17.2</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>ConfigurationIntent</string>
+		<string>com.basevelocity.RadarScope.map</string>
+	</array>
+	<key>CFBundleName</key>
+	<string>RadarScope</string>
+	<key>DTSDKName</key>
+	<string>iphoneos17.2</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>RadarScope accesses your photo library to save screenshots.</string>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIconFiles</key>
+			<array>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>com.basevelocity.RadarScope.pal</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.plain-text</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Radar Color Palette</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<string>pal</string>
+			</dict>
+		</dict>
+	</array>
+	<key>UIApplicationSceneManifest-macos</key>
+	<dict>
+		<key>UIApplicationSupportsTabbedSceneCollection</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>RadarScope.SceneDelegate</string>
+				</dict>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Detail Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>RadarScope.DataDetailSceneDelegate</string>
+				</dict>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Cross Section Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>RadarScope.CrossSectionSceneDelegate</string>
+				</dict>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Settings Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>RadarScope.SettingsSceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+	</dict>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>Hurricane</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Hurricane-60</string>
+					<string>Hurricane-76</string>
+					<string>Hurricane-83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<string>NO</string>
+			</dict>
+			<key>Retro</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Retro-60</string>
+					<string>Retro-76</string>
+					<string>Retro-83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<string>NO</string>
+			</dict>
+			<key>Velocity</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Velocity-60</string>
+					<string>Velocity-76</string>
+					<string>Velocity-83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<string>NO</string>
+			</dict>
+			<key>Dual Pane</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Dual Pane-60</string>
+					<string>Dual Pane-76</string>
+					<string>Dual Pane-83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<string>NO</string>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>App Icon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>App Icon</string>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>addUserLocation</key>
+		<string>A precise position is needed to save as a user location.</string>
+		<key>submitStormReport</key>
+		<string>A precise location is required to submit a storm report.</string>
+		<key>displayOnMap</key>
+		<string>Your location will be used to precisely display your position on the map.</string>
+	</dict>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.weather</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.basevelocity.radarscope</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>radarscope</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>When enabled, RadarScope sends location updates to Spotter Network.</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>org-appextension-feature-password-management</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>RadarScope uses your location to display it on the map and to select the closest radar.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+		<string>location</string>
+	</array>
+	<key>DTSDKBuild</key>
+	<string>21C52</string>
+	<key>NSAccentColorName</key>
+	<string>AccentColor</string>
+	<key>CFBundleShortVersionString</key>
+	<string>5.2</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>23C64</string>
+	<key>DTPlatformBuild</key>
+	<string>21C52</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DTXcodeBuild</key>
+	<string>15C65</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>MinimumOSVersion</key>
+	<string>15</string>
+	<key>CFBundleVersion</key>
+	<string>16123</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>RadarScope accesses your photo library to save screenshots.</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.basevelocity.RadarScope</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>RadarScope.SceneDelegate</string>
+				</dict>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Detail Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>RadarScope.DataDetailSceneDelegate</string>
+				</dict>
+			</array>
+			<key>UIWindowSceneSessionRoleExternalDisplay</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>AirPlay Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>RadarScope.AirPlaySceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>DTXcode</key>
+	<string>1510</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<false/>
+	<key>CFBundleHelpBookFolder</key>
+	<string>RadarScope.help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>com.basevelocity.radarscope.help</string>
+	<key>NSLocationUsageDescription</key>
+	<string>RadarScope uses your location to display it on the map and to select the closest radar.</string>
+	<key>CFBundleExecutable</key>
+	<string>RadarScope</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>Hurricane</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Hurricane-60</string>
+					<string>Hurricane-76</string>
+					<string>Hurricane-83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<string>NO</string>
+			</dict>
+			<key>Retro</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Retro-60</string>
+					<string>Retro-76</string>
+					<string>Retro-83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<string>NO</string>
+			</dict>
+			<key>Velocity</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Velocity-60</string>
+					<string>Velocity-76</string>
+					<string>Velocity-83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<string>NO</string>
+			</dict>
+			<key>Dual Pane</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Dual Pane-60</string>
+					<string>Dual Pane-76</string>
+					<string>Dual Pane-83.5</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<string>NO</string>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>App Icon60x60</string>
+				<string>App Icon76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>App Icon</string>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15C5065a</string>
+</dict>
+</plist>

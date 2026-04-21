@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>com.xamarin.ios</key>
+    <dict>
+      <key>Version</key>
+      <string>16.0.0.72 (release/6.0.4xx-xcode14: 6756a1146)</string>
+    </dict>
+    <key>DTPlatformVersion</key>
+    <string>16.2</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>CFBundleName</key>
+    <string>myCal PRO</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>myCal PRO requires access to the reminders stored on your device.
+
+Tap OK to continue.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>myCal PRO requires access to the photo's stored on your device to be able to use them on day backgrounds.
+
+Tap OK to continue.</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>DTSDKName</key>
+    <string>iphoneos16.2</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>DTSDKBuild</key>
+    <string>20C52</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.1.2</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>21G920</string>
+    <key>DTPlatformBuild</key>
+    <string>20C52</string>
+    <key>MinimumOSVersion</key>
+    <string>9.3</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>14C18</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>Welcome!
+
+myCal PRO requires permission to access your calendars in order to view, add and amend the events stored in them.
+
+Tap Allow Full Access to continue.</string>
+    <key>CFBundleVersion</key>
+    <string>2</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+      <string>en</string>
+      <string>en-GB</string>
+      <string>fr</string>
+      <string>de</string>
+    </array>
+    <key>CFBundleIdentifier</key>
+    <string>com.johnhair.mycalpro</string>
+    <key>DTXcode</key>
+    <string>1420</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Welcome!
+
+myCal PRO requires permission to access your calendars in order to view, add and amend the events stored in them.
+
+Tap OK to continue.</string>
+    <key>CFBundleExecutable</key>
+    <string>myCalPRO.iOS</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+          <string>AppIcon83.5x83.5</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSContactsUsageDescription</key>
+    <string>myCal PRO requires access to the contacts stored on your device to enable contact events and to allow you to send contact invitations.
+
+Tap OK to continue.</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15C5065a</string>
+  </dict>
+</plist>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>We use bluetooth to establish a stable connection with your Ring Device to improve your Setup experience.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Location is required for access to many features and to complete the setup process.</string>
+    <key>DTPlatformVersion</key>
+    <string>26.2</string>
+    <key>MGLMapboxMetricsEnabledSettingShownInApp</key>
+    <true/>
+    <key>KeychainAppIdentifierPrefix</key>
+    <string>F7FKQLB2H9.</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>DTSDKBuild</key>
+    <string>23C53</string>
+    <key>NFCReaderUsageDescription</key>
+    <string>This lets you enter buildings using your phone.</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon-NH60x60</string>
+          <string>AppIcon-NH76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon-NH</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Ring uses your camera to let you take pictures for easy product and feature setup.</string>
+    <key>UIStatusBarHidden~ipad</key>
+    <false/>
+    <key>GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED</key>
+    <false/>
+    <key>CFBundleDisplayName</key>
+    <string>Ring</string>
+    <key>DTXcodeBuild</key>
+    <string>17C52</string>
+    <key>CFBundleSpokenName</key>
+    <string>Ring</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.ring</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>BUGSNAG_STAGE</key>
+    <string>RELEASE</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>com.nextdoor.ios.v5</string>
+      <string>sms</string>
+      <string>mailto</string>
+      <string>telprompt</string>
+      <string>whiterock</string>
+      <string>vesta</string>
+      <string>lockitron</string>
+      <string>ifttt</string>
+      <string>kisi</string>
+      <string>lockstate</string>
+      <string>winkquirky</string>
+      <string>kevo</string>
+      <string>fb281459815598442</string>
+      <string>wemo</string>
+      <string>smartlink</string>
+      <string>fbapi</string>
+      <string>fb-messenger-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+      <string>nuki</string>
+      <string>com.amazon.mobile.alpa</string>
+      <string>alexa</string>
+      <string>floapp</string>
+      <string>myliftmaster</string>
+      <string>eero</string>
+      <string>honlyric</string>
+      <string>schlagehome</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon-NH60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon-NH</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>MinimumOSVersion</key>
+    <string>17.0</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>The setup process requires Bluetooth communication with your base station.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Allows you to save Event Recordings in your Photo Library.</string>
+    <key>CFBundleName</key>
+    <string>ring</string>
+    <key>CFBundleShortVersionString</key>
+    <string>5.100.1</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>This lets the Ring app connect to and set up your Ring device.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+      <string>bluetooth-central</string>
+      <string>fetch</string>
+      <string>location</string>
+      <string>remote-notification</string>
+      <string>voip</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Hoftype - Equip-Medium.otf</string>
+      <string>Hoftype - Equip-Bold.otf</string>
+      <string>Hoftype - Equip-Light.otf</string>
+      <string>rs-iconfont.ttf</string>
+      <string>Hoftype - Equip-Regular.otf</string>
+      <string>Hoftype - Equip-LightItalic.otf</string>
+      <string>Hoftype - Equip-MediumItalic.otf</string>
+      <string>Hoftype - Equip-RegularItalic.otf</string>
+      <string>Hoftype - Equip-BoldItalic.otf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>ring</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UIDesignRequiresCompatibility</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17E187</string>
+    <key>BuildMachineOSBuild</key>
+    <string>24G90</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Enables two-way audio communication.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Location is required for access to many features and to complete the setup process.</string>
+    <key>CFBundleVersion</key>
+    <string>5.100.1.1</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLIconFile</key>
+        <string></string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>neighborhoods</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLIconFile</key>
+        <string></string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>ring</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb1734788773498081</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.ring</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>amzn-com.ring</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Location is required for access to many features and to complete the setup process.</string>
+    <key>NSHomeKitUsageDescription</key>
+    <string>Provides you access to your Ring Video Doorbell.</string>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+      <string>com.ring.video.download.*</string>
+      <string>com.ring.iloq.token.refresh</string>
+    </array>
+    <key>DTSDKName</key>
+    <string>iphoneos26.2</string>
+    <key>NSAppTransportSecurity</key>
+    <dict/>
+    <key>DTPlatformBuild</key>
+    <string>23C53</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Provides you access to your contacts.</string>
+    <key>DTXcode</key>
+    <string>2620</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Allows you to save Event Recordings in your Photo Library.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>git</key>
+    <string>04f24a57ebd</string>
+  </dict>
+</plist>

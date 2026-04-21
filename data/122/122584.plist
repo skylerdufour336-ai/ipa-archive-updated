@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>NuclearBlast</string>
+	<key>CFBundleExecutable</key>
+	<string>NuclearBlast</string>
+	<key>CFBundleIconFile</key>
+	<string>Nuclear-Icon.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.overloadedoperator.NuclearBlast</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>NuclearBlast</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleResourceSpecification</key>
+	<string>ResourceRules.plist</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.0 iPhoneCake.com</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTSDKName</key>
+	<string>iphoneos3.1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>MinimumOSVersion</key>
+	<string>3.1</string>
+	<key>NSMainNibFile</key>
+	<string>MainWindow</string>
+	<key>PinchApplicationCode</key>
+	<string>080391a48936dcc8195a2dcc6e545584</string>
+	<key>SBUsesNetwork</key>
+	<true/>
+	<key>SignerIdentity</key>
+	<string>Apple iPhone OS Application Signing</string>
+	<key>SkinDataPrefix</key>
+	<string>Nuclear</string>
+	<key>StationDataURL</key>
+	<string>http://www.theorchard.com/apps/radio/stations/nuclearblast/station.plist</string>
+</dict>
+</plist>

@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <false/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>17.2</string>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>ConfigurationIntent</string>
+    </array>
+    <key>CFBundleName</key>
+    <string>Magic Ball</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.2</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Allows you to import your own images for the picture background feature.</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Dark</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>Magenta</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Magenta App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>LightBlue</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Light Blue App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Tennessee Magic</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Tennessee App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Red Orange</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Red Orange App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Very Dark Violet</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Very Dark Violet App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Blue</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Blue App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Creativity</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Creativity App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Intergalactic Magic</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Intergalactic Magic App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Zozuemi</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Zozuemi App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Green</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Green App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Red</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Red App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Pastel Pink</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Pastel Pink App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Brown</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Brown App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Olive Green</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Olive Green App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Pink</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Pink App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Purple</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Purple App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>World Wide Magic Conference</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Developer Magic App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Pastel Orange</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Pastel Orange App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Gray</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Gray App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Pastel Green</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Pastel Green App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Yellow</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Yellow App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>RetroMagic</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Retro App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Cyan</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Cyan App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Burgundy</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Burgundy App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Orange</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Orange App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Georgia Peaches</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Georgia Peaches App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Music 8 Ball</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Cotton Candy App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>iOS AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>iOS AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.simulation-games</string>
+    <key>CFBundleDisplayName</key>
+    <string>Magic Ball</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>DTSDKBuild</key>
+    <string>21C52</string>
+    <key>CFBundleShortVersionString</key>
+    <string>6.6.1</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>23C71</string>
+    <key>DTPlatformBuild</key>
+    <string>21C52</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>15C65</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>12.0</string>
+    <key>CFBundleVersion</key>
+    <string>4977</string>
+    <key>NSBonjourServices</key>
+    <array>
+      <string>_hws-kb._tcp</string>
+      <string>_hws-kb._udp</string>
+    </array>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Allows the Magic Ball to understand what you're saying when using the "Speak to Magic Ball" feature.</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>AlloyInk.ttf</string>
+      <string>CookieMonster.ttf</string>
+      <string>BigerOver.ttf</string>
+      <string>Amatic-Bold.ttf</string>
+      <string>Raleway.ttf</string>
+      <string>CarnevaleeFreakshow.ttf</string>
+      <string>Sunnyspells.otf</string>
+      <string>ZyzolShadow.otf</string>
+      <string>GetDigital.ttf</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Allows the "Speak to Magic Ball" feature to hear what you're saying.</string>
+    <key>CFBundleIdentifier</key>
+    <string>HJW.Magic8Ball</string>
+    <key>DTXcode</key>
+    <string>1510</string>
+    <key>UIApplicationShortcutItems</key>
+    <array>
+      <dict>
+        <key>UIApplicationShortcutItemIconFile</key>
+        <string>Person</string>
+        <key>UIApplicationShortcutItemIconType</key>
+        <string>UIApplicationShortcutIconTypeMessage</string>
+        <key>UIApplicationShortcutItemTitle</key>
+        <string>You</string>
+        <key>UIApplicationShortcutItemType</key>
+        <string>HJW.Magic8Ball.youPage</string>
+      </dict>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Magic Ball</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>Magenta</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Magenta App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>LightBlue</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Light Blue App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Tennessee Magic</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Tennessee App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Red Orange</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Red Orange App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Very Dark Violet</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Very Dark Violet App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Blue</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Blue App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Creativity</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Creativity App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Zozuemi</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Zozuemi App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Green</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Green App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Red</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Red App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Pastel Pink</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Pastel Pink App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Brown</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Brown App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Olive Green</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Olive Green App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Pink</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Pink App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Purple</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Purple App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>World Wide Magic Conference</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Developer Magic App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Pastel Orange</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Pastel Orange App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Gray</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Gray App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Pastel Green</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Pastel Green App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Yellow</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Yellow App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>RetroMagic</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Retro App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Cyan</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Cyan App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Burgundy</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Burgundy App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Orange</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Orange App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Georgia Peaches</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Georgia Peaches App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>Music 8 Ball</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Cotton Candy App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+        <key>IntergalacticMagic</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>Intergalactic Magic App Icon</string>
+          </array>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>iOS AppIcon60x60</string>
+          <string>iOS AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>iOS AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Connect to other devices to send responses.</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15C5065a</string>
+  </dict>
+</plist>

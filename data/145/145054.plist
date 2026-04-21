@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>Your data will be used to deliver personalized ads for you.</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSContactsUsageDescription</key>
+    <string>A+ Wallet  will use your contacts for recipient list.</string>
+    <key>DTPlatformVersion</key>
+    <string>18.2</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.2</string>
+    <key>CFBundleName</key>
+    <string>QiPay</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>You can select photos to attach to reports.</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>A+ Wallet needs to know your location so that we can expand your wallet and offer relevant rewards.</string>
+    <key>CFBundleDisplayName</key>
+    <string>QiPay</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>cydia</string>
+      <string>waze</string>
+      <string>comgooglemaps</string>
+      <string>maps</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>A+ Wallet needs to know your location so that we can expand your wallet and offer relevant rewards.</string>
+    <key>DTSDKBuild</key>
+    <string>22C146</string>
+    <key>NSCameraUsageDescription</key>
+    <string>A+ Wallet  will use your camera so that we can expand your wallet .</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.48</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>CFBundleAllowMixedLocalizations</key>
+    <true/>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24D70</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>A+ Wallet needs to know your location so that we can expand your wallet and offer relevant rewards.</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>16C5032a</string>
+    <key>CFBundleVersion</key>
+    <string>17</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>A+ Wallet will save payment-related images to your Photo Library.</string>
+    <key>DTPlatformBuild</key>
+    <string>22C146</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Rubik-SemiBold.ttf</string>
+      <string>Rubik-Regular.ttf</string>
+      <string>Rubik-Bold.ttf</string>
+      <string>Rubik-Medium.ttf</string>
+      <string>Araboto-Bold.otf</string>
+      <string>Roboto-Regular.ttf</string>
+      <string>Roboto-Medium.ttf</string>
+      <string>Roboto-Bold.ttf</string>
+    </array>
+    <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+    <array>
+      <string>A0000002471001</string>
+      <string>E80704007F00070302</string>
+      <string>A000000167455349474E</string>
+      <string>A0000002480100</string>
+      <string>A0000002480200</string>
+      <string>A0000002480300</string>
+      <string>A00000045645444C2D3031</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen.storyboard</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Your data will be used to deliver personalized ads for you.</string>
+    <key>CFBundleIdentifier</key>
+    <string>iq.qicard.qipay</string>
+    <key>DTXcode</key>
+    <string>1620</string>
+    <key>NFCReaderUsageDescription</key>
+    <string>NFC access is required to read encrypted data from identity documents and verify their authenticity.</string>
+    <key>CFBundleExecutable</key>
+    <string>QiPay</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>UIMainStoryboardFile</key>
+    <string>LaunchScreen</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>A+ Wallet needs to use your  Face ID so that we can expand your wallet .</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>A+ Wallet will not connect to devices on the network you are using; it will only detect connectivity to your local gateway. Users can also modify the permission settings for this App in the Settings-Privacy-Local Network interface on iOS devices.</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>qicardwallet</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>qicardwallet</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

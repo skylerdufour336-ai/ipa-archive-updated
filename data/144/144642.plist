@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>If not, you will not be able to use the map and other positioning related functions in SmartPLAY</string>
+    <key>io.flutter.embedded_views_preview</key>
+    <true/>
+    <key>DTPlatformVersion</key>
+    <string>26.2</string>
+    <key>UISupportsDocumentBrowser</key>
+    <true/>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDarkContent</string>
+    <key>DTSDKBuild</key>
+    <string>23C53</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>SmartPlay requires access to your camera to scan your ID card and obtain identity information and photos, which can be used to pre fill in your personal information on the registration page and upload photos for staff review</string>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+    <key>CompanyName</key>
+    <string>LCSD</string>
+    <key>CFBundleDisplayName</key>
+    <string>SmartPLAY</string>
+    <key>DTXcodeBuild</key>
+    <string>17C52</string>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>CFBundleIdentifier</key>
+    <string>hk.gov.lcsd.smartplay.mobile</string>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>hk.gov.iamsmart</string>
+      <string>hk.gov.iamsmart.testapp</string>
+      <string>weixin</string>
+      <string>alipay</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSMotionUsageDescription</key>
+    <string>Sync health data to SmartPLAY</string>
+    <key>MinimumOSVersion</key>
+    <string>16.0</string>
+    <key>Reminders Usage Description</key>
+    <string>Whether to allow access to reminder events</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Please allow the SmartPlay to save pictures to the album</string>
+    <key>CFBundleName</key>
+    <string>SmartPLAY</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.5.104</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Runner</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Do you allow SmartPLAY to access your media library to obtain image uploads for staff to review your personal information</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Voice messages cannot be converted to text if not allowed</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+    <key>BuildMachineOSBuild</key>
+    <string>25C56</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>NSCalendarsUsageDescription</key>
+    <string>SmartPLAY requires access to your calendar to get your activity Settings</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>SmartPlay requires access to your microphone to turn on the camera</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>SmartPLAY uses your location information in services such as search, route queries and navigation.</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleVersion</key>
+    <string>4751</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>SmartPLAY authenticating using face id to log in</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>cn.xports.smartplay.mobile</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>cn.xports.smartplay</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>hk.gov.lcsd.smartplay</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>hk.gov.lcsd.smartplay</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>SmartPLAY needs your geographical location to recommend suitable venues for you</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.2</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <false/>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>23C53</string>
+    <key>NSContactsUsageDescription</key>
+    <string>SmartPlay requires access to insert activity info</string>
+    <key>DTXcode</key>
+    <string>2620</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>SmartPlay requires access to your photo album to upload photos, which are used by staff to compare your personal information for registration review</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+  </dict>
+</plist>

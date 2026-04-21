@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>SKAdNetworkItems</key>
+    <array>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>su67r6k2v3.skadnetwork</string>
+      </dict>
+    </array>
+    <key>SubscriptionInformation</key>
+    <dict>
+      <key>PrivacyPolicyURL</key>
+      <string>https://www.maximusplayer.com/privacy</string>
+      <key>MonthlySubscriptionLength</key>
+      <string>1 month</string>
+      <key>YearlySubscriptionLength</key>
+      <string>1 year</string>
+      <key>MonthlySubscriptionTitle</key>
+      <string>Monthly Premium</string>
+      <key>TermsOfServiceURL</key>
+      <string>https://www.maximusplayer.com/terms</string>
+      <key>MonthlySubscriptionPrice</key>
+      <string>$3.99 per month</string>
+      <key>YearlySubscriptionPrice</key>
+      <string>$29.99 per year</string>
+      <key>YearlySubscriptionTitle</key>
+      <string>Yearly Premium</string>
+    </dict>
+    <key>DTPlatformVersion</key>
+    <string>26.2</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.2</string>
+    <key>CFBundleName</key>
+    <string>Maximus IPTV Player</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UILaunchScreen</key>
+    <dict>
+      <key>UIColorName</key>
+      <string>systemBackground</string>
+      <key>UIImageRespectsSafeAreaInsets</key>
+      <true/>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>Maximus TV</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+      <string>remote-notification</string>
+      <string>fetch</string>
+      <string>processing</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>23C53</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This app requires camera access for streaming</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.5.2</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>25C56</string>
+    <key>DTPlatformBuild</key>
+    <string>23C53</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+      <string>com.univiptv.cloudkit-sync</string>
+      <string>com.univiptv.cloudkit-processing</string>
+      <string>com.univiptv.download-processing</string>
+    </array>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>WKAppBoundDomains</key>
+    <array>
+      <string>youtube.com</string>
+      <string>www.youtube.com</string>
+      <string>youtu.be</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>352</string>
+    <key>NSBonjourServices</key>
+    <array>
+      <string>_googlecast._tcp</string>
+      <string>_CC1AD845._googlecast._tcp</string>
+    </array>
+    <key>MinimumOSVersion</key>
+    <string>18.2</string>
+    <key>DTXcodeBuild</key>
+    <string>17C52</string>
+    <key>StoreKitConfigurationFileURL</key>
+    <string>Configuration.storekit</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app requires microphone access for streaming</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.univiptv.Universal-IPTV-Player</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>Universal_IPTV_Player.SceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>DTXcode</key>
+    <string>2620</string>
+    <key>CFBundleExecutable</key>
+    <string>Universal IPTV Player</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Use Face ID to quickly unlock parental controls and access restricted content.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>This app needs local network access to stream IPTV content and discover Cast-enabled devices on your WiFi network.</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+  </dict>
+</plist>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>DTPlatformVersion</key>
+	<string>18.2</string>
+	<key>CFBundleName</key>
+	<string>PasswordGenerator</string>
+	<key>DTSDKName</key>
+	<string>iphoneos18.2</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict>
+	</dict>
+	<key>CFBundleDisplayName</key>
+	<string>Xproguard Password Manager</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>DTSDKBuild</key>
+	<string>22C146</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.6</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>24C101</string>
+	<key>DTPlatformBuild</key>
+	<string>22C146</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DTXcodeBuild</key>
+	<string>16C5032a</string>
+	<key>MinimumOSVersion</key>
+	<string>17.0</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Avenir Regular.ttf</string>
+		<string>Avenir Light.ttf</string>
+		<string>Avenir Book.ttf</string>
+		<string>Avenir Heavy.ttf</string>
+		<string>Avenir Black.ttf</string>
+		<string>Montserrat Regular.ttf</string>
+		<string>Montserrat Medium.ttf</string>
+		<string>Montserrat SemiBold.ttf</string>
+		<string>Montserrat Light.ttf</string>
+		<string>Montserrat Bold.ttf</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>6</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen.storyboard</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.xproguard.password</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+	</dict>
+	<key>DTXcode</key>
+	<string>1620</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>CFBundleExecutable</key>
+	<string>PasswordGenerator</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Unlock your passwords</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>16C5031b</string>
+</dict>
+</plist>

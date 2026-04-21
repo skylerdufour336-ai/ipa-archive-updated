@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen.storyboard</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This allows SmartThings to communicate with other devices.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>SmartThings needs to access your location to fully automate your home, such as turning off the lights at sunrise or when you leave home with your phone.</string>
+    <key>DTPlatformVersion</key>
+    <string>26.1</string>
+    <key>DTSDKBuild</key>
+    <string>23B77</string>
+    <key>NFCReaderUsageDescription</key>
+    <string>This SmartThings requires NFC for onboarding matter devices.</string>
+    <key>AppIdentifierPrefix</key>
+    <string>8S33FS7Q5Q.</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>This allows SmartThings to accept QR code invitations.</string>
+    <key>NSSupportsLiveActivities</key>
+    <true/>
+    <key>SSDPInterval</key>
+    <integer>6</integer>
+    <key>CFBundleDisplayName</key>
+    <string>SmartThings</string>
+    <key>DTXcodeBuild</key>
+    <string>17B55</string>
+    <key>APIKey</key>
+    <string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LmRiZjMxZTRlOWEyMjQ4MmY4NTU5YzgwNWU0OTIyYzU2IiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi5kYWVlZTIwMjU2ODI0ZDE1YjBlMzMwMWJhMTRmN2VhMyIsImJ1bmRsZVNlZWRJZCI6ImNvbS5zYW1zdW5nLm9uZWNvbm5lY3Q0aW9zIiwiYnVuZGxlSWQiOiJjb20uc2Ftc3VuZy5vbmVjb25uZWN0NGlvcyIsImlzcyI6IkFtYXpvbiIsInR5cGUiOiJBUElLZXkiLCJhcHBWYXJpYW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1jbGllbnQuODUwZTFlOWEwMzE1NGFiNjk5N2Y0ZjkyOGZkYjg2ZGUiLCJ0cnVzdFBvb2wiOm51bGwsImFwcElkIjoiYW16bjEuYXBwbGljYXRpb24tY2xpZW50Ljg1MGUxZTlhMDMxNTRhYjY5OTdmNGY5MjhmZGI4NmRlIiwiaWQiOiJmMzA4YjRkNi00YTQ0LTQ3M2MtODIwOS0xYmNmMWQxYTA1NzkiLCJpYXQiOiIxNTc2MDQxNDk4NDk4In0=.FZ6rs4JzQztIyZHk0xVOY7QMyouWzr/sMfdEpzWI5S1byVAkg8jHjq9v0tC7dCX35hgTIjPQsG8QQhcwlpBdB3Qa4qsO5EccCPTpNZAei7APhOOlSNT6+wcaVMrvPPvXr1luBF6M3gjOrk0e+5c88mTCPXZgEkCRxkGIqJdc2rg6/LyFKRj5Tng9nq+NvMKz6zU+Sz9M/gc6yJSGRrc6l+JFPTm4Gd/f/dwzkhZLD7GSbWAPUikexcShYHkaPGF+9pR0XwJlDJyKyUAddOcWx2/G+2mLRuYXXtTma4jZFfYJBZswIR8bKU651NyLILp3+ej/SCjYB+vw/XST2qdcHA==</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.samsung.oneconnect4ios</string>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>ExecuteSceneUserActivity</string>
+    </array>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>googlehome</string>
+      <string>august</string>
+      <string>nestmobile</string>
+      <string>KasaSmartHome</string>
+      <string>MiLamp</string>
+      <string>hue2</string>
+      <string>lifx</string>
+      <string>totalconnectcomfort</string>
+      <string>honlyric</string>
+      <string>chromecast</string>
+      <string>samsungcardpet</string>
+      <string>vodafonev</string>
+      <string>MultiRoom25</string>
+      <string>smartview</string>
+      <string>fb330299167324854</string>
+      <string>plume</string>
+      <string>spotify</string>
+      <string>alexa</string>
+      <string>googleassistant</string>
+      <string>arlo</string>
+      <string>thinqapp</string>
+      <string>veezy</string>
+      <string>samsungvirtualgamepad</string>
+      <string>samsungestore</string>
+      <string>AugustHome</string>
+      <string>ring</string>
+      <string>ecobee</string>
+      <string>schlagehome</string>
+      <string>secios</string>
+      <string>comgooglemaps</string>
+      <string>nmap</string>
+      <string>hyundaikr</string>
+      <string>genesiskr</string>
+      <string>kiakr</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>This allows SmartThings to communicate with other devices.</string>
+    <key>MinimumOSVersion</key>
+    <string>17.0</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This allows SmartThings to save data.</string>
+    <key>CFBundleName</key>
+    <string>SmartThings</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.7.41</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>This allows SmartThings to communicate with other devices.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>bluetooth-central</string>
+      <string>bluetooth-peripheral</string>
+      <string>location</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+      <string>wifi</string>
+    </array>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Roboto-Light.ttf</string>
+      <string>Roboto-Regular.ttf</string>
+      <string>Roboto-Medium.ttf</string>
+      <string>Roboto-MediumItalic.ttf</string>
+      <string>SF-UI-Display-Medium.otf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>SmartThings</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+    <dict>
+      <key>AccuracyFeature</key>
+      <string>SmartThings needs to enable precise location temporarily</string>
+    </dict>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>This allows SmartThings to access media content on your phone.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>This allows SmartThings to use speech recognition.</string>
+    <key>UIDesignRequiresCompatibility</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C48</string>
+    <key>EnablePerformanceTesting</key>
+    <false/>
+    <key>KEYCHAIN_ACCESS_GROUP</key>
+    <string>8S33FS7Q5Q.com.samsung.account.keychain</string>
+    <key>BuildMachineOSBuild</key>
+    <string>24G325</string>
+    <key>Device Info - SHP</key>
+    <dict>
+      <key>DA-RVC-NORMAL-100001</key>
+      <string>[Robot Vacuum] Samsung</string>
+      <key>DA-AC-RAC-100001</key>
+      <string>[Room A/C] Samsung</string>
+      <key>DA-KS-WALLOVEN-100003</key>
+      <string>[Oven] Samsung</string>
+      <key>DA-KS-WALLOVEN-100001</key>
+      <string>[Oven] Samsung</string>
+      <key>DA-WM-WD-100002</key>
+      <string>[Dryer] Samsung</string>
+      <key>DA-WM-DW-100001</key>
+      <string>[Dish Washer] Samsung</string>
+      <key>DA-KS-PRORANGE-100001</key>
+      <string>[Range] Samsung</string>
+      <key>DA-REF-NORMAL-100001</key>
+      <string>[Refrigerator] Samsung</string>
+      <key>DA-WM-WD-100001</key>
+      <string>[Dryer] Samsung</string>
+      <key>DA-KS-COOKTOP-100001</key>
+      <string>[Cooktop] Samsung</string>
+      <key>DA-AC-SAC-100001</key>
+      <string>[System A/C] Samsung</string>
+      <key>DA-WM-WM-100002</key>
+      <string>[Washer] Samsung</string>
+      <key>DA-REF-KIMCHI-100001</key>
+      <string>[KimchiRef] Samsung</string>
+      <key>DA-KS-OVEN-100001</key>
+      <string>[Oven] Samsung</string>
+      <key>DA-AC-AIR-100001</key>
+      <string>[Air Purifier] Samsung</string>
+      <key>DA-WM-WM-100001</key>
+      <string>[Washer] Samsung</string>
+      <key>DA-AC-FAC-100001</key>
+      <string>[Floor A/C] Samsung</string>
+      <key>DA-KS-RANGE-100001</key>
+      <string>[Range] Samsung</string>
+    </dict>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This allows SmartThings to find and connect to nearby Samsung devices.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>SmartThings needs to access your location to fully automate your home, such as turning off the lights at sunrise or when you leave home with your phone.</string>
+    <key>CFBundleVersion</key>
+    <string>12</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>SmartThings uses Face ID to prevent unauthorised users from opening the app.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.samsung.oneconnect4ios</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>amzn-com.samsung.oneconnect4ios</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Viewer</string>
+        <key>CFBundleURLName</key>
+        <string>com.samsung.oneconnect4iosY</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>smartthings</string>
+          <string>scapp</string>
+          <string>SamsungConnect</string>
+          <string>com.samsung.smartthings</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>prefs</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.342668068724-5vv1cdakr878cbgrv860g810b1addpb5</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>SmartThings needs to access your location to fully automate your home, such as turning off the lights at sunrise or when you leave home with your phone.</string>
+    <key>UTEnabled</key>
+    <false/>
+    <key>DTSDKName</key>
+    <string>iphoneos26.1</string>
+    <key>NSBonjourServices</key>
+    <array>
+      <string>_lnp._tcp.</string>
+      <string>_bonjour._tcp</string>
+      <string>_smartthings._tcp.</string>
+      <string>_matterc._udp.</string>
+      <string>_matterd._udp</string>
+      <string>_matter._tcp</string>
+      <string>_meshcop._udp</string>
+    </array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>m.samsungsvc.co.kr</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+        <key>api.forecast.sina.cn</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+        <key>m.samsung.com</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+        <key>open.weather.com.cn</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+        <key>openapi.airkorea.or.kr</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+        <key>www.apache.org</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+        <key>itunes.apple.com</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>23B77</string>
+    <key>NSContactsUsageDescription</key>
+    <string>SmartThings uses Contacts to send text message.</string>
+    <key>DTXcode</key>
+    <string>2610</string>
+    <key>AppGroup</key>
+    <string>group.com.samsung.oneconnect4ios.extensions</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This allows SmartThings to save data.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+  </dict>
+</plist>

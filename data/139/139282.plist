@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>DTPlatformVersion</key>
+	<string>17.2</string>
+	<key>UIWhitePointAdaptivityStyle</key>
+	<string>UIWhitePointAdaptivityStyleVideo</string>
+	<key>CFBundleName</key>
+	<string>Rec</string>
+	<key>DTSDKName</key>
+	<string>iphoneos17.2</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Store recorded videos in your photo library.</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Use timecode providing external hardware.</string>
+	<key>CFBundleDisplayName</key>
+	<string>REC</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>photon</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Add location to videos.</string>
+	<key>DTSDKBuild</key>
+	<string>21C52</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This is required to preview and record video.</string>
+	<key>CFBundleShortVersionString</key>
+	<string>7.0.2</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>23B92</string>
+	<key>DTPlatformBuild</key>
+	<string>21C52</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Use timecode providing external hardware.</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>DTXcodeBuild</key>
+	<string>15C65</string>
+	<key>CFBundleVersion</key>
+	<string>20231220.013811</string>
+	<key>MinimumOSVersion</key>
+	<string>15.0</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Save videos to Photo Library.</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This is required to monitor and record audio.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.latenitesoft.Rec</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>Rec.SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>DTXcode</key>
+	<string>1510</string>
+	<key>CFBundleExecutable</key>
+	<string>Rec</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>RECVideoApp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>recvideoapp</string>
+			</array>
+		</dict>
+	</array>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15C5065a</string>
+</dict>
+</plist>

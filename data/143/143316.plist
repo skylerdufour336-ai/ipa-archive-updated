@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <false/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Needed to show locations of contacts.</string>
+    <key>DTPlatformVersion</key>
+    <string>18.2</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.2</string>
+    <key>CFBundleName</key>
+    <string>Week Agenda</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>16C5031b</string>
+    <key>UIMainStoryboardFile~ipad</key>
+    <string>ipad</string>
+    <key>CalendarStoreAuthorizationToken</key>
+    <string>3b06706d68fa67571ecaaa7e39f6e8f3</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon Week Agenda Ultimate29x29</string>
+          <string>AppIcon Week Agenda Ultimate40x40</string>
+          <string>AppIcon Week Agenda Ultimate60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon Week Agenda Ultimate</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>Week Agenda</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>itms-apps</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Needed to display travel time.</string>
+    <key>DTSDKBuild</key>
+    <string>22C146</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.44</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24C101</string>
+    <key>DTPlatformBuild</key>
+    <string>22C146</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>16C5032a</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>Access is needed to show, edit and add events.</string>
+    <key>CFBundleVersion</key>
+    <string>2</string>
+    <key>MinimumOSVersion</key>
+    <string>9.0</string>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.shadowbit.Week-Agenda</string>
+    <key>DTXcode</key>
+    <string>1620</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Access is needed to show, edit and add events.</string>
+    <key>CFBundleExecutable</key>
+    <string>Week Agenda</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon Week Agenda Ultimate29x29</string>
+          <string>AppIcon Week Agenda Ultimate40x40</string>
+          <string>AppIcon Week Agenda Ultimate60x60</string>
+          <string>AppIcon Week Agenda Ultimate76x76</string>
+          <string>AppIcon Week Agenda Ultimate83.5x83.5</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon Week Agenda Ultimate</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>iphone</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.shadowbit.WeekAgendaUltimate</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>WeekAgendaUltimate</string>
+          <string>WeekAgendaUltimateNew</string>
+          <string>WeekAgendaUltimateToday</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

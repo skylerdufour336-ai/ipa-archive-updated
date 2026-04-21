@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>Cloud NPKI Enable UCPID</key>
+    <false/>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>기기연동을 위해서는 블루투스 권한이 필요합니다.</string>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen.storyboard</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>앱 사용 위치를 기반한 부정가입방지 및 부정거래탐지로 보다 안전한 금융거래가 가능합니다.</string>
+    <key>Cloud NPKI CONNECTION RESPONSE TIMEOUT_MS</key>
+    <real>3000.0</real>
+    <key>DTPlatformVersion</key>
+    <string>18.2</string>
+    <key>Cloud NPKI DDAY CHECK SERVER PORT</key>
+    <string>443</string>
+    <key>DTSDKBuild</key>
+    <string>22C146</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>
+[선택] 신분증 촬영, 영상 통화 및 QR 인증 등을 위해 카메라 접근권한이 필요합니다.
+
+선택 접근권한은 허용하지 않아도 서비스 이용이 가능하지만, 해당 권한이 필요한 기능은 이용이 제한될 수 있습니다.</string>
+    <key>Cloud NPKI Phone Number Proof Method</key>
+    <string>mobile</string>
+    <key>CFBundleDisplayName</key>
+    <string>영웅문S#</string>
+    <key>FirebaseDeepLinkPasteboardRetrievalEnabled</key>
+    <string>NO</string>
+    <key>Cloud NPKI Site Code</key>
+    <string>U1MwMDUwX0hFUk9fSQ==</string>
+    <key>Cloud NPKI CACHE LIST DUE DATE</key>
+    <integer>30</integer>
+    <key>Cloud NPKI CONNECTION CONNECTION TIMEOUT_MS</key>
+    <real>5000.0</real>
+    <key>DTXcodeBuild</key>
+    <string>16C5032a</string>
+    <key>NSPrivacyTrackingDomains</key>
+    <array>
+      <string>https://ap.tnkfactory.com</string>
+      <string>https://api.tnkfactory.com</string>
+    </array>
+    <key>Cloud NPKI Cached certificate max failure count</key>
+    <integer>5</integer>
+    <key>Cloud NPKI API Server Host Test</key>
+    <string>twas.signkorea.com</string>
+    <key>Cloud NPKI API Server Host</key>
+    <string>cert.signkorea.com</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.kiwoom.heromts</string>
+    <key>UIFileSharingEnabled</key>
+    <false/>
+    <key>tnkad_app_id</key>
+    <string>e020c020-40d1-c9f0-0f9c-1c0d000c0003</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>FacebookDisplayName</key>
+    <string>HeroS</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>kakaokompassauth</string>
+      <string>kakaolink</string>
+      <string>com.kiwoom.unitycert.ios.apptoapp</string>
+      <string>investportal</string>
+      <string>channelklive</string>
+      <string>OpenAccountISA</string>
+      <string>kiwoomlib</string>
+      <string>OpenAccount</string>
+      <string>KDream</string>
+      <string>KiwoomHeroSFund</string>
+      <string>KiwoomHeroSW</string>
+      <string>KiwoomHeroSNF</string>
+      <string>KiwoomHeroF</string>
+      <string>KiwoomHeroS</string>
+      <string>KiwoomHeroT</string>
+      <string>KiwoomMobileWeb</string>
+      <string>kiwoomchannelk</string>
+      <string>howtostock</string>
+      <string>KiwoomheroSF</string>
+      <string>KiwoomheroSG</string>
+      <string>instagram</string>
+      <string>tMobileID</string>
+      <string>MobileID</string>
+      <string>mobileid-toss</string>
+      <string>mobileid-kakaobank</string>
+      <string>samsungpay</string>
+      <string>fbapi</string>
+      <string>fb-messenger-share-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+      <string>mydataProviderApp01</string>
+      <string>mydataProviderApp02</string>
+      <string>mydataProviderApp03</string>
+      <string>mydataProviderApp04</string>
+      <string>mydataProviderApp05</string>
+      <string>mydataProviderApp06</string>
+      <string>mydataProviderApp07</string>
+      <string>mydataProviderApp08</string>
+      <string>mydataProviderApp09</string>
+      <string>mydataProviderApp10</string>
+      <string>kbbank</string>
+      <string>payco</string>
+      <string>naversearchthirdlogin</string>
+      <string>supertoss</string>
+      <string>ispmobile</string>
+      <string>payco</string>
+      <string>kakaotalk</string>
+      <string>shinsegaeeasypayment</string>
+      <string>lpayapp</string>
+      <string>smilepayapp</string>
+      <string>lottesmartpay</string>
+      <string>lotteappcard</string>
+      <string>hdcardappcardansimclick</string>
+      <string>smhyundaiansimclick</string>
+      <string>shinhan-sr-ansimclick</string>
+      <string>shinhan-sr-ansimclick-naverpay</string>
+      <string>shinhan-sr-ansimclick-payco</string>
+      <string>smshinhanansimclick</string>
+      <string>cloudpay</string>
+      <string>hanawalletmembers</string>
+      <string>nhallonepayansimclick</string>
+      <string>nhappcardansimclick</string>
+      <string>nonghyupcardansimclick</string>
+      <string>citimobileapp</string>
+      <string>citispay</string>
+      <string>citicardappkr</string>
+      <string>wooripay</string>
+      <string>com.wooricard.wcard</string>
+      <string>NewSmartPib</string>
+      <string>mpocket.online.ansimclick</string>
+      <string>scardcertiapp</string>
+      <string>kb-acp</string>
+      <string>kftc-bankpay</string>
+      <string>kb-bankpay</string>
+      <string>nhb-bankpay</string>
+      <string>mg-bankpay</string>
+      <string>kn-bankpay</string>
+      <string>lguthepay-xpay</string>
+      <string>SmartBank2WB</string>
+      <string>lguthepay</string>
+      <string>tauthlink</string>
+      <string>upluscorporation</string>
+      <string>ktauthexternalcall</string>
+      <string>kbbank</string>
+    </array>
+    <key>Cloud NPKI READ BUFFER SIZE</key>
+    <integer>4096</integer>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>FirebaseMessagingAutoInitEnabled</key>
+    <false/>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>
+[선택] 개인에게 최적회된 광고를 제공하기 위해 필요합니다.
+
+선택 접근권한은 허용하지 않아도 서비스 이용이 가능하지만, 해당 권한이 필요한 기능은 이용이 제한될 수 있습니다.</string>
+    <key>Cloud NPKI Allow Modified Biometric</key>
+    <false/>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>기기연동을 위해서는 블루투스 권한이 필요합니다.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>공유하기를 위해서 포토라이브러리 접근이 필요합니다.</string>
+    <key>CFBundleName</key>
+    <string>HeroS</string>
+    <key>Cloud NPKI Device Authentication Waiting Time</key>
+    <real>5000.0</real>
+    <key>CFBundleShortVersionString</key>
+    <string>1.5.70</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+    </array>
+    <key>Cloud NPKI Device Authentication Timeout</key>
+    <integer>300000</integer>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIAppFonts</key>
+    <array>
+      <string>YoonGothicPro750.otf</string>
+      <string>YoonGothicPro770.otf</string>
+      <string>YoonGothicPro780.otf</string>
+      <string>Pretendard-Regular.otf</string>
+      <string>Pretendard-Medium.otf</string>
+      <string>Pretendard-SemiBold.otf</string>
+      <string>Pretendard-Bold.otf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>HeroS</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>Cloud NPKI Device Authentication Polling Interval</key>
+    <real>2000.0</real>
+    <key>Cloud NPKI Conditions of Use URL</key>
+    <string>https://www.yets.io/shield/cloud/conditionsOfUse/html/conditionsOfUse.html</string>
+    <key>FacebookAppID</key>
+    <string>793560050983620</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>
+[선택] 텍스트 자동완성을 위해 음성 인식 접근권한이 필요 합니다
+
+선택 접근권한은 허용하지 않아도 서비스 이용이 가능하지만, 해당 권한이 필요한 기능은 이용이 제한될 수 있습니다.
+</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C7003g</string>
+    <key>Cloud NPKI API Server Port</key>
+    <string>8500</string>
+    <key>BuildMachineOSBuild</key>
+    <string>24G419</string>
+    <key>Cloud NPKI DDAY CHECK SERVER URL</key>
+    <string>https://www.yets.io/shield/cloud/dday/dday.json</string>
+    <key>NSLocationUsageDescription</key>
+    <string>앱 사용 위치를 기반한 부정가입방지 및 부정거래탐지로 보다 안전한 금융거래가 가능합니다.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>Cloud NPKI API Key</key>
+    <string>830f6306e14fc31ab8b03b77b820afd9a41b3b928dbeffac0d21e7f654c04aa1</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>
+[선택] 영상 통화 및 음성 입력 등을 위해 마이크 접근권한이 필요합니다.
+
+선택 접근권한은 허용하지 않아도 서비스 이용이 가능하지만, 해당 권한이 필요한 기능은 이용이 제한될 수 있습니다.</string>
+    <key>CFBundleAllowMixedLocalizations</key>
+    <true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>앱 사용 위치를 기반한 부정가입방지 및 부정거래탐지로 보다 안전한 금융거래가 가능합니다.</string>
+    <key>Cloud NPKI CONNECTION IDLE TIMEOUT_MS</key>
+    <integer>10000</integer>
+    <key>CFBundleVersion</key>
+    <string>1.5.70.27</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>공동/간편인증서 사용을 위해서는 Face ID 접근 권한이 필요합니다.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.kiwoom.heromts.apptoapp.return</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>heromts.apptoapp.return</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.kiwoom.heromts</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>heromts</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>kakao7a20b5d3446c9e89c8247905e6249222</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>herospayco</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>herospayco</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>herosmydata</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>herosmydata</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>herosprimydata</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>herosprimydata</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>앱 사용 위치를 기반한 부정가입방지 및 부정거래탐지로 보다 안전한 금융거래가 가능합니다.</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.2</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>22C146</string>
+    <key>DTXcode</key>
+    <string>1620</string>
+    <key>Cloud NPKI Customer ID</key>
+    <string>SS0050</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>첨부파일 업로드를 위해 사진 라이브러리 접근 권한이 필요합니다.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+  </dict>
+</plist>

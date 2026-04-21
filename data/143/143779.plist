@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>18.2</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.2</string>
+    <key>CFBundleName</key>
+    <string>AnimeChat</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Application requires access to photos to upload your custom profile picture</string>
+    <key>FirebaseCrashlyticsCollectionEnabled</key>
+    <false/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon 7</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 760x60</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 7</string>
+        </dict>
+        <key>AppIcon 4</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 460x60</string>
+            <string>AppIcon 476x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 4</string>
+        </dict>
+        <key>AppIcon 5</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 560x60</string>
+            <string>AppIcon 576x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 5</string>
+        </dict>
+        <key>AppIcon 2</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 260x60</string>
+            <string>AppIcon 276x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 2</string>
+        </dict>
+        <key>AppIcon 6</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 660x60</string>
+            <string>AppIcon 676x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 6</string>
+        </dict>
+        <key>AppIcon 3</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 360x60</string>
+            <string>AppIcon 376x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 3</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon 160x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon 1</string>
+      </dict>
+    </dict>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17A323</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>Anime Chat</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string></string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+      <string>fetch</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>22C146</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.3</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>23G93</string>
+    <key>DTPlatformBuild</key>
+    <string>22C146</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>16C5032a</string>
+    <key>CFBundleVersion</key>
+    <string>5</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Application requires access to photos to upload your custom profile picture</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Inter-Black.ttf</string>
+      <string>Inter-Bold.ttf</string>
+      <string>Inter-ExtraBold.ttf</string>
+      <string>Inter-ExtraLight.ttf</string>
+      <string>Inter-Light.ttf</string>
+      <string>Inter-Medium.ttf</string>
+      <string>Inter-Regular.ttf</string>
+      <string>Inter-SemiBold.ttf</string>
+      <string>Inter-Thin.ttf</string>
+      <string>SF-Pro-Display-Regular.ttf</string>
+      <string>SFProText-Regular.ttf</string>
+      <string>SFCompactText-Regular.ttf</string>
+      <string>Bangers-Regular.ttf</string>
+      <string>Montserrat-Regular.ttf</string>
+      <string>SF-Pro-Rounded-Black.ttf</string>
+      <string>SF-Pro-Rounded-Bold.ttf</string>
+      <string>SF-Pro-Rounded-Heavy.ttf</string>
+      <string>SF-Pro-Rounded-Light.ttf</string>
+      <string>SF-Pro-Rounded-Medium.ttf</string>
+      <string>SF-Pro-Rounded-Regular.ttf</string>
+      <string>SF-Pro-Rounded-Semibold.ttf</string>
+      <string>SF-Pro-Rounded-Thin.ttf</string>
+      <string>SF-Pro-Rounded-Ultralight.ttf</string>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>CFBundleIdentifier</key>
+    <string>com.meteor.aiwaifuswipe</string>
+    <key>DTXcode</key>
+    <string>1620</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>localhost</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>CFBundleExecutable</key>
+    <string>AnimeChat</string>
+    <key>firebase_json_raw</key>
+    <string>eyJjcmFzaGx5dGljc19kZWJ1Z19lbmFibGVkIjogZmFsc2V9</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon 7</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 760x60</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 7</string>
+        </dict>
+        <key>AppIcon 4</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 460x60</string>
+            <string>AppIcon 476x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 4</string>
+        </dict>
+        <key>AppIcon 5</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 560x60</string>
+            <string>AppIcon 576x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 5</string>
+        </dict>
+        <key>AppIcon 2</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 260x60</string>
+            <string>AppIcon 276x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 2</string>
+        </dict>
+        <key>AppIcon 6</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 660x60</string>
+            <string>AppIcon 676x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 6</string>
+        </dict>
+        <key>AppIcon 3</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 360x60</string>
+            <string>AppIcon 376x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 3</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon 160x60</string>
+          <string>AppIcon 176x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon 1</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+  </dict>
+</plist>

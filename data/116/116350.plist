@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MinimumOSVersion</key>
+	<string>15.0</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>api.aerisapi.com</key>
+			<dict>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>papp.hyundaiusa.com</key>
+			<dict>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>sapp.hyundaiusa.com</key>
+			<dict>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+	</dict>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Authorize Login</string>
+	<key>DTXcodeBuild</key>
+	<string>15C65</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Used on the map</string>
+	<key>UISupportedDevices</key>
+	<array>
+		<string>iPhone10,2</string>
+		<string>iPhone10,3</string>
+		<string>iPhone10,5</string>
+		<string>iPhone10,6</string>
+		<string>iPhone11,2</string>
+		<string>iPhone11,4</string>
+		<string>iPhone11,6</string>
+		<string>iPhone12,3</string>
+		<string>iPhone12,5</string>
+		<string>iPhone13,1</string>
+		<string>iPhone13,2</string>
+		<string>iPhone13,3</string>
+		<string>iPhone13,4</string>
+		<string>iPhone14,2</string>
+		<string>iPhone14,3</string>
+		<string>iPhone14,4</string>
+		<string>iPhone14,5</string>
+		<string>iPhone14,7</string>
+		<string>iPhone14,8</string>
+		<string>iPhone15,2</string>
+		<string>iPhone15,3</string>
+		<string>iPhone15,4</string>
+		<string>iPhone15,5</string>
+		<string>iPhone16,1</string>
+		<string>iPhone16,2</string>
+		<string>iPhone8,2</string>
+		<string>iPhone9,2</string>
+		<string>iPhone9,4</string>
+	</array>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15C5500a</string>
+	<key>CFBundleName</key>
+	<string>MyHyundai</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Calendar events will be integrated and synced between your Hyundai Bluelink account and vehicle. You may disable at anytime.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Calendar events will be integrated and synced between your Hyundai Bluelink account and vehicle. You may disable at anytime.</string>
+	<key>ITSDRMScheme</key>
+	<string>v2</string>
+	<key>DTPlatformBuild</key>
+	<string>21C52</string>
+	<key>DTXcode</key>
+	<string>1510</string>
+	<key>CFBundleVersion</key>
+	<string>3.2</string>
+	<key>DTSDKName</key>
+	<string>iphoneos17.2</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<false/>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+		</dict>
+	</dict>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location may be shown on the map and is used to search results.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Your location may be shown on the map and is used to search results.</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>bluelink2014</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string/>
+		</dict>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>com.hyundaiusa.bluelink2</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Your photos can be used for the Profile image</string>
+	<key>CFBundleExecutable</key>
+	<string>MyHyundai</string>
+	<key>BuildMachineOSBuild</key>
+	<string>23C71</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>sense</string>
+		<string>chargepoint</string>
+		<string>genesisproduct</string>
+	</array>
+	<key>NSContactsUsageDescription</key>
+	<string>If you allow, this app can populate the Secondary Driver's information from your device's contact list. Allow access?</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your location may be shown on the map and is used to search results.</string>
+	<key>NSNearbyInteractionUsageDescription</key>
+	<string>Used to access the digital key</string>
+	<key>NSNearbyInteractionAllowOnceUsageDescription</key>
+	<string>Used to access the digital key</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>MyHyundai app needs access to your camera to enable features like Profile image</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Used on the map</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>HyundaiSansText-Bold.otf</string>
+		<string>HyundaiSansText-BoldItalic.otf</string>
+		<string>HyundaiSansText-Italic.otf</string>
+		<string>HyundaiSansText-Medium.otf</string>
+		<string>HyundaiSansText-MediumItalic.otf</string>
+		<string>HyundaiSansText-Regular.otf</string>
+		<string>HyundaiSansHeadOffice-Bold.ttf</string>
+		<string>HyundaiSansHeadOffice-Light.ttf</string>
+		<string>HyundaiSansHeadOffice-Medium.ttf</string>
+		<string>HyundaiSansHeadOffice-Regular.ttf</string>
+		<string>HyundaiSansHead-Bold.otf</string>
+		<string>HyundaiSansHead-Light.otf</string>
+		<string>HyundaiSansHead-Medium.otf</string>
+		<string>HyundaiSansHead-Regular.otf</string>
+		<string>GenesisSansText-Regular.otf</string>
+		<string>DIN Medium.ttf</string>
+		<string>HyundaiSansText.otf</string>
+		<string>GenesisSansText-Bold.otf</string>
+		<string>GenesisSansText-Medium.otf</string>
+		<string>DIN Bold.ttf</string>
+		<string>GenesisSansHead-Regular.otf</string>
+		<string>GenesisSansText-Italic.otf</string>
+	</array>
+	<key>DTSDKBuild</key>
+	<string>21C52</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Used on the map</string>
+	<key>DTPlatformVersion</key>
+	<string>17.2</string>
+	<key>CFBundleShortVersionString</key>
+	<string>5.2.0</string>
+</dict>
+</plist>

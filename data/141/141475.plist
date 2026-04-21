@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+		<string>front-facing-camera</string>
+		<string>opengles-3</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformVersion</key>
+	<string>17.4</string>
+	<key>CFBundleName</key>
+	<string>Final Cut Camera</string>
+	<key>DTSDKName</key>
+	<string>iphoneos17.4</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Your Photo Library is needed to access media and save videos.</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>iPhoneAppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>iPhoneAppIcon</string>
+		</dict>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This will allow “Final Cut Camera” to find and connect with Bluetooth accessories. This app may also use Bluetooth to know when you're nearby.</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.video</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location is used to tag where videos are taken.</string>
+	<key>DTSDKBuild</key>
+	<string>21E210</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow camera access to record video.</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>NSAccentColorName</key>
+	<string>AccentColor</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>22A380007</string>
+	<key>DTPlatformBuild</key>
+	<string>21E210</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DTXcodeBuild</key>
+	<string>15E204a</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>MinimumOSVersion</key>
+	<string>17.0</string>
+	<key>CFBundleVersion</key>
+	<string>451.8.198</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_atestservice._tcp</string>
+		<string>_rpft._tcp</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow microphone access to record audio.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.FinalCutApp.companion</string>
+	<key>OSLogPreferences</key>
+	<dict>
+		<key>com.apple.PeerCam</key>
+		<dict>
+			<key>DEFAULT-OPTIONS</key>
+			<dict>
+				<key>Level</key>
+				<dict>
+					<key>Persist</key>
+					<string>Debug</string>
+					<key>Enable</key>
+					<string>Debug</string>
+				</dict>
+				<key>Enable-Private-Data</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>DTXcode</key>
+	<string>1530</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>CFBundleExecutable</key>
+	<string>Final Cut Camera</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>iPhoneAppIcon60x60</string>
+				<string>iPhoneAppIcon76x76</string>
+			</array>
+		</dict>
+	</dict>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>VADevelopmentTeamIdentifier</key>
+	<string>PTN9T2S29T</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2024 Apple Inc. All rights reserved.</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15F31e</string>
+</dict>
+</plist>

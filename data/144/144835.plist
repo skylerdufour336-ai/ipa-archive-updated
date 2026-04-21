@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>In dieser App kann Bluetooth verwendet werden.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Verbindungen von oder zu Ihrem aktuellen Standort suchen.</string>
+    <key>DTPlatformVersion</key>
+    <string>17.5</string>
+    <key>DTSDKBuild</key>
+    <string>21F77</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>EOSBuildDate</key>
+    <string>20240626104056</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Zugriffsrecht auf die Kamera wird benötigt.</string>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <false/>
+    <key>CFBundleDisplayName</key>
+    <string>rnv VRN</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+      <dict>
+        <key>LSItemContentTypes</key>
+        <array>
+          <string>com.apple.maps.directionsrequest</string>
+        </array>
+        <key>CFBundleTypeName</key>
+        <string>MKDirectionsRequest</string>
+        <key>LSHandlerRank</key>
+        <string>Default</string>
+      </dict>
+    </array>
+    <key>DTXcodeBuild</key>
+    <string>15F31d</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+      <string>de</string>
+    </array>
+    <key>MKDirectionsApplicationSupportedModes</key>
+    <array>
+      <string>MKDirectionsModeBus</string>
+      <string>MKDirectionsModeCar</string>
+      <string>MKDirectionsModeFerry</string>
+      <string>MKDirectionsModePedestrian</string>
+      <string>MKDirectionsModeStreetCar</string>
+      <string>MKDirectionsModeSubway</string>
+      <string>MKDirectionsModeTrain</string>
+    </array>
+    <key>CFBundleIdentifier</key>
+    <string>de.eos-uptrade.fahrinfo.rnv</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSMotionUsageDescription</key>
+    <string>Diese App nutzt Bewegungsdaten zur Berechnung von Fahrten.</string>
+    <key>MinimumOSVersion</key>
+    <string>15.6</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>In dieser App kann Bluetooth verwendet werden.</string>
+    <key>CFBundleIconFiles</key>
+    <array/>
+    <key>CFBundleName</key>
+    <string>rnv VRN</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.4</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>location</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>rnv VRN</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>UIPrerenderedIcon</key>
+    <true/>
+    <key>BuildMachineOSBuild</key>
+    <string>23F79</string>
+    <key>NSAccentColorName</key>
+    <string>AccentColor</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Zugriffsrecht auf den Kalender wird benötigt.</string>
+    <key>FIInterfaceClass</key>
+    <string>RNVInterface</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Verbindungen von oder zu Ihrem aktuellen Standort suchen.</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>de</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Nutzen Sie den Gesichts-Scan anstatt Ihres Passwortes für Ticketkäufe.</string>
+    <key>EOSFahrinfoCommitHash</key>
+    <string>7dd003e0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>de.eos-uptrade.fahrinfo.rnv</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fahrinfo</string>
+          <string>fahrinfo-rheinneckar</string>
+          <string>de.eos-uptrade.fahrinfo.rnv.mobileShop</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Verbindungen von oder zu Ihrem aktuellen Standort suchen.</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.5</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Wählen Sie einen Kontakt als Start- oder Zielort.</string>
+    <key>DTPlatformBuild</key>
+    <string>21F77</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Es kann ein Foto aus dem Fotoalbum ausgewählt werden, um ein Lichtbild zu hinterlegen.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>DTXcode</key>
+    <string>1540</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15F31e</string>
+  </dict>
+</plist>

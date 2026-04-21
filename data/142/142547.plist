@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>DTPlatformVersion</key>
+	<string>17.5</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.ismrk.QRweb</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>qrs</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleName</key>
+	<string>QRweb</string>
+	<key>DTSDKName</key>
+	<string>iphoneos17.5</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Used to save QRcodes</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon-360x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon-3</string>
+		</dict>
+	</dict>
+	<key>CFBundleDisplayName</key>
+	<string>QRs</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>line</string>
+		<string>googlegmail</string>
+		<string>googlemaps</string>
+		<string>maps</string>
+		<string>fb</string>
+		<string>twitter</string>
+	</array>
+	<key>DTSDKBuild</key>
+	<string>21F77</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Used to scan QRcodes</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.6</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>23F79</string>
+	<key>DTPlatformBuild</key>
+	<string>21F77</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>DTXcodeBuild</key>
+	<string>15F31d</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>MinimumOSVersion</key>
+	<string>14.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+	<string>Used to add Calendar</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Used to save QRcodes</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ismrk.QRweb</string>
+	<key>DTXcode</key>
+	<string>1540</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Used to add Calendar</string>
+	<key>CFBundleExecutable</key>
+	<string>QRweb</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon-360x60</string>
+				<string>AppIcon-376x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon-3</string>
+		</dict>
+	</dict>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Used to add Contacts</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15F31e</string>
+</dict>
+</plist>

@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This identifier will be used to collect Crash Data in order to improve functionalities.</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>DTPlatformVersion</key>
+    <string>17.0</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleName</key>
+    <string>HeadshotTest</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.0</string>
+    <key>CodePushDeploymentKey</key>
+    <string>N2ezQb4pKw4H12Vx01RRjZRdM5z-XQNDrFa_S</string>
+    <key>FacebookAutoLogAppEventsEnabled</key>
+    <true/>
+    <key>FirebaseCrashlyticsCollectionEnabled</key>
+    <false/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon 30</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3060x60</string>
+            <string>AppIcon 3076x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 30</string>
+        </dict>
+        <key>AppIcon 13</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1360x60</string>
+            <string>AppIcon 1376x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 13</string>
+        </dict>
+        <key>AppIcon 32</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3260x60</string>
+            <string>AppIcon 3276x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 32</string>
+        </dict>
+        <key>AppIcon 15</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1560x60</string>
+            <string>AppIcon 1576x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 15</string>
+        </dict>
+        <key>AppIcon 21</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2160x60</string>
+            <string>AppIcon 2176x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 21</string>
+        </dict>
+        <key>AppIcon 17</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1760x60</string>
+            <string>AppIcon 1776x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 17</string>
+        </dict>
+        <key>AppIcon 10</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1060x60</string>
+            <string>AppIcon 1076x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 10</string>
+        </dict>
+        <key>AppIcon 23</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2360x60</string>
+            <string>AppIcon 2376x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 23</string>
+        </dict>
+        <key>AppIcon 19</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1960x60</string>
+            <string>AppIcon 1976x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 19</string>
+        </dict>
+        <key>AppIcon 12</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1260x60</string>
+            <string>AppIcon 1276x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 12</string>
+        </dict>
+        <key>AppIcon 27</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2760x60</string>
+            <string>AppIcon 2776x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 27</string>
+        </dict>
+        <key>AppIcon 14</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1460x60</string>
+            <string>AppIcon 1476x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 14</string>
+        </dict>
+        <key>AppIcon 20</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2060x60</string>
+            <string>AppIcon 2076x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 20</string>
+        </dict>
+        <key>AppIcon 29</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2960x60</string>
+            <string>AppIcon 2976x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 29</string>
+        </dict>
+        <key>AppIcon 16</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1660x60</string>
+            <string>AppIcon 1676x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 16</string>
+        </dict>
+        <key>AppIcon 22</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2260x60</string>
+            <string>AppIcon 2276x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 22</string>
+        </dict>
+        <key>AppIcon 33</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3360x60</string>
+            <string>AppIcon 3376x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 33</string>
+        </dict>
+        <key>AppIcon 18</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1860x60</string>
+            <string>AppIcon 1876x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 18</string>
+        </dict>
+        <key>AppIcon 11</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1160x60</string>
+            <string>AppIcon 1176x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 11</string>
+        </dict>
+        <key>AppIcon 24</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2460x60</string>
+            <string>AppIcon 2476x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 24</string>
+        </dict>
+        <key>AppIcon 34</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3460x60</string>
+            <string>AppIcon 3476x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 34</string>
+        </dict>
+        <key>AppIcon 35</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3560x60</string>
+            <string>AppIcon 3576x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 35</string>
+        </dict>
+        <key>AppIcon 36</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3660x60</string>
+            <string>AppIcon 3676x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 36</string>
+        </dict>
+        <key>AppIcon 37</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3760x60</string>
+            <string>AppIcon 3776x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 37</string>
+        </dict>
+        <key>AppIcon 5</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 560x60</string>
+            <string>AppIcon 576x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 5</string>
+        </dict>
+        <key>AppIcon 7</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 760x60</string>
+            <string>AppIcon 776x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 7</string>
+        </dict>
+        <key>AppIcon 9</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 960x60</string>
+            <string>AppIcon 976x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 9</string>
+        </dict>
+        <key>AppIcon 4</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 460x60</string>
+            <string>AppIcon 476x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 4</string>
+        </dict>
+        <key>AppIcon 6</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 660x60</string>
+            <string>AppIcon 676x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 6</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon 3860x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon 38</string>
+      </dict>
+    </dict>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This pemission will be used to save photos to your gallery.</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleDisplayName</key>
+    <string>AI Headshot Yearbook Generator - HeadAI</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string></string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>21A326</string>
+    <key>FacebookAdvertiserIDCollectionEnabled</key>
+    <true/>
+    <key>CFBundleShortVersionString</key>
+    <string>1.6</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSCameraUsageDescription</key>
+    <string>This permission allows you to capture images using your camera and edit them seamlessly within our App.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>23A5337a</string>
+    <key>DTPlatformBuild</key>
+    <string>21A326</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>12.4</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>15A507</string>
+    <key>CFBundleVersion</key>
+    <string>3</string>
+    <key>FacebookAppID</key>
+    <string>1364789367575107</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>FacebookDisplayName</key>
+    <string>AI Yearbook Headshot Generator</string>
+    <key>CFBundleIdentifier</key>
+    <string>headshot.pocketai.app</string>
+    <key>DTXcode</key>
+    <string>1501</string>
+    <key>FacebookClientToken</key>
+    <string>b51307a99477a580bcce4a872779f7e0</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>localhost</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>CFBundleExecutable</key>
+    <string>HeadshotTest</string>
+    <key>firebase_json_raw</key>
+    <string>eyJhZG1vYl9hbmRyb2lkX2FwcF9pZCI6ICJjYS1hcHAtcHViLXh4eHh4eHh4fnh4eHh4eHh4IiwgImFkbW9iX2lvc19hcHBfaWQiOiAiY2EtYXBwLXB1Yi00MjU1NDQwNTM1MDIwODA3fjI0MjA4Mzg4MDQifQ==</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon 30</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3060x60</string>
+            <string>AppIcon 3076x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 30</string>
+        </dict>
+        <key>AppIcon 13</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1360x60</string>
+            <string>AppIcon 1376x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 13</string>
+        </dict>
+        <key>AppIcon 32</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3260x60</string>
+            <string>AppIcon 3276x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 32</string>
+        </dict>
+        <key>AppIcon 15</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1560x60</string>
+            <string>AppIcon 1576x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 15</string>
+        </dict>
+        <key>AppIcon 21</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2160x60</string>
+            <string>AppIcon 2176x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 21</string>
+        </dict>
+        <key>AppIcon 17</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1760x60</string>
+            <string>AppIcon 1776x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 17</string>
+        </dict>
+        <key>AppIcon 10</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1060x60</string>
+            <string>AppIcon 1076x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 10</string>
+        </dict>
+        <key>AppIcon 23</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2360x60</string>
+            <string>AppIcon 2376x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 23</string>
+        </dict>
+        <key>AppIcon 19</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1960x60</string>
+            <string>AppIcon 1976x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 19</string>
+        </dict>
+        <key>AppIcon 12</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1260x60</string>
+            <string>AppIcon 1276x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 12</string>
+        </dict>
+        <key>AppIcon 27</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2760x60</string>
+            <string>AppIcon 2776x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 27</string>
+        </dict>
+        <key>AppIcon 14</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1460x60</string>
+            <string>AppIcon 1476x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 14</string>
+        </dict>
+        <key>AppIcon 20</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2060x60</string>
+            <string>AppIcon 2076x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 20</string>
+        </dict>
+        <key>AppIcon 29</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2960x60</string>
+            <string>AppIcon 2976x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 29</string>
+        </dict>
+        <key>AppIcon 16</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1660x60</string>
+            <string>AppIcon 1676x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 16</string>
+        </dict>
+        <key>AppIcon 22</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2260x60</string>
+            <string>AppIcon 2276x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 22</string>
+        </dict>
+        <key>AppIcon 33</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3360x60</string>
+            <string>AppIcon 3376x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 33</string>
+        </dict>
+        <key>AppIcon 18</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1860x60</string>
+            <string>AppIcon 1876x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 18</string>
+        </dict>
+        <key>AppIcon 11</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 1160x60</string>
+            <string>AppIcon 1176x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 11</string>
+        </dict>
+        <key>AppIcon 24</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 2460x60</string>
+            <string>AppIcon 2476x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 24</string>
+        </dict>
+        <key>AppIcon 34</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3460x60</string>
+            <string>AppIcon 3476x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 34</string>
+        </dict>
+        <key>AppIcon 35</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3560x60</string>
+            <string>AppIcon 3576x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 35</string>
+        </dict>
+        <key>AppIcon 36</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3660x60</string>
+            <string>AppIcon 3676x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 36</string>
+        </dict>
+        <key>AppIcon 37</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 3760x60</string>
+            <string>AppIcon 3776x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 37</string>
+        </dict>
+        <key>AppIcon 5</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 560x60</string>
+            <string>AppIcon 576x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 5</string>
+        </dict>
+        <key>AppIcon 7</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 760x60</string>
+            <string>AppIcon 776x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 7</string>
+        </dict>
+        <key>AppIcon 9</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 960x60</string>
+            <string>AppIcon 976x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 9</string>
+        </dict>
+        <key>AppIcon 4</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 460x60</string>
+            <string>AppIcon 476x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 4</string>
+        </dict>
+        <key>AppIcon 6</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon 660x60</string>
+            <string>AppIcon 676x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon 6</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon 3860x60</string>
+          <string>AppIcon 3876x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon 38</string>
+      </dict>
+    </dict>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>headai</string>
+          <string>fb1364789367575107</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15C5500a</string>
+  </dict>
+</plist>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>DTPlatformVersion</key>
+	<string>17.2</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>CFBundleName</key>
+	<string>Bark'n Mad</string>
+	<key>DTSDKName</key>
+	<string>iphoneos17.2</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15E204</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon BarkNMad60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon BarkNMad</string>
+		</dict>
+	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>The app uses the device location to show where the recording device was physically located during the recording session. Location services need to be enabled ALWAYS for the app to be able to do background checks of location. Location monitoring will not be enabled if 'When in Use' is selected.</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>CFBundleDisplayName</key>
+	<string>Bark'n Mad</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>jhAudioBMD</string>
+		<string>jhAudioNM</string>
+		<string>cydia</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The app uses the device location to show where the recording device was physically located during the recording session. Location services need to be enabled ALWAYS for the app to be able to do background checks of location. Location monitoring will not be enabled if 'When in Use' is selected.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>location</string>
+	</array>
+	<key>DTSDKBuild</key>
+	<string>21C52</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.7.1</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>The app uses the device location to show where the recording device was physically located during the recording session. Location services need to be enabled ALWAYS for the app to be able to do background checks of location.</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>BuildMachineOSBuild</key>
+	<string>23D60</string>
+	<key>DTPlatformBuild</key>
+	<string>21C52</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>MinimumOSVersion</key>
+	<string>16.0</string>
+	<key>CFBundleVersion</key>
+	<string>4</string>
+	<key>DTXcodeBuild</key>
+	<string>15C500b</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>NSUbiquitousContainers</key>
+	<dict>
+		<key>iCloud.au.com.john-hall.Bark-Buster</key>
+		<dict>
+			<key>NSUbiquitousContainerSupportedFolderLevels</key>
+			<string>One</string>
+			<key>NSUbiquitousContainerName</key>
+			<string>Bark'n Mad</string>
+			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Storyboard_BM</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>The app uses the microphone to record dog barking activity.</string>
+	<key>CFBundleIdentifier</key>
+	<string>au.com.john-hall.Bark-Buster</string>
+	<key>DTXcode</key>
+	<string>1520</string>
+	<key>CFBundleExecutable</key>
+	<string>Bark'n Mad</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0.0</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon BarkNMad60x60</string>
+				<string>AppIcon BarkNMad76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon BarkNMad</string>
+		</dict>
+	</dict>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>au.com.john-hall.barknmad</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>jhAudioBM</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

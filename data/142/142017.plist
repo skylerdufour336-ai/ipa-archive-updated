@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>UnityCloudProjectID</key>
+    <string></string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+    </array>
+    <key>UILaunchStoryboardName~iphone</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>DTPlatformVersion</key>
+    <string>17.5</string>
+    <key>DTSDKBuild</key>
+    <string>21F77</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>The APP customer service function requires access to your camera to quickly
+        handle game issues for you.</string>
+    <key>Unity_LoadingActivityIndicatorStyle</key>
+    <integer>-1</integer>
+    <key>CFBundleDisplayName</key>
+    <string>MU Ascension</string>
+    <key>FacebookClientToken</key>
+    <string>d51701e69b8ac340d7d88ae2a7fb9155</string>
+    <key>DTXcodeBuild</key>
+    <string>15F31d</string>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <false/>
+    <key>CFBundleIdentifier</key>
+    <string>com.tszj.iosth</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>FacebookDisplayName</key>
+    <string>MU Ascension</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-share-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+      <string>lineauth2</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>Obtain the IDFA mark permission to provide you with better personalized
+        services and content. We will not use it for other purposes without consent; after
+        turning it on, you can also go to the system "Settings-Privacy" to turn it off at any
+        time.</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>UILaunchStoryboardName~ipod</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>The APP customer service function requires access to your photos to quickly
+        handle game issues for you.</string>
+    <key>CFBundleName</key>
+    <string>MU Ascension</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.1.4</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>metal</string>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>MU Ascension</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>FacebookAppID</key>
+    <string>757800556524478</string>
+    <key>UIPrerenderedIcon</key>
+    <false/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15F31e</string>
+    <key>UIRequiresPersistentWiFi</key>
+    <false/>
+    <key>BuildMachineOSBuild</key>
+    <string>23E224</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>The APP customer service function requires access to your microphone to quickly handle game issues for you.</string>
+    <key>CADisableMinimumFrameDuration</key>
+    <false/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>The App needs location information so that it can provide you with better service.</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleVersion</key>
+    <string>13</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb757800556524478</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>seatszzthios</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTSDKName</key>
+    <string>iphoneos17.5</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>21F77</string>
+    <key>DTXcode</key>
+    <string>1540</string>
+    <key>UILaunchStoryboardName~ipad</key>
+    <string>LaunchScreen-iPad</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>The APP customer service function requires access to your camera to quickly
+        handle game issues for you.</string>
+    <key>UnityCrashSubmissionURL</key>
+    <string></string>
+  </dict>
+</plist>

@@ -1,6 +1,6 @@
 # The Grand IPA Archive
 
-Forked from relikd, indexed ~20k more apps. Missing images is due to some png metadata or smth that prevents converting them to jpg on windows. An update is coming soon so that ~30% (guesstimate) of missing images will work again, however the browser doesn't seem to be able to display the rest of the pngs. Maybe it will display on safari? The update is delayed as I have not been able to test on old iphones. 
+Forked from relikd, indexed even more apps.
 
 NO APPS ARE HOSTED ON THIS SITE. 
 
@@ -71,9 +71,8 @@ Similar commands exist on Linux and Windows.
 
 ### Requirements
 
-- `ipa_archive.py` has a dependency on [RemoteZip](https://github.com/gtsystem/python-remotezip) (`pip install remotezip`)
-- `image_optim.sh` uses [ImageOptim](https://github.com/ImageOptim/ImageOptim) (requires a Mac)
-- `convert_plist.sh` uses PlistBuddy (probably requires a Mac)
+- `main.py` has a dependency on [RemoteZip](https://github.com/gtsystem/python-remotezip) (`pip install remotezip`) and `Pillow` (PIL).
+- It also uses `pngdefry` (included in the root folder for both Windows and Linux/Android).
 
 
 ### Database schema
@@ -89,25 +88,24 @@ The column `done` is encoded as follows:
 
 To add files to the archive follow these steps:
 
-1. `python3 ipa_archive.py add URL`
-2. `python3 ipa_archive.py run`
+1. `python3 main.py add URL`
+2. `python3 main.py run`
 3. If any of the URLs failed, check if it can be fixed. (though most likely the ipa-zip file is broken)
-    - If fixable, `python3 ipa_archive.py err reset` # set all err to done=0 and print errors again
-    - If unfixable, `python3 ipa_archive.py set err ID1 ID2` # mark ids done=4
-4. `./tools/image_optim.sh` (this will convert all .png files to .jpg)
-5. `python3 ipa_archive.py export json`
+    - If fixable, `python3 main.py err reset` # set all err to done=0 and print errors again
+    - If unfixable, `python3 main.py set err ID1 ID2` # mark ids done=4
+4. `python3 main.py export json`
 
 
 To update:
-- `python3 ipa_archive.py update` # check all links (if not udpated recently)
-- `python3 ipa_archive.py update [url|base_url_id]`  # force update
+- `python3 main.py update` # check all links (if not udpated recently)
+- `python3 main.py update [url|base_url_id]`  # force update
 - Then run the same steps as after adding an url
 
 
 Userful helper:
 - `./tools/check_error_no_plist.sh` # checks that no plist exists for a done=4 entry
 - `./tools/check_missing_img.sh` # checks that for each .plist an .jpg exists
-- `./tools/convert_plist.sh 21968` # convert json-like format to XML
-- `./ipa_archive.py get url 21968` # print URL of entry
-- `./ipa_archive.py get img 21968` # force (re)download of .png image
-- `./ipa_archive.py get ipa 21968` # download ipa file for debugging
+- `./main.py fix-imgs` # automatically find and fix any missing unique icons
+- `./main.py get url 21968` # print URL of entry
+- `./main.py get img 21968` # force (re)download of icon
+- `./main.py get ipa 21968` # download ipa file for debugging

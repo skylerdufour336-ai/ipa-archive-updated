@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>NSAdvertisingAttributionReportEndpoint</key>
+    <string>https://appsflyer-skadnetwork.com/</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This allows us to discover, connect and share information with vehicles near you.</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Taxify needs your location to assure you the fastest pickup times, cheapest price and best quality.
+
+If location is enabled only while using the app, some features may not work while this app is in the background.
+
+Learn more: https://taxify.eu/legal/privacy-for-riders/</string>
+    <key>DTPlatformVersion</key>
+    <string>26.2</string>
+    <key>DTSDKBuild</key>
+    <string>23C53</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>NFCReaderUsageDescription</key>
+    <string>For biometric license verification via Veriff library</string>
+    <key>NSSiriUsageDescription</key>
+    <string>To enable ordering a ride using Siri.</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>To enable credit card scanning.</string>
+    <key>NSSupportsLiveActivities</key>
+    <true/>
+    <key>GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS</key>
+    <false/>
+    <key>CFBundleDisplayName</key>
+    <string>Bolt</string>
+    <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+    <array>
+      <string>A0000002471001</string>
+    </array>
+    <key>FirebaseDeepLinkPasteboardRetrievalEnabled</key>
+    <false/>
+    <key>FacebookClientToken</key>
+    <string>1c452643d708da5a594c727c97303e0f</string>
+    <key>GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_USER_DATA</key>
+    <false/>
+    <key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
+    <false/>
+    <key>DTXcodeBuild</key>
+    <string>17C52</string>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>CFBundleIdentifier</key>
+    <string>ee.mtakso.client</string>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>RideHailingBookRideIntent</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>FacebookDisplayName</key>
+    <string>Taxify</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fb</string>
+      <string>fb-messenger-api</string>
+      <string>fbshareextension</string>
+      <string>fbapi</string>
+      <string>fbapi20130214</string>
+      <string>fbapi20130410</string>
+      <string>fbapi20130702</string>
+      <string>fbapi20131010</string>
+      <string>fbapi20131219</string>
+      <string>fbapi20140410</string>
+      <string>fbapi20140116</string>
+      <string>fbapi20150313</string>
+      <string>fbapi20150629</string>
+      <string>fbauth</string>
+      <string>fbauth2</string>
+      <string>fb-messenger-api20140430</string>
+      <string>boltfood</string>
+      <string>comgooglemaps</string>
+      <string>waze</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.0</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>For advertisement we need to use your IDFA.</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>MinimumOSVersion</key>
+    <string>15.0</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Reason is localized</string>
+    <key>CFBundleName</key>
+    <string>Bolt</string>
+    <key>CFBundleShortVersionString</key>
+    <string>219.0</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+      <string>audio</string>
+      <string>voip</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Bolt</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+    <dict>
+      <key>RidehailingCreateOrderKey</key>
+      <string>This allows us to pick you up at the right spot and find vehicles available around you</string>
+      <key>RidehailingActiveOrderKey</key>
+      <string>This will allow you to see your current location and share your ride details.</string>
+      <key>RentalStartRideKey</key>
+      <string>This helps us monitoring vehicle status and safety during your ride</string>
+      <key>CarsharingDefault</key>
+      <string>This allows us to locate your vehicle better and ensure safety during the ride.</string>
+      <key>RentalReportVehicleKey</key>
+      <string>This allows us to know precise location of the issue reported</string>
+      <key>RentalRingVehicleKey</key>
+      <string>This allows us to be sure you can hear the vehicles ringing</string>
+      <key>RentalDefaultKey</key>
+      <string>This allows us to find vehicles available around you</string>
+      <key>RidehailingSafetyToolkitKey</key>
+      <string>This will allow you to see your current location and share your ride details.</string>
+    </dict>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>FacebookAppID</key>
+    <string>474926262591626</string>
+    <key>UIDesignRequiresCompatibility</key>
+    <true/>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+    <key>BuildMachineOSBuild</key>
+    <string>24G325</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Add your Scheduled Rides to your calendar and get suggestions for suitable rides to your events.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>For the drivers to hear you during in-app calls, we need access to your microphone.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Rason is localized</string>
+    <key>CFBundleVersion</key>
+    <string>195660569</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Verify your identity using Face ID.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>taxify</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>taxify</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>Confirm code mTakso</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>mtakso</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>FB callback</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb474926262591626</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>Confirm code taxify</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>taxify</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>bolt</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>bolt</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>GoogleSignIn</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.718916732167-fsbldpvpkua84ngvd8u1c77582f0k037</string>
+        </array>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Taxify needs your location to assure you the fastest pickup times, cheapest price and best quality.
+
+If location is enabled only while using the app, some features may not work while this app is in the background.
+
+Learn more: https://bolt.eu/legal/privacy-for-riders/</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>Add your Scheduled Rides to your calendar and get suggestions for suitable rides to your events.</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.2</string>
+    <key>DTPlatformBuild</key>
+    <string>23C53</string>
+    <key>NSContactsUsageDescription</key>
+    <string>This is only used to display names in your shared calendars. To protect your privacy, Bolt cannot store or share this data.</string>
+    <key>DTXcode</key>
+    <string>2620</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>To send images to our support team.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+  </dict>
+</plist>

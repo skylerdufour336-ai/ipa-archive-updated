@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundleName</key>
+    <string>BusinessCardMaker</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.4</string>
+    <key>DTXcode</key>
+    <string>1530</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>DTSDKBuild</key>
+    <string>21E210</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleVersion</key>
+    <string>3</string>
+    <key>BuildMachineOSBuild</key>
+    <string>23E224</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleExecutable</key>
+    <string>BusinessCardMaker</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>MinimumOSVersion</key>
+    <string>14.0</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.rockybrain.businesscardmaker</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Please allow the app to save business card to your Photo Library</string>
+    <key>DTPlatformVersion</key>
+    <string>17.4</string>
+    <key>DTXcodeBuild</key>
+    <string>15E204a</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIAppFonts</key>
+    <array>
+      <string>BebasNeue-Regular.ttf</string>
+      <string>PlusJakartaSans-Bold.ttf</string>
+      <string>PlusJakartaSans-BoldItalic.ttf</string>
+      <string>PlusJakartaSans-ExtraBold.ttf</string>
+      <string>PlusJakartaSans-ExtraBoldItalic.ttf</string>
+      <string>PlusJakartaSans-ExtraLight.ttf</string>
+      <string>PlusJakartaSans-ExtraLightItalic.ttf</string>
+      <string>PlusJakartaSans-Italic.ttf</string>
+      <string>PlusJakartaSans-Light.ttf</string>
+      <string>PlusJakartaSans-LightItalic.ttf</string>
+      <string>PlusJakartaSans-Medium.ttf</string>
+      <string>PlusJakartaSans-MediumItalic.ttf</string>
+      <string>PlusJakartaSans-Regular.ttf</string>
+      <string>PlusJakartaSans-SemiBold.ttf</string>
+      <string>PlusJakartaSans-SemiBoldItalic.ttf</string>
+      <string>CASaygonText-Bold.ttf</string>
+      <string>CASaygonText-BoldItalic.ttf</string>
+      <string>CASaygonText-ExtraBold.ttf</string>
+      <string>CASaygonText-ExtraBoldItalic.ttf</string>
+      <string>CASaygonText-Italic.ttf</string>
+      <string>CASaygonText-Light.ttf</string>
+      <string>CASaygonText-LightItalic.ttf</string>
+      <string>CASaygonText-Medium.ttf</string>
+      <string>CASaygonText-MediumItalic.ttf</string>
+      <string>CASaygonText-Regular.ttf</string>
+      <string>CASaygonText-SemiBold.ttf</string>
+      <string>CASaygonText-SemiBoldItalic.ttf</string>
+      <string>CASaygonText-Thin.ttf</string>
+      <string>CASaygonText-ThinItalic.ttf</string>
+      <string>Consolas-Bold.TTF</string>
+      <string>Consolas-Regular.TTF</string>
+      <string>Gelion Black Italic.ttf</string>
+      <string>Gelion Black.ttf</string>
+      <string>Gelion Bold Italic.ttf</string>
+      <string>Gelion Bold.ttf</string>
+      <string>Gelion Light Italic.ttf</string>
+      <string>Gelion Light.ttf</string>
+      <string>Gelion Medium Italic.ttf</string>
+      <string>Gelion Medium.ttf</string>
+      <string>Gelion Regular Italic.ttf</string>
+      <string>Gelion Regular.ttf</string>
+      <string>Gelion SemiBold Italic.ttf</string>
+      <string>Gelion SemiBold.ttf</string>
+      <string>Gelion Thin Italic.ttf</string>
+      <string>Gelion Thin.ttf</string>
+      <string>MaragsÉ.otf</string>
+      <string>Outfit-Black.ttf</string>
+      <string>Outfit-Bold.ttf</string>
+      <string>Outfit-ExtraBold.ttf</string>
+      <string>Outfit-ExtraLight.ttf</string>
+      <string>Outfit-Light.ttf</string>
+      <string>Outfit-Medium.ttf</string>
+      <string>Outfit-Regular.ttf</string>
+      <string>Outfit-SemiBold.ttf</string>
+      <string>Outfit-Thin.ttf</string>
+      <string>Outfit-VariableFont_wght.ttf</string>
+      <string>PerfectlyNineties-Bold.otf</string>
+      <string>PerfectlyNineties-Extrabold.otf</string>
+      <string>PerfectlyNineties-Regular.otf</string>
+      <string>PerfectlyNineties-Semibold.otf</string>
+      <string>Poppins-Bold.ttf</string>
+      <string>Poppins-ExtraBold.ttf</string>
+      <string>Poppins-Medium.ttf</string>
+      <string>Poppins-MediumItalic.ttf</string>
+      <string>Poppins-Regular.ttf</string>
+      <string>Poppins-SemiBold.ttf</string>
+      <string>PP Hatton Bold 700.otf</string>
+      <string>PP Hatton Medium 500.otf</string>
+      <string>PP Hatton Ultralight 200.otf</string>
+      <string>Sora-Bold.ttf</string>
+      <string>Sora-ExtraBold.ttf</string>
+      <string>Sora-ExtraLight.ttf</string>
+      <string>Sora-Light.ttf</string>
+      <string>Sora-Medium.ttf</string>
+      <string>Sora-Regular.ttf</string>
+      <string>Sora-SemiBold.ttf</string>
+      <string>Sora-Thin.ttf</string>
+      <string>SpaceGrotesk-Bold.ttf</string>
+      <string>SpaceGrotesk-Light.ttf</string>
+      <string>SpaceGrotesk-Medium.ttf</string>
+      <string>SpaceGrotesk-Regular.ttf</string>
+      <string>SpaceGrotesk-SemiBold.ttf</string>
+      <string>TropicFreshRegular-EaWV8.ttf</string>
+      <string>ZangeziSans07_TRIAL-Black.otf</string>
+      <string>ZangeziSans07_TRIAL-Italic.otf</string>
+      <string>ZangeziSans07_TRIAL-Regular.otf</string>
+    </array>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneStoryboardFile</key>
+            <string>Main</string>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>BusinessCardMaker.SceneDelegate</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>DTPlatformBuild</key>
+    <string>21E210</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15F31e</string>
+  </dict>
+</plist>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>17.2</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>CFBundleName</key>
+    <string>BitraserMobileDiagnostics</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.2</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Turn on Bluetooth to test its functionality and interaction with nearby Bluetooth-capable devices.</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Allow access to your location to check the status of positioning and location services, ensuring your location is not shared while using the application.</string>
+    <key>CFBundleDisplayName</key>
+    <string>BitRaserMobileDiagnostics</string>
+    <key>LSRequiresIPhoneOS</key>
+    <string></string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Kindly click on 'When in use' to allow access to your location, enabling the application to check the status of positioning and location services. This ensures that your location is not shared while using the application.</string>
+    <key>DTSDKBuild</key>
+    <string>21C52</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This will allow you to take photos to check the functionality of the camera.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.2</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Allow access to your location to check the status of positioning and location services, ensuring your location is not shared while using the application.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <string></string>
+    <key>BuildMachineOSBuild</key>
+    <string>23A344</string>
+    <key>DTPlatformBuild</key>
+    <string>21C52</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>15C65</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>9.0</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.2</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Turn on Bluetooth to test its functionality and interaction with nearby Bluetooth-capable devices.</string>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Allow access to your microphone to let you know the operation status of recording function.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.stellar.BitraserMobileDiagnostics</string>
+    <key>DTXcode</key>
+    <string>1510</string>
+    <key>NFCReaderUsageDescription</key>
+    <string>Kindly allow the application to scan a NFC Tag</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Allow access to your location to check the status of positioning and location services, ensuring your location is not shared while using the application.</string>
+    <key>CFBundleExecutable</key>
+    <string>BitraserMobileDiagnostics</string>
+    <key>UISupportedInterfaceOrientations~iphone</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+          <string>AppIcon83.5x83.5</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Kindly allow the application to test Face ID</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15C5065a</string>
+  </dict>
+</plist>

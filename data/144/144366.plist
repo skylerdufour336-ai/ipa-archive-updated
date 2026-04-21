@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>18.1</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.1</string>
+    <key>CFBundleName</key>
+    <string>vietnam_customer</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Chức năng gửi hình ảnh/video trong chat, tải lên hình ảnh cần truy cập thư viện ảnh</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C53</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Chức năng in đơn cần sử dụng bluetooth để kết nối máy in</string>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Chức năng tìm kiếm bưu cục gần sử dụng vị trí để tìm kiếm trên bản đồ</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>J&amp;T Express VN Pro</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>tel</string>
+      <string>sms</string>
+      <string>mailto</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Chức năng tìm kiếm bưu cục gần sử dụng vị trí để tìm kiếm trên bản đồ</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>22B74</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Chức năng gửi hình ảnh/video trong chat, tải lên hình ảnh cần truy cập thư viện ảnh,Chức năng quét QR để quét mã QR trên phiếu in vận đơn</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.9.1</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Chức năng tìm kiếm bưu cục gần sử dụng vị trí để tìm kiếm trên bản đồ</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24F74</string>
+    <key>DTPlatformBuild</key>
+    <string>22B74</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Chức năng in đơn cần sử dụng bluetooth để kết nối máy in</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>12.0</string>
+    <key>CFBundleVersion</key>
+    <string>202601151632</string>
+    <key>API_URL</key>
+    <string>https://vipapplets.jtexpress.vn/yl-jmsvn-vip-app</string>
+    <key>DTXcodeBuild</key>
+    <string>16B40</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Chức năng gửi hình ảnh/video trong chat, tải lên hình ảnh cần truy cập thư viện ảnh</string>
+    <key>UIFileSharingEnabled</key>
+    <false/>
+    <key>io.flutter.embedded_views_preview</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen.storyboard</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Chức năng ghi âm trong chat cần sử dụng microphone để ghi lại âm thanh</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.JTVNVIP.www</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+      <key>UISceneConfigurations</key>
+      <dict/>
+    </dict>
+    <key>DTXcode</key>
+    <string>1610</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>CFBundleExecutable</key>
+    <string>Runner</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+  </dict>
+</plist>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>17.4</string>
+    <key>CFBundleName</key>
+    <string>Singing Streets</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.4</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>16C5031b</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.music</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>Singing Streets</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This will allow Singing Streets to identify nearby locations while the application is in use.</string>
+    <key>DTSDKBuild</key>
+    <string>21E210</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.94</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>This will allow Singing Streets to identify nearby locations at all times.</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>23E214</string>
+    <key>DTPlatformBuild</key>
+    <string>21E210</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>MinimumOSVersion</key>
+    <string>12.0</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTXcodeBuild</key>
+    <string>15E204a</string>
+    <key>CFBundleVersion</key>
+    <string>189</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Allows photos taken by the user to be added to Singing Streets</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>kTCCServiceMediaLibrary</key>
+    <string>This will allow Singing Streets to play songs associated with a location in the app when there is a valid Apple Music found.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.MarkRedmond.SingingStreets</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>This will allow Singing Streets to play songs associated with a location in the app when there is a valid Apple Music found.</string>
+    <key>DTXcode</key>
+    <string>1530</string>
+    <key>CFBundleExecutable</key>
+    <string>Singing Streets</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+  </dict>
+</plist>

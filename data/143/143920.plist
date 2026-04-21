@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần sử dụng bluetooth để tìm, kết nối và truyền dữ liệu
+			giữa các thiết bị khác nhau</string>
+    <key>firebase_json_raw</key>
+    <string>e30=</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vị trí một lần để hiển thị chính xác tồn kho, khuyến mãi cũng như đảm bảo tính phí giao chính xác và giao hàng đúng cam kết
+			nhất cho bạn</string>
+    <key>DTPlatformVersion</key>
+    <string>18.2</string>
+    <key>DTSDKBuild</key>
+    <string>22C146</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vào camera của bạn để có thể thuận tiện cho
+			việc chụp ảnh trong khi đăng ký thông tin.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Bách Hóa Xanh</string>
+    <key>CodePushDeploymentKey</key>
+    <string>gVuq2kBGzZm3i9uy8BzodOKlEfVH4ksvOXqog</string>
+    <key>DTXcodeBuild</key>
+    <string>16C5032a</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.bachhoaxanh</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>momo</string>
+      <string>zalo</string>
+      <string>zalopay</string>
+      <string>zalopay.api.v2</string>
+      <string>itms-apps</string>
+      <string>grab</string>
+      <string>itms-appss</string>
+      <string>loyalty</string>
+      <string>myvib2</string>
+      <string>acbone</string>
+      <string>hydro</string>
+      <string>vpbankneo</string>
+      <string>mbbank</string>
+      <string>mbbankuat</string>
+      <string>vietinbankipay</string>
+      <string>ocbomni</string>
+      <string>omni</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CodePushServerURL</key>
+    <string>https://zuulbbpublic.tgdd.vn/codepushv2</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <false/>
+    <key>NSMotionUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vào motion của bạn.</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vào bluetooth của bạn.</string>
+    <key>MinimumOSVersion</key>
+    <string>13.4</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vào hình ảnh của bạn để chọn hình chụp từ
+			camera</string>
+    <key>CFBundleName</key>
+    <string>BhxOnline</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.0.33</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Roboto-Black.ttf</string>
+      <string>Roboto-BlackItalic.ttf</string>
+      <string>Roboto-Bold.ttf</string>
+      <string>Roboto-BoldItalic.ttf</string>
+      <string>Roboto-Italic.ttf</string>
+      <string>Roboto-Light.ttf</string>
+      <string>Roboto-LightItalic.ttf</string>
+      <string>Roboto-Medium.ttf</string>
+      <string>Roboto-MediumItalic.ttf</string>
+      <string>Roboto-Regular.ttf</string>
+      <string>Roboto-Thin.ttf</string>
+      <string>Roboto-ThinItalic.ttf</string>
+      <string>AntDesign.ttf</string>
+      <string>Entypo.ttf</string>
+      <string>EvilIcons.ttf</string>
+      <string>Feather.ttf</string>
+      <string>FontAwesome.ttf</string>
+      <string>FontAwesome5_Brands.ttf</string>
+      <string>FontAwesome5_Regular.ttf</string>
+      <string>FontAwesome5_Solid.ttf</string>
+      <string>Fontisto.ttf</string>
+      <string>Foundation.ttf</string>
+      <string>Ionicons.ttf</string>
+      <string>MaterialCommunityIcons.ttf</string>
+      <string>MaterialIcons.ttf</string>
+      <string>Octicons.ttf</string>
+      <string>SimpleLineIcons.ttf</string>
+      <string>Zocial.ttf</string>
+      <string>SFProDisplay-Regular.ttf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>BhxOnline</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vào âm nhạc của bạn.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vào speed recognition của bạn để bật tính năng
+			tìm kiếm bằng giọng nói</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vị trí một lần để hiển thị chính xác tồn kho, khuyến mãi cũng như đảm bảo tính phí giao chính xác và giao hàng đúng cam kết
+			nhất cho bạn</string>
+    <key>BuildMachineOSBuild</key>
+    <string>24D60</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vào calendar của bạn.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vào microphone của bạn để bật tính năng tìm
+			kiếm bằng giọng nói</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false/>
+    </dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vị trí một lần để hiển thị chính xác tồn kho, khuyến mãi cũng như đảm bảo tính phí giao chính xác và giao hàng đúng cam kết
+			nhất cho bạn</string>
+    <key>CFBundleVersion</key>
+    <string>3</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập Face ID để xác thực và bảo mật quyền tài khoản
+			của bạn.</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>bachhoaxanh</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>bachhoaxanh</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string></string>
+        <key>CFBundleURLSchemes</key>
+        <array/>
+      </dict>
+    </array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vị trí một lần để hiển thị chính xác tồn kho, khuyến mãi cũng như đảm bảo tính phí giao chính xác và giao hàng đúng cam kết
+			nhất cho bạn</string>
+    <key>DTSDKName</key>
+    <string>iphoneos18.2</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>localhost</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+          <key>NSIncludesSubdomains</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>NSContactsUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vào danh bạ của bạn.</string>
+    <key>DTPlatformBuild</key>
+    <string>22C146</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Ứng dụng BhxOnline cần truy cập vào hình ảnh của bạn để chọn hình chụp từ
+			camera</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+    <key>DTXcode</key>
+    <string>1620</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+  </dict>
+</plist>

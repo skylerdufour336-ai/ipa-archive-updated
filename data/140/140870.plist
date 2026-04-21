@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>BWP</string>
+	<key>DTSDKName</key>
+	<string>iphoneos17.2</string>
+	<key>DTXcode</key>
+	<string>1520</string>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>DTSDKBuild</key>
+	<string>21C52</string>
+	<key>NSMotionUsageDescription</key>
+	<string>BWP requires a Motion and Fitness access to update steps in real time and improve the accuracy of the application.</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleVersion</key>
+	<string>4</string>
+	<key>BuildMachineOSBuild</key>
+	<string>23F79</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>BWP needs access to HeakthKit update data.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>NSHealthShareUsageDescription</key>
+	<string>BWP needs permission to read step counts from your device. We do not change or share your data.</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleExecutable</key>
+	<string>BWP</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>MinimumOSVersion</key>
+	<string>15.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.ideamp.BWP</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Please allow add photos permission to save photos to album.</string>
+	<key>DTPlatformVersion</key>
+	<string>17.2</string>
+	<key>DTXcodeBuild</key>
+	<string>15C500b</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MaShanZheng-Regular.ttf</string>
+		<string>OtsutomeFont_Ver3.ttf</string>
+		<string>BMEULJIRO.otf</string>
+		<string>BELLABOO-Regular.otf</string>
+		<string>Ludicrous.otf</string>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>DTPlatformBuild</key>
+	<string>21C52</string>
+	<key>DTAppStoreToolsBuild</key>
+	<string>15F31e</string>
+</dict>
+</plist>

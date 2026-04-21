@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>NSContactsUsageDescription</key>
+    <string>We use your contacts to make your transactions easier.</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+      <string>telephony</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>13.2</string>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>CFBundleName</key>
+    <string>Zelle</string>
+    <key>DTSDKName</key>
+    <string>iphoneos13.2</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We use the photo library so you can choose your profile picture.</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon20x20</string>
+          <string>AppIcon29x29</string>
+          <string>AppIcon40x40</string>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>We use Bluetooth to list nearby contacts.</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>CFBundleDisplayName</key>
+    <string>Zelle</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>For safe and secure payments, Zelle collects location data from the time you open the app until a payment is sent. This is used in our monitoring systems to protect you from fraud.</string>
+    <key>DTSDKBuild</key>
+    <string>17B102</string>
+    <key>NSCameraUsageDescription</key>
+    <string>We use the camera to capture your profile picture.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>4.1.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>19A583</string>
+    <key>DTPlatformBuild</key>
+    <string>17B102</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>11C29</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>10.0</string>
+    <key>CFBundleVersion</key>
+    <string>295</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>We use Bluetooth to list nearby contacts.</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>AvenirNextLTProBold.otf</string>
+      <string>AvenirNextLTProDemi.otf</string>
+      <string>AvenirNextLTProLight.otf</string>
+      <string>AvenirNextLTProMedium.otf</string>
+      <string>AvenirNextLTProRegular.otf</string>
+      <string>AvenirNextLTProThin.otf</string>
+    </array>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>LEGACY_BUILD</key>
+    <false/>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>The microphone listens for anonymous tokens from nearby devices.</string>
+    <key>NSMotionUsageDescription</key>
+    <string>We use motion to enhance user experience.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.zellepay.zelle</string>
+    <key>ConfigManagerEnv</key>
+    <string>AppStore</string>
+    <key>Configuration</key>
+    <string>Release(AppStore)</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>We use music to play sounds.</string>
+    <key>DTXcode</key>
+    <string>1130</string>
+    <key>CFBundleExecutable</key>
+    <string>Zelle</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Enabling Face ID allows you quick and secure access to your account.</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>com.zellepay.zelle</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.zellepay.zelle</string>
+          <string>zelle</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTAppStoreToolsBuild</key>
+    <string>11C29</string>
+    <key>UISupportedDevices</key>
+    <array>
+      <string>iPhone5,1</string>
+      <string>iPhone5,2</string>
+      <string>iPhone5,3</string>
+      <string>iPhone5,4</string>
+    </array>
+  </dict>
+</plist>

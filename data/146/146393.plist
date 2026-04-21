@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>DTPlatformVersion</key>
+    <string>26.2</string>
+    <key>CFBundleName</key>
+    <string>GET&amp;#x2009;Mobile</string>
+    <key>DTSDKName</key>
+    <string>iphoneos26.2</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>GET requires access to your Photo Library to setup Profile Image</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDarkContent</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>GET can use your location to help you find nearby merchants, check in for an order pickup, and use your phone as a mobile credential.</string>
+    <key>CFBundleDisplayName</key>
+    <string>GET Mobile</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>mailto</string>
+      <string>tel</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>GET can use your location to help you find nearby merchants, check in for an order pickup, and use your phone as a mobile credential.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+    </array>
+    <key>DTSDKBuild</key>
+    <string>23C53</string>
+    <key>NSCameraUsageDescription</key>
+    <string>GET requires access to your camera to setup Profile Image</string>
+    <key>CFBundleShortVersionString</key>
+    <string>4.39.12</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>BuildMachineOSBuild</key>
+    <string>24G84</string>
+    <key>DTPlatformBuild</key>
+    <string>23C53</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>DTXcodeBuild</key>
+    <string>17C52</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>MinimumOSVersion</key>
+    <string>14.0</string>
+    <key>CFBundleVersion</key>
+    <string>4.39.12</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>GET requires access to your library to save Profile Image</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Allow GET to Record Audio With Video</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.cbord.getmobile</string>
+    <key>DTXcode</key>
+    <string>2620</string>
+    <key>NSLocationUsageDescription</key>
+    <string>GET requires access to your locations to suggest nearby merchants</string>
+    <key>CFBundleExecutable</key>
+    <string>GET&amp;#x2009;Mobile</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>GET requires FACE ID access for authentication</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.getcapacitor.capacitor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>capacitor</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.cbord.getmobile</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>getmobile</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTAppStoreToolsBuild</key>
+    <string>17C503a</string>
+  </dict>
+</plist>

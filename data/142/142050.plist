@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>This optional permission is requested for better ad personalization</string>
+    <key>io.flutter.embedded_views_preview</key>
+    <true/>
+    <key>DTPlatformVersion</key>
+    <string>17.0</string>
+    <key>DTSDKBuild</key>
+    <string>21A326</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon60x60</string>
+            <string>AppIcon76x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon 160x60</string>
+          <string>AppIcon 176x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon 1</string>
+      </dict>
+    </dict>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-9131188183332364~4392811432</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>This permission is requested to capture photos for custom addon icon</string>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+    <key>CFBundleDisplayName</key>
+    <string>Master Addons</string>
+    <key>DTXcodeBuild</key>
+    <string>15A507</string>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>CFBundleIdentifier</key>
+    <string>co.pamobile.mcpe.addons</string>
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>minecraft</string>
+      <string>youtube</string>
+      <string>itms</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundleAlternateIcons</key>
+      <dict>
+        <key>AppIcon</key>
+        <dict>
+          <key>CFBundleIconFiles</key>
+          <array>
+            <string>AppIcon60x60</string>
+            <string>AppIcon76x76</string>
+          </array>
+          <key>CFBundleIconName</key>
+          <string>AppIcon</string>
+        </dict>
+      </dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon 160x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon 1</string>
+      </dict>
+    </dict>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This optional permission is requested for better ad personalization</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>NSMotionUsageDescription</key>
+    <string>This optional permission is requested to ensure your device is ready for using</string>
+    <key>MinimumOSVersion</key>
+    <string>13.0</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This optional permission is requested for custom addon icon</string>
+    <key>CFBundleName</key>
+    <string>AddOns Installer for MCPE</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.2.10</string>
+    <key>UIStatusBarHidden</key>
+    <false/>
+    <key>SKAdNetworkItems</key>
+    <array>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>cstr6suwn9.skadnetwork</string>
+      </dict>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>v9wttpbfk9.skadnetwork</string>
+      </dict>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>n38lu8286q.skadnetwork</string>
+      </dict>
+      <dict>
+        <key>SKAdNetworkIdentifier</key>
+        <string>zq492l623r.skadnetwork</string>
+      </dict>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>Runner</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>This permission is requested to get photos and share with your friends</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>This optional permission is requested for fast typing message</string>
+    <key>DTAppStoreToolsBuild</key>
+    <string>15F31e</string>
+    <key>BuildMachineOSBuild</key>
+    <string>23A344</string>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+    <key>com.apple.security.application-groups</key>
+    <array>
+      <string>group.com.mojang.minecraftpe</string>
+    </array>
+    <key>NSCalendarsUsageDescription</key>
+    <string>This permission is requested to complete your profile information</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This sample uses the microphone to record your speech and convert it to text.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This optional permission is requested for better ad personalization</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>FLTEnableImpeller</key>
+    <true/>
+    <key>CFBundleVersion</key>
+    <string>104</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This optional permission is requested for better ad personalization</string>
+    <key>DTSDKName</key>
+    <string>iphoneos17.0</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>21A326</string>
+    <key>NSContactsUsageDescription</key>
+    <string>This optional permission is requested if you want to share something with your contacts</string>
+    <key>DTXcode</key>
+    <string>1501</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This optional permission is requested for custom addon icon</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+  </dict>
+</plist>
