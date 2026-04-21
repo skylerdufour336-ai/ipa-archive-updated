@@ -173,7 +173,7 @@ function urlsToImgs(redirectUrl, list) {
     const template = getTemplate('.screenshot');
     var rv = '<div class="carousel">';
     for (var i = 0; i < list.length; i++) {
-        rv += renderTemplate(template, { $REF: list[i], $URL: redirectUrl + list[i] }).replace('XSRC=', 'src=');
+        rv += renderTemplate(template, { $REF: list[i], $URL: redirectUrl + list[i] }).replace(/XSRC=/gi, 'src=');
     }
     return rv + '</div>';
 }
@@ -300,11 +300,10 @@ function entryToDict(entry) {
         pathName: entry[7],
         size: entry[8],
         ipa_url: baseUrls[entry[6]] + '/' + entry[7],
-        img_url: 'data/' + Math.floor(img_pk / 1000) + '/' + img_pk + '.jpg?v=' + Date.now(),
+        img_url: 'data/' + Math.floor(img_pk / 1000) + '/' + img_pk + '.jpg?v=2',
     }
 }
 
-var alerted = false;
 function onImgError(img) {
     img.onerror = null;
     img.src = 'apple-touch-icon.png';
@@ -326,7 +325,7 @@ function entriesToStr(templateType, data) {
             $SIZE: humanSize(entry.size),
             $URLNAME: entry.pathName.split('/').slice(-1), // decodeURI
             $URL: validUrl(entry.ipa_url),
-        }).replace('XSRC=', 'src=');
+        }).replace(/XSRC=/gi, 'src=');
     }
     return rv;
 }
