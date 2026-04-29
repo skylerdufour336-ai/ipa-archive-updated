@@ -19,7 +19,7 @@
 				<key>Default</key>
 				<dict>
 					<key>PoolId</key>
-					<string>us-east-1:c22f96f8-b5bd-45f1-92f7-9e2a38222b7d</string>
+					<string></string>
 					<key>Region</key>
 					<string>USEast1</string>
 				</dict>
@@ -176,7 +176,7 @@
 			<string>Umeng</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>um.5c6f6019b465f5f79800002f</string>
+				<string>um.</string>
 			</array>
 		</dict>
 		<dict>
@@ -186,7 +186,7 @@
 			<string>weixin</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wxd93f2f8771e66b72</string>
+				<string>wx</string>
 			</array>
 		</dict>
 		<dict>
@@ -268,7 +268,7 @@
 		<string>wechat</string>
 		<string>weixinULAPI</string>
 		<string>weixin</string>
-		<string>wx3bdd5871deeb05da</string>
+		<string>wx</string>
 		<string>fb457211577947165</string>
 		<string>fbapi</string>
 		<string>fb1022810797800762</string>
@@ -383,9 +383,9 @@
 	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
 	<true/>
 	<key>PicAIPassword</key>
-	<string>222222222</string>
+	<string></string>
 	<key>PicAIUsername</key>
-	<string>111111111</string>
+	<string></string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

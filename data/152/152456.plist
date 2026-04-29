@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AppLovinSdkKey</key>
-	<string>lxmrVLAc9p8u0AlV5ko9cCWN-7WIdF6Qd-nDQ5yXk29m02gSMFPhu6JkAVBCFNyhCOPDU4uSTwbBynO0E74HA4</string>
+	<string></string>
 	<key>BuildMachineOSBuild</key>
 	<string>21F79</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -109,7 +109,7 @@
 				<string>tbNwM7lcllKJhQVQPogLKunDlhvUwcQtryoUqMUadHKDEZirClXS</string>
 				<string>fb542129432493562</string>
 				<string>com.YunFang.PhotoGrid</string>
-				<string>wx5435231006039175</string>
+				<string>wx</string>
 				<string>QQ100537438</string>
 				<string>tencent100371282</string>
 				<string>wb3018058509</string>
@@ -158,9 +158,9 @@
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>InstagramAppID</key>
-	<string>49ce12ab3ddc4569879308a589402ce3</string>
+	<string></string>
 	<key>InstagramAppSecret</key>
-	<string>dbe30f60a83b4f81855d0a5a48231646</string>
+	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>pinterestsdk.v1</string>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Aviary-API-Key</key>
-	<string>y4fxewlo8m5f683q</string>
+	<string></string>
 	<key>BuildMachineOSBuild</key>
 	<string>21G115</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -83,9 +83,9 @@
 			<string></string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>sina.55b9b48767e58e494600131c</string>
+				<string>sina.</string>
 				<string>wb3895489331</string>
-				<string>wx67d33b335ac25363</string>
+				<string>wx</string>
 				<string>fb373717070118109</string>
 			</array>
 		</dict>
@@ -103,7 +103,7 @@
 	<key>CleverTapAccountID</key>
 	<string>WWW-8R9-464Z</string>
 	<key>CleverTapToken</key>
-	<string>c2b-000</string>
+	<string></string>
 	<key>DTAppStoreToolsBuild</key>
 	<string>14B44</string>
 	<key>DTCompiler</key>
@@ -127,7 +127,7 @@
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
-		<string>406665929fa8e75b30a6855fbe02dce311849724</string>
+		<string></string>
 		<key>Kits</key>
 		<array>
 			<dict>
@@ -140,7 +140,7 @@
 				<key>KitInfo</key>
 				<dict>
 					<key>apikey</key>
-					<string>ee6a394d78144c759e9c153469526010</string>
+					<string></string>
 				</dict>
 				<key>KitName</key>
 				<string>Appsee</string>
@@ -149,9 +149,9 @@
 				<key>KitInfo</key>
 				<dict>
 					<key>client_identifier</key>
-					<string>mobile_sdk_client_5494708ed10796b5f1dd</string>
+					<string></string>
 					<key>identifier</key>
-					<string>1730884e9c70047bf8d1ba2e0feaa4cf39851f49ed06a7e4</string>
+					<string></string>
 					<key>url</key>
 					<string>https://livecollage.zendesk.com</string>
 				</dict>
