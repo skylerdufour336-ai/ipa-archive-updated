@@ -460,7 +460,7 @@ class CacheDB:
                 version, base_url, path_name, fsize / 1024,
                 image_pk
             FROM idx WHERE done=?
-            ORDER BY tt COLLATE NOCASE, min_os, platform, version;''', [done])
+            ORDER BY tt COLLATE NOCASE, bundle_id, min_os, version;''', [done])
 
     def getUniqueImagePks(self) -> Iterable[tuple[int, int]]:
         ''' Returns (pk, image_pk) for each unique image_pk, excluding known errors (done=4) '''
@@ -1344,6 +1344,23 @@ def iconNameFromPlist(plist: dict) -> 'list[str]':
 # [json] Export to json
 ###############################################
 
+def parse_version(v: str) -> list:
+    ''' Returns a list of integers for version comparison. '''
+    if not v:
+        return []
+    # Handle version strings like "1.2.3 (456)" or "1.2.3-beta"
+    v = str(v).split(' ')[0].split('-')[0]
+    return [int(x) for x in re.findall(r'\d+', v)]
+
+
+def normalize_title(t: str) -> str:
+    ''' Returns a normalized title for better grouping. '''
+    if not t:
+        return ''
+    # Remove all non-alphanumeric characters and lowercase
+    return re.sub(r'[^a-z0-9]', '', t.lower())
+
+
 def export_json():
     DB = CacheDB()
     url_map = DB.jsonUrlMap()
@@ -1353,36 +1370,52 @@ def export_json():
     url_map[maxUrlId] = '---'
     submap = {}
     total = DB.count(done=1)
+    
+    entries = []
+    print(f'Collecting {total} entries...')
+    for i, entry in enumerate(DB.enumJsonIpa(done=1)):
+        if i % 1000 == 0:
+            print(f'\rcollected [{i}/{total}]', end='')
+        
+        # Normalize path: replace ## with / for the JSON export
+        entry = list(entry)
+        path_name = entry[7].replace(NESTED_SEP, '/')
+        entry[7] = path_name
+
+        # if path_name is in a subdirectory, reindex URLs
+        if '/' in entry[7]:
+            baseurl = url_map[entry[6]]
+            sub_dir, sub_file = entry[7].rsplit('/', 1)
+            newurl = baseurl + '/' + sub_dir
+            subIdx = submap.get(newurl, None)
+            if subIdx is None:
+                maxUrlId += 1
+                submap[newurl] = maxUrlId
+                subIdx = maxUrlId
+            entry[6] = subIdx
+            entry[7] = sub_file
+        
+        entries.append(entry)
+    print(f'\rcollected [{total}/{total}] done.')
+
+    # Custom sort: Normalized Title -> Bundle ID -> Version -> Platform
+    print('Sorting entries...')
+    entries.sort(key=lambda x: (
+        normalize_title(x[3] or ''),
+        x[4] or '',
+        parse_version(x[5]),
+        x[1] or 0
+    ))
+
+    print(f'Writing {CACHE_DIR / "ipa.json"}...')
     with open(CACHE_DIR / 'ipa.json', 'w') as fp:
         fp.write('[')
-        for i, entry in enumerate(DB.enumJsonIpa(done=1)):
-            if i % 113 == 0:
-                print(f'\rprocessing [{i}/{total}]', end='')
-            
-            # Normalize path: replace ## with / for the JSON export
-            entry = list(entry)
-            path_name = entry[7].replace(NESTED_SEP, '/')
-            entry[7] = path_name
-
-            # if path_name is in a subdirectory, reindex URLs
-            if '/' in entry[7]:
-                baseurl = url_map[entry[6]]
-                sub_dir, sub_file = entry[7].rsplit('/', 1)
-                newurl = baseurl + '/' + sub_dir
-                subIdx = submap.get(newurl, None)
-                if subIdx is None:
-                    maxUrlId += 1
-                    submap[newurl] = maxUrlId
-                    subIdx = maxUrlId
-                entry = list(entry)
-                entry[6] = subIdx
-                entry[7] = sub_file
-
-            fp.write(json.dumps(entry, separators=(',', ':')) + ',\n')
-        fp.seek(max(fp.tell(), 3) - 2)
+        for i, entry in enumerate(entries):
+            fp.write(json.dumps(entry, separators=(',', ':')))
+            if i < len(entries) - 1:
+                fp.write(',\n')
         fp.write(']')
-        print('\r', end='')
-    print(f'write ipa.json: {total} entries')
+    print(f'write ipa.json: {len(entries)} entries')
 
     for newurl, newidx in submap.items():
         url_map[newidx] = newurl
