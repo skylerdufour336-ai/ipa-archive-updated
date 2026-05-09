@@ -227,13 +227,30 @@ def fix_missing_images(DB: 'CacheDB'):
     # We skip entries where done=4 because those are known to be broken/unfixable
     entries = list(DB.getUniqueImagePks())
     total = len(entries)
-    for i, (pk, img_pk) in enumerate(entries):
-        if i % 1000 == 0:
-            print(f"\rChecked {i}/{total} unique images...", end="")
-        img_path = diskPath(img_pk, '.jpg')
-        if not img_path.exists():
-            # Use the master pk to trigger the reload
-            missing.append(img_pk)
+    
+    # Group by shard for faster filesystem checking
+    shards = {}
+    for pk, img_pk in entries:
+        s = img_pk // 1000
+        if s not in shards:
+            shards[s] = []
+        shards[s].append(img_pk)
+        
+    checked = 0
+    for s, pks in sorted(shards.items()):
+        shard_dir = CACHE_DIR / str(s)
+        if not shard_dir.exists():
+            missing.extend(pks)
+        else:
+            # Batch list the directory for performance
+            existing = {f.name for f in shard_dir.iterdir() if f.suffix == '.jpg'}
+            for img_pk in pks:
+                if f"{img_pk}.jpg" not in existing:
+                    missing.append(img_pk)
+        checked += len(pks)
+        if checked % 100 == 0 or checked == total:
+            print(f"\rChecked {checked}/{total} unique images...", end="")
+
     print(f"\rChecked {total}/{total} unique images. Done.")
     
     if not missing:
