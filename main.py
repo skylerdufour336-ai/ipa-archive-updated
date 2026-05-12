@@ -670,12 +670,21 @@ def addNewUrl(url: str, resume: bool = False) -> None:
     # Add to resume queue
     DB.addToScrapeQueue(url)
 
+    # Track initial count to report progress correctly
+    initial_count = DB._db.execute("SELECT COUNT(*) FROM idx WHERE base_url=?", [baseUrlId]).fetchone()[0]
+
     json_file = pathToListJson(archiveId)
     entries = downloadListArchiveOrg(baseUrlId, archiveId, json_file, resume=resume)
     if entries is None:
         print(f'[ERROR] Could not fetch metadata for {archiveId}. Aborting.')
         return
-    inserted = DB.insertIpaUrls(baseUrlId, entries)
+    
+    # Final insert for any entries not already handled by downloadListArchiveOrg
+    DB.insertIpaUrls(baseUrlId, entries)
+    
+    # Calculate how many were actually added
+    final_count = DB._db.execute("SELECT COUNT(*) FROM idx WHERE base_url=?", [baseUrlId]).fetchone()[0]
+    inserted = final_count - initial_count
     
     # If successful, remove from queue
     DB.removeFromScrapeQueue(url)
