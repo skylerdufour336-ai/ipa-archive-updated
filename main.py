@@ -632,6 +632,29 @@ class CacheDB:
                         if p.exists():
                             os.remove(p)
 
+        # Coke-style Auto-fix: if extracted metadata has NO overlap with filename
+        res = self._db.execute('SELECT path_name FROM idx WHERE pk=?', [uid]).fetchone()
+        path_name = res[0] if res else ""
+        if path_name:
+            # Normalize to words (min 2 chars)
+            p_words = set(re.findall(r'[a-z0-9]{2,}', path_name.lower()))
+            t_words = set(re.findall(r'[a-z0-9]{2,}', (title or "").lower()))
+            b_words = set(re.findall(r'[a-z0-9]{2,}', (bundleId or "").lower()))
+            
+            # If both Title and Bundle ID are completely foreign to the filename
+            if (t_words and not (t_words & p_words)) and (b_words and not (b_words & p_words)):
+                # Infer from filename (e.g., com.coke.cokecheers-iOS3.0.ipa)
+                # Take the part before the first dash or space
+                fn_part = re.split(r'[-_\s]', path_name)[0]
+                if '.' in fn_part:
+                    bundleId = fn_part
+                    title = fn_part.split('.')[-1].capitalize()
+                else:
+                    title = fn_part.capitalize()
+                    # Keep existing bundleId if it exists, or generate one
+                    if not bundleId:
+                        bundleId = "com.archive." + fn_part.lower()
+
         self._db.execute('''
             UPDATE idx SET
                 done=1, min_os=?, platform=?, title=?, bundle_id=?, version=?, image_pk=?
