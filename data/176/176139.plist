@@ -129,8 +129,6 @@
 	<false/>
 	<key>CustomClientConfigFileName</key>
 	<string></string>
-	<key>CustomConfigBasicAuth</key>
-	<string>Basic cHJvZGRseV9wcnVfNTgzNTgzOnByb2RkbHlfcHJhXzM4NTM4NQ==</string>
 	<key>CustomGameplayConfigEnabled</key>
 	<false/>
 	<key>CustomGameplayConfigFileName</key>
