@@ -350,10 +350,32 @@ def fix_missing_images(DB: 'CacheDB'):
 # Database
 ###############################################
 
+###############################################
+# Database
+###############################################
+
+# --- PRE-COMPILED REGEX FOR INSTANT SPEED ---
+RE_HASH = re.compile(r'-[0-9a-f]{32}')
+RE_BRACKETS = re.compile(r'[\(\[].*?[\)\]]')
+RE_VERSION = re.compile(r'[-.]v?\d+(\.\d+)*')
+RE_CAMEL = re.compile(r'([a-z])([A-Z])')
+RE_WORDS = re.compile(r'[a-z0-9]{2,}')
+RE_BID = re.compile(r'([a-z]{2,}\.[a-z0-9]{2,}\.[a-z0-9\.]+)')
+
+def get_clean_words(text):
+    """Optimized word extractor"""
+    text = RE_CAMEL.sub(r'\1 \2', str(text))
+    return RE_WORDS.findall(text.lower())
+
+def is_hint_match(word, target):
+    """Optimized fuzzy matcher"""
+    if not word or not target: return False
+    it = iter(target.lower())
+    return all(c in it for c in word.lower())
+
 def prettify_title(title: str, bundle_id: str, path_name: str) -> str:
-    """Cleans up messy titles (placeholders, bundle IDs, or filenames)"""
+    """Ultra-fast local title polisher"""
     if not title or title.lower() in ["cfbundledisplayname", "cfbundlename", "templete", "null", "unknown"]:
-        # Fallback to filename or bundle ID
         source = path_name.split('##')[-1].split('/')[-1].replace('.ipa', '')
         if len(source) < 3 and bundle_id:
             source = bundle_id.split('.')[-1]
@@ -362,23 +384,16 @@ def prettify_title(title: str, bundle_id: str, path_name: str) -> str:
     else:
         source = title
 
-    # Clean technical "noise" (versioning, hashes, extensions)
-    # 1. Remove hashes (32-char hex) first so they don't get partially matched as versions
-    source = re.sub(r'-[0-9a-f]{32}', '', source)
-    # 2. Remove (v1.2), [Clutch], etc.
-    source = re.sub(r'[\(\[].*?[\)\]]', '', source)
-    # 3. Remove version numbers (e.g., -v1.0, .1.2.3)
-    source = re.sub(r'[-.]v?\d+(\.\d+)*', '', source)
+    # Clean noise using pre-compiled regex
+    source = RE_HASH.sub('', source)
+    source = RE_BRACKETS.sub('', source)
+    source = RE_VERSION.sub('', source)
     
-    # Replace separators with spaces
     pretty = source.replace('.', ' ').replace('-', ' ').replace('_', ' ')
-    # Title Case and clean spaces
     pretty = ' '.join(pretty.split()).title()
     
-    # Final safety: if too short, use the end of the bundle ID
     if len(pretty) < 2 and bundle_id:
-        pretty = bundle_id.split('.')[-1].title()
-        
+        pretty = str(bundle_id).split('.')[-1].title()
     return pretty
 
 class CacheDB:
@@ -723,15 +738,6 @@ class CacheDB:
         path_name = res[0] if res else ""
         
         if path_name:
-            def get_clean_words(text):
-                text = re.sub(r'([a-z])([A-Z])', r'\1 \2', str(text))
-                return re.findall(r'[a-z0-9]{2,}', text.lower())
-            
-            def is_hint_match(word, target):
-                if not word or not target: return False
-                it = iter(target.lower())
-                return all(c in it for c in word.lower())
-
             fn_words = get_clean_words(path_name.split('##')[-1])
             bid_full = str(bundleId).lower()
             tl_full = str(title).lower()
@@ -751,7 +757,7 @@ class CacheDB:
                 
                 # 2. Attempt AUTHENTIC Inference from filename
                 fn = path_name.split('##')[-1].replace('.ipa', '')
-                bid_pattern = re.search(r'([a-z]{2,}\.[a-z0-9]{2,}\.[a-z0-9\.]+)', fn.lower())
+                bid_pattern = RE_BID.search(fn.lower())
                 
                 if bid_pattern:
                     bundleId = bid_pattern.group(1)
