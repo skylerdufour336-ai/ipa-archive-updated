@@ -350,6 +350,37 @@ def fix_missing_images(DB: 'CacheDB'):
 # Database
 ###############################################
 
+def prettify_title(title: str, bundle_id: str, path_name: str) -> str:
+    """Cleans up messy titles (placeholders, bundle IDs, or filenames)"""
+    if not title or title.lower() in ["cfbundledisplayname", "cfbundlename", "templete", "null", "unknown"]:
+        # Fallback to filename or bundle ID
+        source = path_name.split('##')[-1].split('/')[-1].replace('.ipa', '')
+        if len(source) < 3 and bundle_id:
+            source = bundle_id.split('.')[-1]
+    elif title.lower().startswith(('com.', 'net.', 'org.')):
+        source = title.split('.')[-1]
+    else:
+        source = title
+
+    # Clean technical "noise" (versioning, hashes, extensions)
+    # 1. Remove hashes (32-char hex) first so they don't get partially matched as versions
+    source = re.sub(r'-[0-9a-f]{32}', '', source)
+    # 2. Remove (v1.2), [Clutch], etc.
+    source = re.sub(r'[\(\[].*?[\)\]]', '', source)
+    # 3. Remove version numbers (e.g., -v1.0, .1.2.3)
+    source = re.sub(r'[-.]v?\d+(\.\d+)*', '', source)
+    
+    # Replace separators with spaces
+    pretty = source.replace('.', ' ').replace('-', ' ').replace('_', ' ')
+    # Title Case and clean spaces
+    pretty = ' '.join(pretty.split()).title()
+    
+    # Final safety: if too short, use the end of the bundle ID
+    if len(pretty) < 2 and bundle_id:
+        pretty = bundle_id.split('.')[-1].title()
+        
+    return pretty
+
 class CacheDB:
     def __init__(self) -> None:
         self._db = sqlite3.connect(CACHE_DIR / 'ipa_cache.db', timeout=60.0)
@@ -730,6 +761,9 @@ class CacheDB:
                     parts = [w for w in re.split(r'[\.\-_\s\(\)\[\]/]', fn) if w and w.lower() not in noise]
                     title = (parts[0] if parts else fn).title()
                     bundleId = f"com.archive.{title.lower()}"
+
+        # --- SMART TITLE CLEANING ---
+        title = prettify_title(title, bundleId, path_name)
 
         # --- IMAGE DEDUPLICATION & EXCEPTIONS ---
         image_pk = uid
