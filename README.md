@@ -12,7 +12,7 @@ The list of indexed collections can be found at [data/urls.json](data/urls.json)
 
 ## Using the webpage
 
-You can add the [IPA Archive](https://stuffed18.github.io/ipa-archive-updated/) webpage to your homescreen.
+You can add the [IPA Archive](https://skylersufour336-ai.github.io/ipa-archive-updated/) webpage to your homescreen.
 Note however, that each time you click on the app icon, it will reload the whole database and clear your previous results.
 To prevent that, use Safari instead.
 Switching back to the already open webpage, will not trigger a reload.
